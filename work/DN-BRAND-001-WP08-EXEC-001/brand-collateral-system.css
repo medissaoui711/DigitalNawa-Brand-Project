@@ -1,0 +1,69 @@
+/* DigitalNawa collateral candidate — PROVISIONAL — NOT APPROVED FOR PRODUCTION.
+   Imports local candidate systems; no external network resources or fonts. */
+@import url("../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css");
+
+.dn-collateral { --col-ink:var(--dn-text-primary); --col-muted:var(--dn-text-secondary); --col-paper:var(--dn-surface); --col-canvas:var(--dn-canvas); --col-line:var(--dn-border); color:var(--col-ink); background:var(--col-canvas); }
+.dn-collateral, .dn-collateral * { box-sizing:border-box; }
+.dn-collateral [data-theme="dark"] { --col-ink:var(--dn-text-primary); --col-muted:var(--dn-text-secondary); --col-paper:var(--dn-surface); --col-line:var(--dn-border); color:var(--dn-text-primary); background:var(--dn-canvas); }
+.dn-collateral .collateral-shell { width:min(100%,1280px); margin-inline:auto; padding:clamp(1rem,3vw,2.5rem); }
+.dn-collateral .collateral-header { display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; border-bottom:1px solid var(--col-line); padding-block:1rem; margin-bottom:2rem; }
+.dn-collateral .provisional-label { display:inline-block; border:1px solid currentColor; border-radius:999px; padding:.35rem .65rem; font-size:.76rem; font-weight:700; }
+.dn-collateral .collateral-section { margin-block:3rem; }
+.dn-collateral .collateral-section > h2 { margin:0 0 1rem; font-size:1.5rem; }
+.dn-collateral .preview-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); gap:1.25rem; align-items:start; }
+.dn-collateral .preview-card { min-width:0; padding:1rem; background:var(--col-paper); border:1px solid var(--col-line); border-radius:var(--dn-radius-lg); overflow:hidden; }
+.dn-collateral .preview-card > h3 { margin:.1rem 0 .8rem; font-size:1rem; }
+.dn-collateral .business-card { aspect-ratio:9/5; width:min(100%,540px); min-height:220px; display:flex; flex-direction:column; justify-content:space-between; padding:clamp(1rem,4vw,2rem); border-radius:var(--dn-radius-md);  }
+.dn-collateral .card-front { background:var(--dn-brand-warm-ivory); color:var(--dn-brand-dark-brown); }
+.dn-collateral .card-back { background:var(--dn-brand-dark-brown); color:var(--dn-brand-warm-ivory); }
+.dn-collateral .contact-card { display:grid; grid-template-columns:auto 1fr; gap:1rem; align-items:center; padding:1.2rem; border-inline-start:5px solid var(--dn-brand-muted-teal); }
+.dn-collateral .collateral-logo { width:min(48%,240px); max-height:62px; object-fit:contain; object-position:left center; }
+.dn-collateral [dir="rtl"] .collateral-logo { object-position:right center; }
+.dn-collateral .mark-logo { width:50px; height:48px; object-fit:contain; }
+.dn-collateral .identity-title { margin:0; font-size:clamp(1.15rem,2.5vw,1.8rem); line-height:1.2; }
+.dn-collateral .identity-role { margin:.5rem 0 0; font-weight:650; }
+.dn-collateral .identity-meta { margin:.35rem 0 0; font-size:.84rem; }
+.dn-collateral .stationery { display:grid; grid-template-columns:minmax(150px,1fr) minmax(220px,2fr); gap:1.2rem; border-top:6px solid var(--dn-brand-muted-teal); background:var(--dn-brand-warm-ivory); color:var(--dn-brand-dark-brown); padding:1.4rem; min-height:250px; }
+.dn-collateral .stationery footer { grid-column:1/-1; align-self:end; border-top:1px solid var(--dn-brand-warm-gray); padding-top:.6rem; font-size:.76rem; }
+.dn-collateral .email-signature { display:grid; grid-template-columns:auto 1fr; align-items:center; gap:.8rem; border-inline-start:3px solid var(--dn-brand-warm-orange); padding:.7rem; background:var(--col-paper); }
+.dn-collateral .email-signature p { margin:.15rem 0; }
+.dn-collateral .paper-stack { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr)); gap:1.5rem; align-items:start; }
+.dn-collateral .paper { position:relative; width:100%; aspect-ratio:210/297; min-height:500px; display:flex; flex-direction:column; gap:1rem; padding:8%; background:var(--dn-brand-warm-ivory); color:var(--dn-brand-dark-brown); border:1px solid var(--col-line);  overflow:hidden; }
+.dn-collateral .paper.cover-paper { background:var(--dn-brand-dark-brown); color:var(--dn-brand-warm-ivory); justify-content:space-between; }
+.dn-collateral .paper .paper-top { display:flex; justify-content:space-between; align-items:flex-start; gap:.8rem; }
+.dn-collateral .paper .paper-content { max-width:62ch; }
+.dn-collateral .paper .paper-footer { margin-top:auto; padding-top:.75rem; border-top:1px solid currentColor; font-size:.78rem; }
+.dn-collateral .invoice-table,.dn-collateral .data-table { width:100%; border-collapse:collapse; }
+.dn-collateral .invoice-table th,.dn-collateral .invoice-table td,.dn-collateral .data-table th,.dn-collateral .data-table td { text-align:start; padding:.5rem; border-bottom:1px solid var(--dn-brand-warm-gray); }
+.dn-collateral .invoice-table th,.dn-collateral .data-table th { background:var(--dn-brand-muted-teal); color:var(--dn-brand-dark-brown); }
+.dn-collateral .doc-columns { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
+.dn-collateral .media-placeholder { display:grid; place-items:center; min-height:95px; padding:1rem; border:2px dashed var(--dn-brand-dark-brown); background:var(--dn-brand-warm-ivory); color:var(--dn-brand-dark-brown); text-align:center; font-weight:700; }
+.dn-collateral .chart-row { display:grid; grid-template-columns:5rem 1fr 2rem; align-items:center; gap:.75rem; margin:.5rem 0; }
+.dn-collateral .bar { display:block; height:.9rem; border:1px solid var(--dn-brand-dark-brown); background:var(--dn-brand-muted-teal); }
+.dn-collateral .bar-a { width:60%; }.dn-collateral .bar-b { width:100%; background:var(--dn-brand-warm-orange); }.dn-collateral .bar-c { width:80%; background:var(--dn-brand-warm-ivory); }
+.dn-collateral .slide-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr)); gap:1.2rem; }
+.dn-collateral .slide { width:100%; aspect-ratio:16/9; min-height:240px; display:flex; flex-direction:column; justify-content:space-between; padding:clamp(1rem,4vw,2.2rem); background:var(--dn-brand-warm-ivory); color:var(--dn-brand-dark-brown); border-radius:var(--dn-radius-md); overflow:hidden; }
+.dn-collateral .slide.dark { background:var(--dn-brand-dark-brown); color:var(--dn-brand-warm-ivory); }
+.dn-collateral .slide.teal { background:var(--dn-brand-muted-teal); color:var(--dn-brand-dark-brown); }
+.dn-collateral .slide.accent { border-inline-start:8px solid var(--dn-brand-warm-orange); }
+.dn-collateral .slide-kicker { font-size:.75rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+.dn-collateral [lang="ar"] .slide-kicker { letter-spacing:0; text-transform:none; }
+.dn-collateral .slide h3 { max-width:18ch; margin:.4rem 0; font-size:clamp(1.3rem,3vw,2.5rem); line-height:1.18; }
+.dn-collateral .slide p { max-width:55ch; }
+.dn-collateral .slide-footer { display:flex; justify-content:space-between; gap:1rem; align-items:end; }
+.dn-collateral .contact-placeholder { display:inline-block; border-bottom:1px dotted currentColor; min-width:10ch; }
+.dn-collateral :focus-visible { outline:2px solid var(--dn-brand-dark-brown); outline-offset:3px; box-shadow:0 0 0 4px var(--dn-brand-warm-ivory); }
+.dn-collateral .small-note { color:var(--col-muted); font-size:.85rem; }
+@media (max-width:760px) {
+ .dn-collateral .collateral-header { flex-direction:column; }
+ .dn-collateral .stationery { grid-template-columns:1fr; }
+ .dn-collateral .stationery footer { grid-column:auto; }
+ .dn-collateral .paper { min-height:440px; }
+ .dn-collateral .business-card { min-height:200px; }
+}
+@media (max-width:420px) {
+ .dn-collateral .collateral-shell { padding:.8rem; }
+ .dn-collateral .preview-grid,.dn-collateral .slide-grid { grid-template-columns:1fr; }
+ .dn-collateral .business-card { min-height:185px; }
+ .dn-collateral .contact-card { grid-template-columns:1fr; }
+}

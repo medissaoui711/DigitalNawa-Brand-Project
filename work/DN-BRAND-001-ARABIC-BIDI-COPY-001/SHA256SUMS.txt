@@ -1,0 +1,2 @@
+e6705174a7841aed1534c804438dc3edb6ca05c69698c9ddc63116b8b8601219  digitalnawa-brand-identity.candidate.designcraft
+be45b05373159ebeaee7bc4689f1ffd1a7994106de819421baf5a6878ea2f552  COPY-EXECUTION-REPORT.md

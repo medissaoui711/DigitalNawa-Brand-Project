@@ -1,0 +1,48 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-004",
+  "status": "NEEDS MORE EVIDENCE — CANDIDATE PACKAGE ONLY",
+  "sourceRegistry": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-001\\collateral-template-index.json",
+  "registryTemplateCount": 23,
+  "deliverables": [
+    {
+      "file": "general-document-ar.candidate.docx",
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\general-document-ar.candidate.docx",
+      "sizeBytes": 38714,
+      "sha256": "b107a171b6701ce3a1c8996c6a8756dd296777f6c130a853823be4277c40e49b",
+      "templateId": "general-document-ar",
+      "templateName": "General business document — Arabic",
+      "dimensionsMM": [
+        210.01,
+        297.0
+      ],
+      "paragraphs": 8,
+      "tables": 0,
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "editable": true
+    },
+    {
+      "file": "email-signature-en.candidate.docx",
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\email-signature-en.candidate.docx",
+      "sizeBytes": 38511,
+      "sha256": "40580d449b1e42ae588a657a669729c684f06adcf53998e300c88a3cd0e0f08b",
+      "templateId": "email-signature-en",
+      "templateName": "Email signature — English",
+      "dimensionsMM": [
+        210.01,
+        297.0
+      ],
+      "paragraphs": 6,
+      "tables": 0,
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "editable": true
+    }
+  ],
+  "reports": [
+    "EXECUTION-REPORT.md",
+    "VALIDATION-REPORT.md",
+    "TEMPLATE-COVERAGE-REPORT.md"
+  ],
+  "productionIntegrationAuthorized": false,
+  "fontFilesEmbedded": false,
+  "logoArtworkEmbedded": false
+}

@@ -1,0 +1,6 @@
+50a6b5531b3775ebfc2e3acf73906922206982841ab81896de7588b0374cafbf  report-page-en.candidate.docx  (38322 bytes)
+1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2  proposal-page-ar.candidate.docx  (38285 bytes)
+0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b  presentation-template-16x9.candidate.pptx  (38179 bytes)
+738bcf860bd2e2eab85829ce84d39d01a99be0716c7e0d30800d900fab13bf2e  EXECUTION-REPORT.md  (4351 bytes)
+e80c14046142246f5f7b5e6cee37b5a8addefabe9530c86532db50db986518a0  DELIVERABLE-INDEX.json  (1819 bytes)
+7610f212dfb5fda73ae0e73ff7f8efae0a7c9be5586eb021cb5a7efc5b22a9a1  VALIDATION-REPORT.md  (4242 bytes)

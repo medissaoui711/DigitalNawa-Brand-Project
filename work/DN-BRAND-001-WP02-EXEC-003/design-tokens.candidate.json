@@ -1,0 +1,376 @@
+{
+  "name": "DigitalNawa Design Tokens — Isolated Candidate",
+  "task": "DN-BRAND-001-WP02-EXEC-003",
+  "status": "CANDIDATE — NOT PRODUCTION",
+  "governance": {
+    "functionalColorStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+    "ownerApprovedFunctionalColorsSupplied": false,
+    "productionIntegration": false,
+    "note": "Functional colors are recommendations for evaluation only; replace values at semantic token layer after owner approval."
+  },
+  "primitive": {
+    "color": {
+      "warmIvory": "#FEF3C7",
+      "warmGray": "#78716C",
+      "mutedTeal": "#0EA5A4",
+      "darkBrown": "#1C1917",
+      "warmOrange": "#EA5808"
+    },
+    "spacing": {
+      "0": 0,
+      "1": 4,
+      "2": 8,
+      "3": 12,
+      "4": 16,
+      "5": 24,
+      "6": 32,
+      "7": 48,
+      "8": 64
+    },
+    "radius": {
+      "none": 0,
+      "sm": 4,
+      "md": 8,
+      "lg": 16,
+      "pill": 999
+    },
+    "typography": {
+      "english": {
+        "candidate": "Inter",
+        "approvalStatus": "provisional"
+      },
+      "arabic": {
+        "candidates": [
+          "Cairo",
+          "IBM Plex Sans Arabic"
+        ],
+        "approvalStatus": "provisional"
+      },
+      "technical": {
+        "candidate": "JetBrains Mono",
+        "approvalStatus": "provisional"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "textPrimary": "{primitive.color.darkBrown}",
+      "textSecondary": "{theme.light.textSecondary}",
+      "backgroundPrimary": "{theme.light.canvas}",
+      "brandPrimary": "{primitive.color.mutedTeal}",
+      "brandAccent": "{primitive.color.warmOrange}"
+    },
+    "direction": {
+      "arabic": "rtl",
+      "english": "ltr"
+    },
+    "functional": {
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "success": "{theme.light.status.success}",
+      "warning": "{theme.light.status.warning}",
+      "error": "{theme.light.status.error}",
+      "info": "{theme.light.status.info}"
+    }
+  },
+  "focus": {
+    "status": "CANDIDATE — PROVISIONAL",
+    "light": {
+      "inner": "#FEF3C7",
+      "outer": "#6D28D9"
+    },
+    "dark": {
+      "inner": "#1C1917",
+      "outer": "#C4B5FD"
+    },
+    "usage": "Two-color visible keyboard focus ring; apply the candidate .dn-focus-ring:focus-visible rule and verify against each adjacent surface at runtime."
+  },
+  "theme": {
+    "light": {
+      "canvas": "#FEF3C7",
+      "backgroundSecondary": "#F7E9B7",
+      "surface": "#FFF9E8",
+      "surfaceElevated": "#FFFFFF",
+      "textPrimary": "#1C1917",
+      "textSecondary": "#57514D",
+      "textMuted": "#6B625B",
+      "border": "#8C7D67",
+      "brandPrimary": "#0EA5A4",
+      "brandPrimaryForeground": "#1C1917",
+      "brandAccent": "#EA5808",
+      "link": "#1C1917",
+      "hover": "#302A26",
+      "active": "#443C37",
+      "disabledSurface": "#E7DDC4",
+      "disabledText": "#57514D",
+      "selectedSurface": "#0EA5A4",
+      "selectedText": "#1C1917",
+      "selectedOutline": "#1C1917",
+      "focus": "{focus.light}",
+      "status": {
+        "success": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#14532D",
+          "background": "#DCFCE7",
+          "border": "#166534",
+          "focus": "{focus.light.outer}"
+        },
+        "warning": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#713F12",
+          "background": "#FFF7D6",
+          "border": "#7C2D12",
+          "focus": "{focus.light.outer}"
+        },
+        "error": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#7F1D1D",
+          "background": "#FEE2E2",
+          "border": "#991B1B",
+          "focus": "{focus.light.outer}"
+        },
+        "info": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#0C4A6E",
+          "background": "#E0F2FE",
+          "border": "#075985",
+          "focus": "{focus.light.outer}"
+        }
+      }
+    },
+    "dark": {
+      "canvas": "#1C1917",
+      "backgroundSecondary": "#24201D",
+      "surface": "#292421",
+      "surfaceElevated": "#332E2A",
+      "textPrimary": "#FEF3C7",
+      "textSecondary": "#D6D3D1",
+      "textMuted": "#B8B3AD",
+      "border": "#8C8580",
+      "brandPrimary": "#0EA5A4",
+      "brandPrimaryForeground": "#1C1917",
+      "brandAccent": "#EA5808",
+      "link": "#FEF3C7",
+      "hover": "#F4E5B7",
+      "active": "#EAD9A7",
+      "disabledSurface": "#383330",
+      "disabledText": "#C4BFB9",
+      "selectedSurface": "#0EA5A4",
+      "selectedText": "#1C1917",
+      "selectedOutline": "#FEF3C7",
+      "focus": "{focus.dark}",
+      "status": {
+        "success": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#BBF7D0",
+          "background": "#052E16",
+          "border": "#4ADE80",
+          "focus": "{focus.dark.outer}"
+        },
+        "warning": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#FDE68A",
+          "background": "#422006",
+          "border": "#FACC15",
+          "focus": "{focus.dark.outer}"
+        },
+        "error": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#FECACA",
+          "background": "#450A0A",
+          "border": "#F87171",
+          "focus": "{focus.dark.outer}"
+        },
+        "info": {
+          "candidateStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+          "foreground": "#BAE6FD",
+          "background": "#082F49",
+          "border": "#38BDF8",
+          "focus": "{focus.dark.outer}"
+        }
+      }
+    }
+  },
+  "component": {
+    "button": {
+      "primary": {
+        "background": "{theme.light.brandPrimary}",
+        "foreground": "{theme.light.brandPrimaryForeground}",
+        "hover": "{theme.light.hover}",
+        "active": "{theme.light.active}",
+        "focus": "{theme.light.focus}",
+        "disabledBackground": "{theme.light.disabledSurface}",
+        "disabledForeground": "{theme.light.disabledText}",
+        "selectedBackground": "{theme.light.selectedSurface}",
+        "selectedForeground": "{theme.light.selectedText}",
+        "border": "{primitive.color.darkBrown}",
+        "dark": {
+          "background": "{theme.dark.brandPrimary}",
+          "foreground": "{theme.dark.brandPrimaryForeground}",
+          "border": "{primitive.color.darkBrown}",
+          "hover": "{theme.dark.hover}",
+          "active": "{theme.dark.active}",
+          "focus": "{theme.dark.focus}",
+          "disabledBackground": "{theme.dark.disabledSurface}",
+          "disabledForeground": "{theme.dark.disabledText}",
+          "selectedBackground": "{theme.dark.selectedSurface}",
+          "selectedForeground": "{theme.dark.selectedText}",
+          "hoverForeground": "{theme.dark.canvas}",
+          "activeForeground": "{theme.dark.canvas}"
+        },
+        "hoverForeground": "{theme.light.canvas}",
+        "activeForeground": "{theme.light.canvas}"
+      }
+    },
+    "card": {
+      "background": "{theme.light.surfaceElevated}",
+      "foreground": "{theme.light.textPrimary}",
+      "border": "{theme.light.border}",
+      "dark": {
+        "background": "{theme.dark.surfaceElevated}",
+        "foreground": "{theme.dark.textPrimary}",
+        "border": "{theme.dark.border}"
+      }
+    },
+    "input": {
+      "background": "{theme.light.surfaceElevated}",
+      "foreground": "{theme.light.textPrimary}",
+      "border": "{theme.light.border}",
+      "focus": "{theme.light.focus}",
+      "error": "{theme.light.status.error}",
+      "dark": {
+        "background": "{theme.dark.surfaceElevated}",
+        "foreground": "{theme.dark.textPrimary}",
+        "border": "{theme.dark.border}",
+        "focus": "{theme.dark.focus}",
+        "error": "{theme.dark.status.error}"
+      }
+    },
+    "navigation": {
+      "background": "{theme.light.backgroundSecondary}",
+      "foreground": "{theme.light.textPrimary}",
+      "selectedBackground": "{theme.light.selectedSurface}",
+      "selectedForeground": "{theme.light.selectedText}",
+      "focus": "{theme.light.focus}",
+      "dark": {
+        "background": "{theme.dark.backgroundSecondary}",
+        "foreground": "{theme.dark.textPrimary}",
+        "selectedBackground": "{theme.dark.selectedSurface}",
+        "selectedForeground": "{theme.dark.selectedText}",
+        "focus": "{theme.dark.focus}"
+      }
+    },
+    "badge": {
+      "success": "{theme.light.status.success}",
+      "warning": "{theme.light.status.warning}",
+      "error": "{theme.light.status.error}",
+      "info": "{theme.light.status.info}",
+      "dark": {
+        "success": "{theme.dark.status.success}",
+        "warning": "{theme.dark.status.warning}",
+        "error": "{theme.dark.status.error}",
+        "info": "{theme.dark.status.info}"
+      }
+    },
+    "alert": {
+      "success": "{theme.light.status.success}",
+      "warning": "{theme.light.status.warning}",
+      "error": "{theme.light.status.error}",
+      "info": "{theme.light.status.info}",
+      "dark": {
+        "success": "{theme.dark.status.success}",
+        "warning": "{theme.dark.status.warning}",
+        "error": "{theme.dark.status.error}",
+        "info": "{theme.dark.status.info}"
+      }
+    },
+    "link": {
+      "foreground": "{theme.light.link}",
+      "focus": "{theme.light.focus}",
+      "dark": {
+        "foreground": "{theme.dark.link}",
+        "focus": "{theme.dark.focus}"
+      }
+    },
+    "icon": {
+      "foreground": "{theme.light.textSecondary}",
+      "interactive": "{theme.light.textPrimary}",
+      "dark": {
+        "foreground": "{theme.dark.textSecondary}",
+        "interactive": "{theme.dark.brandPrimary}"
+      }
+    },
+    "divider": {
+      "foreground": "{theme.light.border}",
+      "dark": {
+        "foreground": "{theme.dark.border}"
+      }
+    }
+  },
+  "contrastEvidence": {
+    "method": "WCAG relative luminance from sRGB; pair ratios only, not whole-product conformance.",
+    "lightFunctionalTextBackground": {
+      "success": 8.3,
+      "warning": 8.06,
+      "error": 8.2,
+      "info": 8.24
+    },
+    "lightFunctionalBorderSurface": {
+      "success": 6.78,
+      "warning": 8.91,
+      "error": 7.9,
+      "info": 7.19
+    },
+    "darkFunctionalTextBackground": {
+      "success": 12.3,
+      "warning": 11.7,
+      "error": 11.16,
+      "info": 10.46
+    },
+    "darkFunctionalBorderSurface": {
+      "success": 8.81,
+      "warning": 10.02,
+      "error": 5.55,
+      "info": 7.16
+    },
+    "focusOuterCanvas": {
+      "light": 6.38,
+      "dark": 9.47
+    },
+    "themeText": {
+      "lightPrimaryCanvas": 15.71,
+      "lightSecondaryCanvas": 7.01,
+      "lightMutedCanvas": 5.35,
+      "darkPrimaryCanvas": 15.71,
+      "darkSecondarySurface": 10.3,
+      "darkMutedSurface": 7.37
+    },
+    "interaction": {
+      "buttonTextOnTeal": 5.78,
+      "lightHoverIvoryTextOnBrownHover": 12.7,
+      "lightActiveIvoryTextOnBrownActive": 9.68,
+      "darkHoverBrownTextOnIvoryHover": 13.94,
+      "darkActiveBrownTextOnIvoryActive": 12.48,
+      "lightDisabledTextSurface": 5.78,
+      "darkDisabledTextSurface": 6.83,
+      "focusInnerAgainstOppositeControl": 15.71
+    },
+    "unsuitableNormalTextPairs": {
+      "warmGrayOnIvory": 4.31,
+      "mutedTealOnIvory": 2.72,
+      "warmOrangeOnIvory": 3.2
+    },
+    "limitations": [
+      "Focus needs runtime review against each adjacent surface.",
+      "Disabled controls are exempt from WCAG text contrast thresholds.",
+      "Ratios do not evaluate type size, rendered components, non-color cues, or the full application.",
+      "The light teal fill alone is below 3:1 against the ivory canvas; use the candidate dark-brown button border or outline to provide a distinguishable component boundary."
+    ],
+    "uiBoundaries": {
+      "lightTealFillOnIvoryCanvas": 2.72,
+      "lightButtonDarkBrownBorderOnTealFill": 5.78,
+      "darkTealFillOnBrownCanvas": 5.78,
+      "lightThemeBorderOnIvoryCanvas": 3.6,
+      "darkThemeBorderOnSurface": 4.22
+    }
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "area": "Arabic PDF",
+    "severity": "High",
+    "status": "NOT RESOLVED",
+    "evidence": "Page 2 glyph boxes; story 44 LTR, one default-style run; exact font/export cause unresolved.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  },
+  {
+    "area": "Browser QA",
+    "severity": "High",
+    "status": "NOT VERIFIABLE",
+    "evidence": "Prior local-file browser access blocked; static inspection only.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  },
+  {
+    "area": "Accessibility",
+    "severity": "High",
+    "status": "RESOLVED - PARTIALLY VERIFIED",
+    "evidence": "Three palette pairs fail normal text; focus not rendered/keyboard tested.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  },
+  {
+    "area": "Clear space",
+    "severity": "Medium",
+    "status": "OWNER DECISION REQUIRED",
+    "evidence": "Quarter height vs 19 SVG units; basis and lockup scope unclear.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  },
+  {
+    "area": "Logo reference",
+    "severity": "High",
+    "status": "NOT RESOLVED",
+    "evidence": "Original visual reference absent; master is a reconstruction.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  },
+  {
+    "area": "Fonts/embedding",
+    "severity": "High",
+    "status": "NOT VERIFIABLE",
+    "evidence": "DesignCraft source narrative cites bundled Source Serif 4; bytes absent; tested system fonts restricted.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  },
+  {
+    "area": "Print/export",
+    "severity": "High",
+    "status": "NOT VERIFIABLE",
+    "evidence": "PDF rendered but font inspection blocked; no provider/ICC/bleed evidence.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  },
+  {
+    "area": "Governance/contracts",
+    "severity": "High",
+    "status": "OWNER DECISION REQUIRED",
+    "evidence": "Register pending; DN-BI-16..21 authority/approval evidence incomplete.",
+    "blocksAcceptance": true,
+    "blocksIntegration": true
+  }
+]

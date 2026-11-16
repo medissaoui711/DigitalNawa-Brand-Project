@@ -1,0 +1,277 @@
+{
+  "manifestVersion": "0.1.0",
+  "projectName": "DigitalNawa-Brand-Project",
+  "generatedAt": "2026-11-12T08:44:10Z",
+  "status": "draft",
+  "assets": [
+    {
+      "id": "02-Master-dn-symbol-master-svg",
+      "type": "logo-symbol-master",
+      "path": "02-Master/dn-symbol-master.svg",
+      "parentRef": "geometric-reconstruction-from-approved-concept",
+      "sha256": "52b96d8f7c706944de8199eccfda27fd624eb2ddf6dadfc23e3a1c982017353a"
+    },
+    {
+      "id": "02-Master-digitalnawa-horizontal-en-master-svg",
+      "type": "logo-horizontal-master",
+      "path": "02-Master/digitalnawa-horizontal-en-master.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "2e469bc372767870c8b7bb79895fe06da3f3a6bfa3ffb970d7eaa2fbf2bf6158"
+    },
+    {
+      "id": "02-Master-digitalnawa-stacked-en-master-svg",
+      "type": "logo-stacked-master",
+      "path": "02-Master/digitalnawa-stacked-en-master.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "42656e756784a1d091e93c949c2c17978e8df0c2c453560b36cc6892416e2a7d"
+    },
+    {
+      "id": "02-Master-digitalnawa-horizontal-ar-master-svg",
+      "type": "logo-horizontal-master",
+      "path": "02-Master/digitalnawa-horizontal-ar-master.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "60acad4837e2e904c59593d36e1b1547b7c1d293bc5540e89d4aea423307b388"
+    },
+    {
+      "id": "02-Master-digitalnawa-stacked-ar-master-svg",
+      "type": "logo-stacked-master",
+      "path": "02-Master/digitalnawa-stacked-ar-master.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "710e15a42fd961e48150017341a6868cc0f20b094c53709284f00e15ac54ef7e"
+    },
+    {
+      "id": "03-Variants-light-dn-symbol-light-svg",
+      "type": "logo-symbol-variant",
+      "path": "03-Variants/light/dn-symbol-light.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "2a04ad5cd7ee6a14ec5c12934c567bd78096e0108431f551220f7b147e36652c"
+    },
+    {
+      "id": "03-Variants-light-digitalnawa-horizontal-en-light-svg",
+      "type": "logo-horizontal-variant",
+      "path": "03-Variants/light/digitalnawa-horizontal-en-light.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "75a792cc07a166f764e9b5c0d7ef104386723d7f4b6f377cffea4b91baf65512"
+    },
+    {
+      "id": "03-Variants-light-digitalnawa-stacked-en-light-svg",
+      "type": "logo-stacked-variant",
+      "path": "03-Variants/light/digitalnawa-stacked-en-light.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "9c90fc87e8999373a263118ed6b9701dc72080d6b75b7debec1c82785fd87400"
+    },
+    {
+      "id": "03-Variants-light-digitalnawa-horizontal-ar-light-svg",
+      "type": "logo-horizontal-variant",
+      "path": "03-Variants/light/digitalnawa-horizontal-ar-light.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "44930bf763267ccc8ff8527eb1a747494f88ab400c00300813ead97f77941b86"
+    },
+    {
+      "id": "03-Variants-light-digitalnawa-stacked-ar-light-svg",
+      "type": "logo-stacked-variant",
+      "path": "03-Variants/light/digitalnawa-stacked-ar-light.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "ae0ef3680c2fc2df27672b961437ddc0909067dec39ed0d658c48e6071d62321"
+    },
+    {
+      "id": "03-Variants-dark-dn-symbol-dark-svg",
+      "type": "logo-symbol-variant",
+      "path": "03-Variants/dark/dn-symbol-dark.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "184f3de8a432089de7d23ea077c3d43c69f9fe7e9024d6487a2f9aa1b979f8fa"
+    },
+    {
+      "id": "03-Variants-dark-digitalnawa-horizontal-en-dark-svg",
+      "type": "logo-horizontal-variant",
+      "path": "03-Variants/dark/digitalnawa-horizontal-en-dark.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "f4e0e1e2c17a3b2074127278c7a57821cace991374309e17f9b69d10aa3c6e0d"
+    },
+    {
+      "id": "03-Variants-dark-digitalnawa-stacked-en-dark-svg",
+      "type": "logo-stacked-variant",
+      "path": "03-Variants/dark/digitalnawa-stacked-en-dark.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "e044637828ff821c5364b50bf2c00e7caf60e138bb54308e1f4d51cd4f1ba8d8"
+    },
+    {
+      "id": "03-Variants-dark-digitalnawa-horizontal-ar-dark-svg",
+      "type": "logo-horizontal-variant",
+      "path": "03-Variants/dark/digitalnawa-horizontal-ar-dark.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "636fefbbcfdb762fce899a7c5fd4cf098acd1f3a4ee4796e5d753102b6b08449"
+    },
+    {
+      "id": "03-Variants-dark-digitalnawa-stacked-ar-dark-svg",
+      "type": "logo-stacked-variant",
+      "path": "03-Variants/dark/digitalnawa-stacked-ar-dark.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "108a09dbbcd7886b4eced44fd586dbed5a753b24a6aa7f929820b7d6e6a846e4"
+    },
+    {
+      "id": "03-Variants-monochrome-dn-symbol-black-svg",
+      "type": "logo-symbol-monochrome",
+      "path": "03-Variants/monochrome/dn-symbol-black.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "e251ed1c0d09a60bcbb3707c9ca938cafd15d2956fc330eaefb7922746db87f4"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-horizontal-en-black-svg",
+      "type": "logo-horizontal-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-horizontal-en-black.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "a26fcce649a22357e224fc3ddd8bde7775e25ebd8d7a57c5b5a7a328385f4277"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-stacked-en-black-svg",
+      "type": "logo-stacked-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-stacked-en-black.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "072fff4d6f0c5a7f30a83101b6b7e29cacae986c3d522b0887965270e6d30efb"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-horizontal-ar-black-svg",
+      "type": "logo-horizontal-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-horizontal-ar-black.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "588c656a24a8fe63ccd31b42ff7d79afce952aacfcbce45313a3a77d9cc680ee"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-stacked-ar-black-svg",
+      "type": "logo-stacked-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-stacked-ar-black.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "fc16398a8ffdf2e586d7d8ba8de2c3c122901e99355467aa7b563a8308381051"
+    },
+    {
+      "id": "03-Variants-monochrome-dn-symbol-white-svg",
+      "type": "logo-symbol-monochrome",
+      "path": "03-Variants/monochrome/dn-symbol-white.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "46f7625270ea669c8e2f0ed9a50df632287bd055a7625ac0aa961f8ee4a716c8"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-horizontal-en-white-svg",
+      "type": "logo-horizontal-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-horizontal-en-white.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "8e1fd4c75a8d8ad87c20417b8137564bf21f2fc051e8be3f283aeccb271a05ac"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-stacked-en-white-svg",
+      "type": "logo-stacked-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-stacked-en-white.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "3f8726c19422f191def782732fc3c1c15068b193f47c265a5d3022835478ea29"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-horizontal-ar-white-svg",
+      "type": "logo-horizontal-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-horizontal-ar-white.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "d8785217ad257fde43b5df363089cb1c98fe9da86c465b7feea9f48046a81d96"
+    },
+    {
+      "id": "03-Variants-monochrome-digitalnawa-stacked-ar-white-svg",
+      "type": "logo-stacked-monochrome",
+      "path": "03-Variants/monochrome/digitalnawa-stacked-ar-white.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "26f8aed6a77a3090bb9d57013740b01e7f3262e8eca4e725d8c4ce0070cd00e0"
+    },
+    {
+      "id": "04-Favicon-digitalnawa-icon-16-svg",
+      "type": "application-icon",
+      "path": "04-Favicon/digitalnawa-icon-16.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "74809a3e517e7a55e212334d9ebe0b3ef626d36648c4fa97023e41f536e359ff"
+    },
+    {
+      "id": "04-Favicon-digitalnawa-icon-32-svg",
+      "type": "application-icon",
+      "path": "04-Favicon/digitalnawa-icon-32.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "e2ed771d97324881c65e7e1cc07f0f150e9a523f251c97bf46dc5355e69f9fa6"
+    },
+    {
+      "id": "04-Favicon-digitalnawa-icon-48-svg",
+      "type": "application-icon",
+      "path": "04-Favicon/digitalnawa-icon-48.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "f3d0e9d0adbe25a017eef8d546fc7faa6d5ad2f9dfc814a4178838dfea65ca6e"
+    },
+    {
+      "id": "04-Favicon-digitalnawa-icon-180-svg",
+      "type": "application-icon",
+      "path": "04-Favicon/digitalnawa-icon-180.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "7e4a5ceba16703fd9ad34dbef1498589a92ff0228168108ef63e7a3d0d1fa4ab"
+    },
+    {
+      "id": "04-Favicon-digitalnawa-icon-192-svg",
+      "type": "application-icon",
+      "path": "04-Favicon/digitalnawa-icon-192.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "985aba8869969b1d708228c3788ab788a66a9ea00ab5f2a77506334f62520950"
+    },
+    {
+      "id": "04-Favicon-digitalnawa-icon-512-svg",
+      "type": "application-icon",
+      "path": "04-Favicon/digitalnawa-icon-512.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "3d5f36c29d478edf09a403fddac9b6cb4d5ee976577b41ccae3c7effcb699b8f"
+    },
+    {
+      "id": "05-Social-digitalnawa-social-preview-svg",
+      "type": "social-preview",
+      "path": "05-Social/digitalnawa-social-preview.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "e6c25bc1291409cbbace256480d78f84de8c8fe0bd5752e8f1f7b7f3531ba1f1"
+    },
+    {
+      "id": "06-Exports-design-tokens-json",
+      "type": "design-tokens-json",
+      "path": "06-Exports/design-tokens.json",
+      "parentRef": "geometric-reconstruction-from-approved-concept",
+      "sha256": "19e454988be9956d34093ab6f1e65fcdf61a36e4fda9f737e66f1671c4a43953"
+    },
+    {
+      "id": "06-Exports-design-tokens-css",
+      "type": "design-tokens-css",
+      "path": "06-Exports/design-tokens.css",
+      "parentRef": "geometric-reconstruction-from-approved-concept",
+      "sha256": "33153f3c0950954276dd8fac66884b95e7bdc772f97cb476ae95fb60c46e0eee"
+    },
+    {
+      "id": "09-Documentation-visual-system-foundation-md",
+      "type": "design-system-documentation",
+      "path": "09-Documentation/visual-system-foundation.md",
+      "parentRef": "geometric-reconstruction-from-approved-concept",
+      "sha256": "0df43a415eb60d4c4d4e3321bbac173212eeeafc2c8cbf4e75fe4c95a6834e81"
+    },
+    {
+      "id": "digitalnawa-brand-identity-native-document",
+      "type": "brand-identity-document",
+      "path": "09-Documentation/digitalnawa-brand-identity.designcraft",
+      "parentRef": "draft-brand-system",
+      "sha256": "918b8ac57e80e882aca599113d88e7c34891ca1d68399135ed64f4cd0206154f"
+    },
+    {
+      "id": "digitalnawa-brand-identity-pdf",
+      "type": "brand-identity-pdf",
+      "path": "06-Exports/digitalnawa-brand-identity.pdf",
+      "parentRef": "draft-brand-system",
+      "sha256": "33c2135aebb7176d1266ee84f35249ac9d21c0eabc955d3e0a36c8132d70e19b"
+    }
+  ],
+  "metadata": {
+    "note": "Draft assets include a geometric reconstruction from the supplied approved written concept; the original reference image is absent. Wordmark typography remains provisional. Contract-specific DN-BI-16 through DN-BI-21 compliance is NOT VERIFIED. Test fixtures are excluded.",
+    "specificationsReference": [
+      "DN-BI-16",
+      "DN-BI-17",
+      "DN-BI-18",
+      "DN-BI-19",
+      "DN-BI-21"
+    ]
+  }
+}

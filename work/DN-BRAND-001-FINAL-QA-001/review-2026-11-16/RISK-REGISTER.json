@@ -1,0 +1,110 @@
+[
+  {
+    "area": "Logo reference",
+    "severity": "High",
+    "evidence": "01-Reference only .gitkeep; master is reconstruction from written concept.",
+    "impact": "Cannot establish fidelity to original.",
+    "resolution": "Recover reference and compare under approved scope.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "PDF Arabic glyph rendering",
+    "severity": "High",
+    "evidence": "Page 2 render has missing-glyph boxes.",
+    "impact": "Arabic name unreadable on that page.",
+    "resolution": "Investigate font/encoding/export and re-render.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Clear-space rules",
+    "severity": "Medium",
+    "evidence": "Foundation says 1/4 height; WP04 says 19 units; viewBox height 240.",
+    "impact": "Contradictory logo exclusion area.",
+    "resolution": "Owner/design authority selects rule.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Typography/fonts",
+    "severity": "High",
+    "evidence": "Candidates provisional; no font files; shaping/embedding unverified; pdffonts blocked.",
+    "impact": "Availability, embedding and Arabic quality uncertain.",
+    "resolution": "Rendered target checks and font evidence.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Accessibility/focus",
+    "severity": "High",
+    "evidence": "Gray/Ivory 4.31; Teal/Ivory 2.72; Orange/Ivory 3.20; focus not runtime checked.",
+    "impact": "Normal text fails on pairs; whole UI unknown.",
+    "resolution": "Review real component pairs and keyboard focus.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Functional colors",
+    "severity": "High",
+    "evidence": "Success/Warning/Error/Info and focus provisional.",
+    "impact": "No owner-final semantics.",
+    "resolution": "Owner decision after contrast review.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "RTL behavior",
+    "severity": "High",
+    "evidence": "PDF glyph issue; browser mixed-run behavior untested.",
+    "impact": "Arabic/mixed text may fail.",
+    "resolution": "Inspect rendered Arabic, bidi and punctuation.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Social formats",
+    "severity": "Medium",
+    "evidence": "No rendered platform crop/safe-area checks.",
+    "impact": "Could crop or misfit chosen service.",
+    "resolution": "Choose channels and validate dimensions/previews.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Print readiness",
+    "severity": "High",
+    "evidence": "No ICC/CMYK/provider/bleed/physical proof; font embedding unknown.",
+    "impact": "Print output uncertain.",
+    "resolution": "Obtain provider specifications and proof.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Export capability",
+    "severity": "Medium",
+    "evidence": "Candidate templates/specs, not proven generated exports.",
+    "impact": "Delivery formats unproven.",
+    "resolution": "Authorize and inspect representative exports.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Validator & Hub",
+    "severity": "High",
+    "evidence": "App hardcodes cases and 33/33 PASS; handler only delays UI state.",
+    "impact": "Static demo may be mistaken for actual validation.",
+    "resolution": "Label demo or separately implement/validate real integration.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  },
+  {
+    "area": "Governance/contracts",
+    "severity": "High",
+    "evidence": "Register draft/pending; DN-BI-16..21 sources/approval not established; manifest draft.",
+    "impact": "Acceptance and contract compliance unproven.",
+    "resolution": "Recover authoritative sources and record decisions.",
+    "blocksOwnerAcceptance": true,
+    "blocksProductionIntegration": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "manifestVersion": "0.1.0",
+  "projectName": "DigitalNawa-Brand-Project",
+  "generatedAt": "2026-11-09T06:50:00Z",
+  "status": "bootstrap-foundation",
+  "assets": [],
+  "metadata": {
+    "note": "Initial bootstrap foundation. No production logo assets registered per DN-BI-21.",
+    "specificationsReference": [
+      "DN-BI-16",
+      "DN-BI-17",
+      "DN-BI-18",
+      "DN-BI-19",
+      "DN-BI-21"
+    ]
+  }
+}

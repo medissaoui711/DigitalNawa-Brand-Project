@@ -1,0 +1,57 @@
+{
+  "overall": "NEEDS MORE EVIDENCE",
+  "recommendation": "NOT READY FOR OWNER ACCEPTANCE REVIEW",
+  "productionIntegrationAuthorized": false,
+  "areas": [
+    {
+      "area": "Source integrity",
+      "status": "RESOLVED - VERIFIED",
+      "evidence": "Scoped pre/post SHA comparison unchanged."
+    },
+    {
+      "area": "PDF diagnosis",
+      "status": "RESOLVED - PARTIALLY VERIFIED",
+      "evidence": "DesignCraft source found; exact font/export cause not isolated."
+    },
+    {
+      "area": "Arabic PDF rendering",
+      "status": "NOT RESOLVED",
+      "evidence": "Page 2 replacement glyphs remain."
+    },
+    {
+      "area": "Browser visual QA",
+      "status": "NOT VERIFIABLE",
+      "evidence": "Browser unavailable under existing local-file restriction."
+    },
+    {
+      "area": "Accessibility",
+      "status": "RESOLVED - PARTIALLY VERIFIED",
+      "evidence": "Four ratios; three normal-text failures; full UI untested."
+    },
+    {
+      "area": "Focus/keyboard",
+      "status": "NOT VERIFIABLE",
+      "evidence": "CSS exists; no rendered interaction."
+    },
+    {
+      "area": "Logo clear space",
+      "status": "OWNER DECISION REQUIRED",
+      "evidence": "Conflict analyzed; proposal not approved."
+    },
+    {
+      "area": "PDF export",
+      "status": "RESOLVED - PARTIALLY VERIFIED",
+      "evidence": "12 PNG previews rendered from unchanged PDF."
+    },
+    {
+      "area": "Font/print",
+      "status": "NOT VERIFIABLE",
+      "evidence": "Font listing blocked; no print provider proof."
+    },
+    {
+      "area": "Owner acceptance",
+      "status": "NOT READY",
+      "evidence": "Material evidence and decisions remain."
+    }
+  ]
+}

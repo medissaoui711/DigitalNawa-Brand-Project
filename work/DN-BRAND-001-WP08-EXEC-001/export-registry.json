@@ -1,0 +1,182 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "notes": [
+    "Entries describe candidate export settings, not verified output file metadata.",
+    "Actual exports are not included in this package; HTML/CSS specimens are editable previews.",
+    "Platform, printer, page, bleed, color-profile, font-embedding, and physical proof details require destination-specific confirmation."
+  ],
+  "namingConvention": "DigitalNawa-<collateral>-<language>-<format>-<variant>-candidate-vNN.<ext>",
+  "formats": [
+    {
+      "formatId": "logo-svg",
+      "assetType": "Vector logo/lockup",
+      "fileType": "SVG",
+      "canvas": "Use the source candidate viewBox; preserve source geometry and aspect ratio.",
+      "transparentBackground": "As supplied by the selected WP04 candidate; inspect each variant.",
+      "resolution": "Vector; no raster resolution setting.",
+      "intendedUse": [
+        "web",
+        "documents",
+        "presentation"
+      ],
+      "exportGuidance": "Reference the WP04 SVG candidate directly. Do not redraw paths or claim a new logo master.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "transparent-png",
+      "assetType": "Transparent mark or lockup raster",
+      "fileType": "PNG",
+      "canvas": "Render to destination dimensions at 2x when a high-density screen asset is needed.",
+      "transparentBackground": true,
+      "resolution": "Screen: 1x/2x variants; print placed raster: target 300 ppi at final physical size.",
+      "intendedUse": [
+        "digital identity",
+        "presentation",
+        "document"
+      ],
+      "exportGuidance": "Keep alpha for logo assets where supported. Check antialiasing and small-size legibility; keep editable SVG as source.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "raster-preview",
+      "assetType": "Collateral proof preview",
+      "fileType": "PNG",
+      "canvas": "Export each layout at its design canvas pixel dimensions or larger for review.",
+      "transparentBackground": "Only where the artwork requires transparency; paper layouts use opaque background.",
+      "resolution": "Screen preview in sRGB; this is a recommendation, not verified file metadata.",
+      "intendedUse": [
+        "review",
+        "handoff"
+      ],
+      "exportGuidance": "Retain PROVISIONAL label on review proofs; previews do not establish print color accuracy.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "document-pdf",
+      "assetType": "Business document / letterhead / report / proposal / invoice",
+      "fileType": "PDF",
+      "canvas": "A4 candidate trim 210 × 297 mm; digital page size should follow the recipient or print provider.",
+      "transparentBackground": false,
+      "resolution": "Vector text preferred; raster images 300 ppi at placed size for print guidance.",
+      "intendedUse": [
+        "digital document",
+        "print proof"
+      ],
+      "exportGuidance": "Export fonts only when installed and licensing permits embedding. Use printer-specified PDF preset and color profile when provided. No profile or embedding status has been verified.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "presentation-assets",
+      "assetType": "Presentation slides",
+      "fileType": "SVG or PNG backgrounds; editable slides to be authored in a separately approved tool",
+      "canvas": "16:9 candidate canvas, 1920 × 1080 px.",
+      "transparentBackground": "Optional for standalone vector/raster elements; full slide backgrounds are opaque.",
+      "resolution": "1920 × 1080 px preview; use vector elements when supported.",
+      "intendedUse": [
+        "presentation",
+        "screen"
+      ],
+      "exportGuidance": "Keep body text and graphics editable; verify projector contrast, crop, and font substitution. No PPTX/PDF deck is included.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "print-pdf",
+      "assetType": "Print-oriented collateral proof",
+      "fileType": "PDF (printer preset to be confirmed)",
+      "canvas": "Business card candidate 90 × 50 mm; letterhead A4 candidate; confirm final trim with provider.",
+      "transparentBackground": false,
+      "resolution": "300 ppi for placed raster; vector logo and text preferred.",
+      "intendedUse": [
+        "business card",
+        "stationery",
+        "print document"
+      ],
+      "exportGuidance": "3 mm bleed and 4 mm card safe margin are starting recommendations only. Obtain the print provider's trim, bleed, color mode, profile, and PDF preset. Physical proof not performed.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ],
+  "canvasPresets": [
+    {
+      "formatId": "business-card",
+      "intendedUse": "Printed business card",
+      "width": 90,
+      "height": 50,
+      "unit": "mm",
+      "aspectRatio": "9:5",
+      "exportProfileIds": [
+        "print-pdf",
+        "raster-preview"
+      ],
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "digital-card",
+      "intendedUse": "Responsive digital contact card",
+      "width": null,
+      "height": null,
+      "unit": "responsive CSS",
+      "aspectRatio": "fluid",
+      "exportProfileIds": [
+        "logo-svg",
+        "raster-preview"
+      ],
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "email-signature",
+      "intendedUse": "Email signature block",
+      "width": 600,
+      "height": null,
+      "unit": "px maximum suggested width; fluid height",
+      "aspectRatio": "fluid",
+      "exportProfileIds": [
+        "logo-svg",
+        "raster-preview"
+      ],
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "letterhead-a4",
+      "intendedUse": "Letterhead and stationery page",
+      "width": 210,
+      "height": 297,
+      "unit": "mm",
+      "aspectRatio": "210:297",
+      "exportProfileIds": [
+        "document-pdf",
+        "print-pdf",
+        "raster-preview"
+      ],
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "document-a4",
+      "intendedUse": "Report, proposal, invoice, general document",
+      "width": 210,
+      "height": 297,
+      "unit": "mm",
+      "aspectRatio": "210:297",
+      "exportProfileIds": [
+        "document-pdf",
+        "print-pdf",
+        "raster-preview"
+      ],
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "formatId": "presentation-16x9",
+      "intendedUse": "Presentation slide",
+      "width": 1920,
+      "height": 1080,
+      "unit": "px",
+      "aspectRatio": "16:9",
+      "exportProfileIds": [
+        "presentation-assets",
+        "raster-preview",
+        "document-pdf"
+      ],
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ]
+}

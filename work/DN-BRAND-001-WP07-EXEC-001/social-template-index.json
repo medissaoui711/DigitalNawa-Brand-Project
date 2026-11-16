@@ -1,0 +1,667 @@
+{
+  "task": "DN-BRAND-001-WP07-EXEC-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "templateCount": 33,
+  "templates": [
+    {
+      "templateId": "profile-primary",
+      "name": "Primary profile avatar",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Profile/avatar presentation",
+      "formatId": "avatar-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "profile-symbol-dark",
+      "name": "Symbol-only avatar on dark field",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Profile/avatar presentation",
+      "formatId": "avatar-square",
+      "language": "none",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "profile-symbol-light",
+      "name": "Symbol-only avatar on light field",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Profile/avatar presentation",
+      "formatId": "avatar-square",
+      "language": "none",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "cover-general-en",
+      "name": "General DigitalNawa cover — English",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-wide",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "cover-professional-en",
+      "name": "Professional technology cover — English",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-wide",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "cover-education-ar",
+      "name": "Education-focused cover — Arabic",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-wide",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "cover-brand-ar",
+      "name": "General DigitalNawa cover — Arabic",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-compact",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "cover-brand-en-compact",
+      "name": "General DigitalNawa cover — English compact",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-compact",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-announcement-en",
+      "name": "General announcement",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-education-tip-ar",
+      "name": "Educational tip",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-portrait",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-tutorial-en",
+      "name": "Technical tutorial",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-portrait",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-ai-insight-ar",
+      "name": "AI and automation insight",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-project-showcase-en",
+      "name": "Project showcase",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-portrait",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-product-launch-ar",
+      "name": "Product launch",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-milestone-en",
+      "name": "Milestone / achievement",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-quote-ar",
+      "name": "Short statement",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "post-discussion-en",
+      "name": "Question / discussion prompt",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "carousel-safety-en",
+      "name": "Seven-slide educational carousel",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Carousel",
+      "formatId": "carousel-portrait",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "story-announcement-ar",
+      "name": "Story announcement",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "story-education-en",
+      "name": "Educational story",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "story-poll-ar",
+      "name": "Poll / question prompt",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "story-new-content-en",
+      "name": "New content notification",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "story-progress-ar",
+      "name": "Project progress story",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "story-cta-ar",
+      "name": "Story call to action",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "video-tutorial-en",
+      "name": "Technical tutorial thumbnail",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "video-ai-en",
+      "name": "AI tools and automation thumbnail",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "video-project-ar",
+      "name": "Development project thumbnail",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "video-education-en",
+      "name": "Educational explanation thumbnail",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "video-brand-ar",
+      "name": "General brand video thumbnail",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "pillar-development",
+      "name": "Digital Products & Development pillar",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed/story/carousel",
+      "formatId": "feed-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "pillar-ai",
+      "name": "AI & Automation pillar",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Feed/story/carousel",
+      "formatId": "feed-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "pillar-education",
+      "name": "Digital Education pillar",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Feed/story/carousel",
+      "formatId": "feed-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "story-quick-tutorial-en",
+      "name": "Short tutorial story",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected SVG lockups)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ]
+}

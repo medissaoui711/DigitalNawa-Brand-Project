@@ -1,0 +1,41 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-002",
+  "status": "PASS — STRUCTURALLY VALID CANDIDATE OUTPUTS; VISUAL REVIEW NOT VERIFIED",
+  "deliverables": [
+    {
+      "file": "report-page-en.candidate.docx",
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\report-page-en.candidate.docx",
+      "sizeBytes": 38322,
+      "sha256": "50a6b5531b3775ebfc2e3acf73906922206982841ab81896de7588b0374cafbf",
+      "sourceTemplateId": "report-page-en",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "file": "proposal-page-ar.candidate.docx",
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\proposal-page-ar.candidate.docx",
+      "sizeBytes": 38285,
+      "sha256": "1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2",
+      "sourceTemplateId": "proposal-page-ar",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "file": "presentation-template-16x9.candidate.pptx",
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+      "sizeBytes": 38179,
+      "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+      "sourceTemplateId": [
+        "presentation-title-en",
+        "presentation-divider-ar",
+        "presentation-content-en",
+        "presentation-two-column-ar",
+        "presentation-media-en",
+        "presentation-chart-en",
+        "presentation-closing-bi"
+      ],
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ],
+  "logoAssetsEmbedded": false,
+  "fontsEmbedded": false,
+  "productionIntegrationAuthorized": false
+}

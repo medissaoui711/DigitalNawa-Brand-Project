@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitalnawa.com/schemas/asset-manifest.schema.json",
+  "title": "DigitalNawa Brand Asset Manifest Schema",
+  "description": "JSON Schema Draft 2020-12 for DigitalNawa logo asset manifest (Extensible production foundation)",
+  "type": "object",
+  "required": [
+    "manifestVersion",
+    "projectName",
+    "generatedAt",
+    "status",
+    "assets"
+  ],
+  "properties": {
+    "manifestVersion": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "projectName": {
+      "type": "string",
+      "const": "DigitalNawa-Brand-Project"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "bootstrap-foundation",
+        "production-active",
+        "draft"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "path"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "parentRef": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "note",
+        "specificationsReference"
+      ],
+      "properties": {
+        "note": {
+          "type": "string"
+        },
+        "specificationsReference": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

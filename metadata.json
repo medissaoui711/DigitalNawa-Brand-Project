@@ -1,0 +1,6 @@
+{
+  "name": "DigitalNawa Brand Asset Validator & Hub",
+  "description": "Validation and asset management platform for the DigitalNawa brand identity package.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

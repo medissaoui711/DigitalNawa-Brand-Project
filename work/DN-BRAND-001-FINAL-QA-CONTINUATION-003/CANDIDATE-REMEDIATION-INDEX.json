@@ -1,0 +1,12 @@
+{
+  "task": "DN-BRAND-001-FINAL-QA-CONTINUATION-003",
+  "status": "NEEDS MORE EVIDENCE",
+  "candidateRemediations": [],
+  "decision": "No candidate patch was created because review found no confirmed source-level defect with a clearly justified, non-speculative correction independent of DesignCraft.",
+  "confirmedUnresolvedDefect": {
+    "description": "Previously observed replacement-square glyphs in Arabic text on page 2 of the existing PDF.",
+    "candidateCorrection": null,
+    "blocker": "DesignCraft editing/export path and independently verified glyph-capable, legally embeddable font evidence are unavailable."
+  },
+  "productionIntegrationAuthorized": false
+}

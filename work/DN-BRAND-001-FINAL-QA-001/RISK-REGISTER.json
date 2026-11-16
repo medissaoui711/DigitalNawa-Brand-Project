@@ -1,0 +1,13 @@
+{
+  "documentId": "DN-BRAND-001-FINAL-QA-002",
+  "status": "NEEDS MORE EVIDENCE",
+  "risks": [
+    {"id":"R-01","severity":"high","status":"open","finding":"Browser visual QA is BLOCKED; no rendered evidence.","evidence":"Prior Computer Use refusal: browser URL could not be established reliably.","affected":"WP03-WP08 specimens and visual acceptance"},
+    {"id":"R-02","severity":"high","status":"open","finding":"Typography is PROVISIONAL; local font files absent and shaping/fallback unverified.","evidence":"WP04 logo-system-notes.md; zero project font files found.","affected":"Arabic/English lockups and collateral"},
+    {"id":"R-03","severity":"high","status":"open","finding":"Final asset manifest and DN-BI-16 through DN-BI-21 compliance remain NOT VERIFIED.","evidence":"docs/governance/DN-GOV-001-Central-Decision-Register-v1.0.0.md DN-DEC-008/009.","affected":"production asset acceptance"},
+    {"id":"R-04","severity":"medium","status":"open","finding":"PDF font inspection failed with MiKTeX access/setup errors.","evidence":"pdffonts exit -1073740791; stderr contains Access is denied and incomplete installation.","affected":"font embedding evidence"},
+    {"id":"R-05","severity":"medium","status":"open","finding":"WP02 and WP03-EXEC-010 lack supplied hash inventories.","evidence":"Package directories inspected; no SHA inventory found.","affected":"baseline byte-integrity verification"},
+    {"id":"R-06","severity":"medium","status":"open","finding":"Static contrast examples include three combinations below 4.5:1 for normal text.","evidence":"visual-system-foundation.md documented ratios: 4.31:1, 2.70:1, 3.20:1.","affected":"use of those foreground/background pairs for normal text"},
+    {"id":"R-07","severity":"medium","status":"open","finding":"No WP07/WP08 generated collateral exports or physical proof were verified.","evidence":"WP08 print-and-export-specifications.md and package file inventory.","affected":"print/export acceptance"}
+  ]
+}

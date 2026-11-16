@@ -1,0 +1,490 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "templateCount": 23,
+  "templates": [
+    {
+      "templateId": "business-card-front-en",
+      "name": "Business card front — English",
+      "category": "Business identity",
+      "intendedUse": "External contact",
+      "formatId": "business-card",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "business-card-back-ar",
+      "name": "Business card back — Arabic",
+      "category": "Business identity",
+      "intendedUse": "External contact",
+      "formatId": "business-card",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "digital-business-card-bi",
+      "name": "Digital business card — bilingual",
+      "category": "Business identity",
+      "intendedUse": "Digital contact",
+      "formatId": "digital-card",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "professional-contact-card",
+      "name": "Professional contact card",
+      "category": "Business identity",
+      "intendedUse": "Professional profile",
+      "formatId": "digital-card",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "email-signature-en",
+      "name": "Email signature — English",
+      "category": "Business identity",
+      "intendedUse": "Email",
+      "formatId": "email-signature",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "email-signature-ar",
+      "name": "Email signature — Arabic",
+      "category": "Business identity",
+      "intendedUse": "Email",
+      "formatId": "email-signature",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "stationery-en",
+      "name": "Basic stationery — English",
+      "category": "Business identity",
+      "intendedUse": "Correspondence",
+      "formatId": "letterhead-a4",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "stationery-ar",
+      "name": "Basic stationery — Arabic",
+      "category": "Business identity",
+      "intendedUse": "Correspondence",
+      "formatId": "letterhead-a4",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "letterhead-en",
+      "name": "Official letterhead — English",
+      "category": "Document identity",
+      "intendedUse": "Letter",
+      "formatId": "letterhead-a4",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "letterhead-ar",
+      "name": "Official letterhead — Arabic",
+      "category": "Document identity",
+      "intendedUse": "Letter",
+      "formatId": "letterhead-a4",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "report-cover-en",
+      "name": "Report cover — English",
+      "category": "Document identity",
+      "intendedUse": "Report",
+      "formatId": "document-a4",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "report-page-en",
+      "name": "Report page — English",
+      "category": "Document identity",
+      "intendedUse": "Report",
+      "formatId": "document-a4",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "proposal-cover-ar",
+      "name": "Proposal cover — Arabic",
+      "category": "Document identity",
+      "intendedUse": "Proposal",
+      "formatId": "document-a4",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "proposal-page-ar",
+      "name": "Proposal page — Arabic",
+      "category": "Document identity",
+      "intendedUse": "Proposal",
+      "formatId": "document-a4",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "invoice-en",
+      "name": "Invoice candidate — English",
+      "category": "Document identity",
+      "intendedUse": "Invoice",
+      "formatId": "document-a4",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "general-document-ar",
+      "name": "General business document — Arabic",
+      "category": "Document identity",
+      "intendedUse": "Correspondence / general",
+      "formatId": "document-a4",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-title-en",
+      "name": "Presentation title slide",
+      "category": "Presentation identity",
+      "intendedUse": "Presentation",
+      "formatId": "presentation-16x9",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-divider-ar",
+      "name": "Presentation section divider",
+      "category": "Presentation identity",
+      "intendedUse": "Presentation",
+      "formatId": "presentation-16x9",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-content-en",
+      "name": "Presentation content slide",
+      "category": "Presentation identity",
+      "intendedUse": "Presentation",
+      "formatId": "presentation-16x9",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-two-column-ar",
+      "name": "Presentation two-column slide",
+      "category": "Presentation identity",
+      "intendedUse": "Presentation",
+      "formatId": "presentation-16x9",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-media-en",
+      "name": "Presentation image/media slide",
+      "category": "Presentation identity",
+      "intendedUse": "Presentation",
+      "formatId": "presentation-16x9",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-chart-en",
+      "name": "Presentation chart slide",
+      "category": "Presentation identity",
+      "intendedUse": "Presentation",
+      "formatId": "presentation-16x9",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-closing-bi",
+      "name": "Presentation closing/contact slide",
+      "category": "Presentation identity",
+      "intendedUse": "Presentation",
+      "formatId": "presentation-16x9",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+        "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+        "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+        "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+        "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ]
+}

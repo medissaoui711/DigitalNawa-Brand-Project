@@ -1,0 +1,167 @@
+=== Starting DN-BI-21-EXEC-013 Validation & Test Suite ===
+[INIT] Captured initial snapshot of 11-Test-Fixtures (5 pre-existing entries):
+  - .gitkeep (file, size=28, sha256=316273651988625d0a477c62c95b10874faf6b06cb134dbd59e495245f3a0b39)
+  - symlink-forced-cleanup-failure-55f56484.svg (file, size=884, sha256=6c8d0cee60593910b654eb10116258ef9a70e5293e386ace7fbb28d33b78cf17)
+  - symlink-forced-cleanup-failure-ca22b859.svg (file, size=884, sha256=6c8d0cee60593910b654eb10116258ef9a70e5293e386ace7fbb28d33b78cf17)
+  - symlink-forced-cleanup-failure-cf072834.svg (file, size=884, sha256=6c8d0cee60593910b654eb10116258ef9a70e5293e386ace7fbb28d33b78cf17)
+  - valid-test-logo.svg (file, size=113, sha256=75e72204bac50f8c504f0f6ae798aead6e3fc090ff76aef674b05b3049277b83)
+
+[1] Checking directory structure...
+  [PASS] Directory exists: 01-Reference
+  [PASS] Directory exists: 02-Master
+  [PASS] Directory exists: 03-Variants
+  [PASS] Directory exists: 04-Favicon
+  [PASS] Directory exists: 05-Social
+  [PASS] Directory exists: 06-Exports
+  [PASS] Directory exists: 07-Validation/structural
+  [PASS] Directory exists: 07-Validation/geometry
+  [PASS] Directory exists: 07-Validation/visual
+  [PASS] Directory exists: 07-Validation/export
+  [PASS] Directory exists: 08-Manifest
+  [PASS] Directory exists: 09-Documentation
+  [PASS] Directory exists: 10-Archive
+  [PASS] Directory exists: 11-Test-Fixtures
+
+[2] Loading Schema and Manifest files...
+  [PASS] asset-manifest.schema.json loaded and parsed as valid JSON.
+  [PASS] asset-manifest.json loaded and parsed as valid JSON.
+
+[3] Validating Schema against JSON Schema Draft 2020-12 meta-schema...
+  [PASS] asset-manifest.schema.json is a valid Draft 2020-12 schema.
+  [PASS] Schema successfully compiled by Ajv2020.
+
+[4] Validating production Bootstrap Manifest against Schema & Security Rules...
+  [PASS] asset-manifest.json successfully validates against the schema.
+  [PASS] SHA-256 verified for "02-Master/dn-symbol-master.svg"
+  [PASS] SHA-256 verified for "02-Master/digitalnawa-horizontal-en-master.svg"
+  [PASS] SHA-256 verified for "02-Master/digitalnawa-stacked-en-master.svg"
+  [PASS] SHA-256 verified for "02-Master/digitalnawa-horizontal-ar-master.svg"
+  [PASS] SHA-256 verified for "02-Master/digitalnawa-stacked-ar-master.svg"
+  [PASS] SHA-256 verified for "03-Variants/light/dn-symbol-light.svg"
+  [PASS] SHA-256 verified for "03-Variants/light/digitalnawa-horizontal-en-light.svg"
+  [PASS] SHA-256 verified for "03-Variants/light/digitalnawa-stacked-en-light.svg"
+  [PASS] SHA-256 verified for "03-Variants/light/digitalnawa-horizontal-ar-light.svg"
+  [PASS] SHA-256 verified for "03-Variants/light/digitalnawa-stacked-ar-light.svg"
+  [PASS] SHA-256 verified for "03-Variants/dark/dn-symbol-dark.svg"
+  [PASS] SHA-256 verified for "03-Variants/dark/digitalnawa-horizontal-en-dark.svg"
+  [PASS] SHA-256 verified for "03-Variants/dark/digitalnawa-stacked-en-dark.svg"
+  [PASS] SHA-256 verified for "03-Variants/dark/digitalnawa-horizontal-ar-dark.svg"
+  [PASS] SHA-256 verified for "03-Variants/dark/digitalnawa-stacked-ar-dark.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/dn-symbol-black.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-horizontal-en-black.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-stacked-en-black.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-horizontal-ar-black.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-stacked-ar-black.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/dn-symbol-white.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-horizontal-en-white.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-stacked-en-white.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-horizontal-ar-white.svg"
+  [PASS] SHA-256 verified for "03-Variants/monochrome/digitalnawa-stacked-ar-white.svg"
+  [PASS] SHA-256 verified for "04-Favicon/digitalnawa-icon-16.svg"
+  [PASS] SHA-256 verified for "04-Favicon/digitalnawa-icon-32.svg"
+  [PASS] SHA-256 verified for "04-Favicon/digitalnawa-icon-48.svg"
+  [PASS] SHA-256 verified for "04-Favicon/digitalnawa-icon-180.svg"
+  [PASS] SHA-256 verified for "04-Favicon/digitalnawa-icon-192.svg"
+  [PASS] SHA-256 verified for "04-Favicon/digitalnawa-icon-512.svg"
+  [PASS] SHA-256 verified for "05-Social/digitalnawa-social-preview.svg"
+  [PASS] SHA-256 verified for "06-Exports/design-tokens.json"
+  [PASS] SHA-256 verified for "06-Exports/design-tokens.css"
+  [PASS] SHA-256 verified for "09-Documentation/visual-system-foundation.md"
+  [PASS] SHA-256 verified for "09-Documentation/digitalnawa-brand-identity.designcraft"
+  [PASS] SHA-256 verified for "06-Exports/digitalnawa-brand-identity.pdf"
+  [PASS] All production manifest assets passed secure path & integrity checks.
+
+[5] Running Standard Positive & Negative Test Suite...
+  [PASS] Test "Positive - Valid empty bootstrap manifest" behaved as expected (Result: true)
+  [PASS] Test "Positive - Valid asset manifest with lowercase SHA-256" behaved as expected (Result: true)
+  [PASS] Test "Positive - Valid asset manifest with uppercase SHA-256 normalization" behaved as expected (Result: true)
+  [EXPECTED REJECTION] Path traversal attempt rejected: "../package.json"
+  [PASS] Test "Negative - Path traversal attempt (../)" behaved as expected (Result: false)
+  [EXPECTED REJECTION] Path traversal attempt rejected: "..\package.json"
+  [PASS] Test "Negative - Path traversal attempt (..\)" behaved as expected (Result: false)
+  [EXPECTED REJECTION] Absolute path rejected: "/etc/passwd"
+  [PASS] Test "Negative - POSIX absolute path (/etc/passwd)" behaved as expected (Result: false)
+  [PASS] Test "Negative - Missing SHA-256 value for asset" behaved as expected (Result: false)
+  [EXPECTED REJECTION] SHA-256 hash mismatch for "11-Test-Fixtures/valid-test-logo.svg". Expected: 0000000000000000000000000000000000000000000000000000000000000000, Got: 75e72204bac50f8c504f0f6ae798aead6e3fc090ff76aef674b05b3049277b83
+  [PASS] Test "Negative - SHA-256 hash mismatch" behaved as expected (Result: false)
+
+[6] Running Explicit Regression Test Suite (Decoupled Inspection, Classification & Full Cleanup Lifecycle)...
+
+--- [6.1] ENOENT Handling in tryLstat ---
+  [PASS] (ENOENT Handling) tryLstat returns null for non-existent path.
+
+--- [6.2] Unexpected lstat Errors Re-throwing & Asset Rejection ---
+  [PASS] (Unexpected lstat Error Handling Part A) tryLstat re-throws non-ENOENT unexpected errors.
+  [EXPECTED REJECTION] Unexpected filesystem error checking asset "11-Test-Fixtures/valid-test-logo.svg": EIO: simulated i/o fault reading directory entry
+  [PASS] Test "Negative - Unexpected filesystem error during asset lstat" behaved as expected (Result: false)
+
+--- [6.3] Decoupled Path Inspection & Symlink Creation Classification ---
+  [PASS] (6.3.1) tryLstat returning ENOENT allows creation to proceed.
+  [PASS] (6.3.2) tryLstat throwing EACCES produces FAILED (stage: inspection), never SKIPPED.
+  [PASS] (6.3.3) tryLstat throwing EIO produces FAILED (stage: inspection), never SKIPPED.
+  [PASS] (6.3.4) symlinkFn throwing EPERM produces SKIPPED (stage: creation).
+  [PASS] (6.3.5) symlinkFn throwing EIO produces FAILED (stage: creation).
+  [PASS] (6.3.6) Existing path collision produces FAILED without calling symlinkFn or altering resource.
+  [PASS] (6.3.7) Classification matrix verified: Recognized OS codes -> SKIPPED; Unexpected -> FAILED.
+
+--- [6.4] Successful Symlink Cleanup Lifecycle ---
+  [INFO] (Successful Symlink Cleanup) Created temporary test symlink.
+  [PASS] (Successful Symlink Cleanup) Symlink cleanly unlinked and post-cleanup absence verified via lstat.
+
+--- [6.5] Injected Unlink Failure & Explicit Recovery Cleanup ---
+  [PASS] (Injected Unlink Failure & Recovery Part 1) Injected unlink failure detected: "EACCES: permission denied, unlink rejected".
+  [PASS] (Injected Unlink Failure & Recovery Part 2) Explicit recovery cleanup succeeded and verified resource absence via lstat.
+
+--- [6.6] Injected Final Cleanup Failure & Explicit Recovery ---
+  [PASS] (Post-cleanup Verification Failure & Recovery Part 1) Post-cleanup verification failure detected: "Post-cleanup verification failed: resource still exists at "D:\digitalnawat\DigitalNawa-Brand-Project\03-Logo-Assets\11-Test-Fixtures\temp-still-exists-7e09a2bd.svg"".
+  [PASS] (Post-cleanup Verification Failure & Recovery Part 2) Explicit recovery cleanup succeeded and verified absence via lstat.
+
+--- [6.7] Recovery Cleanup Failure Detection ---
+  [PASS] (Recovery Cleanup Failure Detection) Recovery cleanup failure detected and reported: "EACCES: recovery unlink operation denied".
+
+--- [6.8] Ownership Enforcement (Refusal to Cleanup Un-owned Resource) ---
+  [PASS] (Ownership Enforcement) Helper correctly refused to unlink un-owned resource.
+
+--- [6.9] Pre-Existing File & Symlink Preservation ---
+  [PASS] (Pre-Existing Resource Preservation) All pre-existing files and symlinks remain completely intact with unchanged types, sizes, hashes, and targets.
+
+--- [6.A] External Symlink Escape Test ---
+  [INFO] Created temporary external symlink at "symlink-ext-escape-d1eb8ecc.svg".
+  [EXPECTED REJECTION] Dangling symlink rejected (target does not exist: "D:\etc\passwd"): "11-Test-Fixtures/symlink-ext-escape-d1eb8ecc.svg"
+  [PASS] (External Symlink Escape) External symlink correctly detected and rejected as escape.
+  [INFO] (External Symlink Escape) Verified post-cleanup absence via tryLstat.
+
+--- [6.B] True Dangling Symlink Test ---
+  [INFO] Verified nonExistentTarget is genuinely absent: "missing-target-d7eb0561.svg".
+  [INFO] Created dangling symlink pointing to missing target.
+  [INFO] Verified symlink exists via lstatSync, points to missing target, and stat fails.
+  [EXPECTED REJECTION] Dangling symlink rejected (target does not exist: "D:\digitalnawat\DigitalNawa-Brand-Project\03-Logo-Assets\11-Test-Fixtures\missing-target-d7eb0561.svg"): "11-Test-Fixtures/symlink-dangling-94493c41.svg"
+  [PASS] (True Dangling Symlink) Dangling symlink correctly detected and rejected.
+  [INFO] (True Dangling Symlink) Verified post-cleanup absence via tryLstat.
+
+--- [6.C] Correct Internal Symlink Test ---
+  [INFO] Created temporary internal symlink pointing to "11-Test-Fixtures/valid-test-logo.svg".
+  [INFO] Actual target SHA-256: 75e72204bac50f8c504f0f6ae798aead6e3fc090ff76aef674b05b3049277b83
+  [PASS] (Internal Symlink with Matching SHA-256) Policy confirmed: Internal symlink resolving inside root with matching SHA-256 is accepted as valid.
+  [EXPECTED REJECTION] SHA-256 hash mismatch for "11-Test-Fixtures/symlink-internal-43a60be9.svg". Expected: 0000000000000000000000000000000000000000000000000000000000000000, Got: 75e72204bac50f8c504f0f6ae798aead6e3fc090ff76aef674b05b3049277b83
+  [PASS] (Internal Symlink with Matching SHA-256) Internal symlink with hash mismatch is rejected specifically for hash mismatch.
+  [INFO] (Internal Symlink with Matching SHA-256) Verified post-cleanup absence via tryLstat.
+
+--- [6.E] Isolated Failure-Path Regression Tests (Fail-Closed Exit Code Verification) ---
+  [TEST] Running isolated unexpected creation failure harness...
+  [PASS] (Isolated Harness: Creation Error) Correctly exited with non-zero code (1) when unexpected creation error occurred.
+  [TEST] Running isolated actual cleanup failure harness (injected unlink error)...
+  [PASS] (Isolated Harness: Cleanup Failure) Correctly exited with non-zero code (1) when actual cleanup failed.
+
+[7] Checking test fixtures registration constraint...
+  [INFO] Test fixtures directory files: [".gitkeep","symlink-forced-cleanup-failure-55f56484.svg","symlink-forced-cleanup-failure-ca22b859.svg","symlink-forced-cleanup-failure-cf072834.svg","valid-test-logo.svg"]
+  [PASS] Corrected check: No test fixtures are registered as production asset paths.
+
+[8] Verifying whole-suite fixture baseline integrity (no leaks, all pre-existing intact)...
+  [PASS] Whole-suite fixture check passed: Zero leaked resources, all pre-existing items perfectly intact.
+
+--- Final Test Statistics & Validation Summary ---
+  Passed Tests: 33
+  Failed Tests: 0
+  Skipped Tests: 0
+RESULT: ALL DN-BI-21-EXEC-013 validator & test suite checks PASSED successfully.

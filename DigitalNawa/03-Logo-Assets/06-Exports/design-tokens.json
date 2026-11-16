@@ -1,0 +1,75 @@
+{
+  "name": "DigitalNawa Design Tokens",
+  "status": "draft",
+  "primitive": {
+    "color": {
+      "warmIvory": "#FEF3C7",
+      "warmGray": "#78716C",
+      "mutedTeal": "#0EA5A4",
+      "darkBrown": "#1C1917",
+      "warmOrange": "#EA5808"
+    },
+    "spacing": {
+      "0": 0,
+      "1": 4,
+      "2": 8,
+      "3": 12,
+      "4": 16,
+      "5": 24,
+      "6": 32,
+      "7": 48,
+      "8": 64
+    },
+    "radius": {
+      "none": 0,
+      "sm": 4,
+      "md": 8,
+      "lg": 16,
+      "pill": 999
+    },
+    "typography": {
+      "english": {
+        "candidate": "Inter",
+        "approvalStatus": "provisional"
+      },
+      "arabic": {
+        "candidates": [
+          "Cairo",
+          "IBM Plex Sans Arabic"
+        ],
+        "approvalStatus": "provisional"
+      },
+      "technical": {
+        "candidate": "JetBrains Mono",
+        "approvalStatus": "provisional"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "textPrimary": "{primitive.color.darkBrown}",
+      "textSecondary": "{primitive.color.warmGray}",
+      "backgroundPrimary": "{primitive.color.warmIvory}",
+      "brandPrimary": "{primitive.color.mutedTeal}",
+      "brandAccent": "{primitive.color.warmOrange}"
+    },
+    "direction": {
+      "arabic": "rtl",
+      "english": "ltr"
+    }
+  },
+  "component": {
+    "button": {
+      "radius": "{primitive.radius.md}",
+      "paddingInline": "{primitive.spacing.4}",
+      "paddingBlock": "{primitive.spacing.2}"
+    },
+    "card": {
+      "radius": "{primitive.radius.lg}",
+      "padding": "{primitive.spacing.5}"
+    },
+    "icon": {
+      "clearSpace": "0.25x symbol height"
+    }
+  }
+}

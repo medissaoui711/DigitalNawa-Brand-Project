@@ -1,0 +1,28 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-003",
+  "status": "NEEDS MORE EVIDENCE — ISOLATED CANDIDATES; VISUAL QA AND OWNER ACCEPTANCE REMAIN OPEN",
+  "sourceRegistry": "work/DN-BRAND-001-WP08-EXEC-001/collateral-template-index.json",
+  "deliverables": [
+    {
+      "file": "letterhead-en.candidate.docx",
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\letterhead-en.candidate.docx",
+      "sizeBytes": 38562,
+      "sha256": "e0e33b40066b6b968cc4ca77113432876b4c984e44fdc9d88b67a0933ec70e8b",
+      "sourceTemplateId": "letterhead-en",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "editable": true
+    },
+    {
+      "file": "invoice-en.candidate.docx",
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\invoice-en.candidate.docx",
+      "sizeBytes": 39211,
+      "sha256": "b8632a698bdff61a6d2d782d48bd31c2a3b77fa40f8eb61d71237cb9e3819a3f",
+      "sourceTemplateId": "invoice-en",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "editable": true
+    }
+  ],
+  "productionIntegrationAuthorized": false,
+  "logoAssetsEmbedded": false,
+  "fontsEmbedded": false
+}

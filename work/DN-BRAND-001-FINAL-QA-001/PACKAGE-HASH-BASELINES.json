@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "lastWriteTimeUtc": "2026-11-14T01:55:38.7525679Z",
+      "sizeBytes": 5414,
+      "historicalComparison": "NO HISTORICAL BASELINE AVAILABLE IN PRIOR QA REPORTS",
+      "path": "work/DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+      "historicalHash": null,
+      "historicalBaselineAvailable": false,
+      "sha256": "c379f491556f2d1879c2d32213b1f557447fde7aa7285202b378b99eb5c850c0"
+    },
+    {
+      "lastWriteTimeUtc": "2026-11-14T01:51:51.7627476Z",
+      "sizeBytes": 12983,
+      "historicalComparison": "NO HISTORICAL BASELINE AVAILABLE IN PRIOR QA REPORTS",
+      "path": "work/DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.json",
+      "historicalHash": null,
+      "historicalBaselineAvailable": false,
+      "sha256": "e4866524b983cd1aeeae18931ad50a43b451e3a8e094e332895513d857e0209a"
+    },
+    {
+      "lastWriteTimeUtc": "2026-11-14T01:11:12.5241976Z",
+      "sizeBytes": 4934,
+      "historicalComparison": "NO HISTORICAL BASELINE AVAILABLE IN PRIOR QA REPORTS",
+      "path": "work/DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate.css",
+      "historicalHash": null,
+      "historicalBaselineAvailable": false,
+      "sha256": "3245543e5274d19a10ae164c4b72138fe68518e8c6a3ace77a2527b95019c052"
+    },
+    {
+      "lastWriteTimeUtc": "2026-11-14T01:11:12.5033935Z",
+      "sizeBytes": 12481,
+      "historicalComparison": "NO HISTORICAL BASELINE AVAILABLE IN PRIOR QA REPORTS",
+      "path": "work/DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate.json",
+      "historicalHash": null,
+      "historicalBaselineAvailable": false,
+      "sha256": "f1c9de681aa504d61e9af56abc5872e6b52d3a654d9ec23441fe81300a206145"
+    },
+    {
+      "lastWriteTimeUtc": "2026-11-14T23:05:29.8636409Z",
+      "sizeBytes": 16146,
+      "historicalComparison": "NO HISTORICAL BASELINE AVAILABLE IN PRIOR QA REPORTS",
+      "path": "work/DN-BRAND-001-WP03-EXEC-010/typography-system-research.md",
+      "historicalHash": null,
+      "historicalBaselineAvailable": false,
+      "sha256": "ea25ba48a31386e505210ee393f82cdc12a3604017fe80468391ad6dcdefa4b6"
+    }
+  ],
+  "classification": "Current hashes recorded; historical integrity not established",
+  "documentId": "DN-BRAND-001-FINAL-QA-003"
+}

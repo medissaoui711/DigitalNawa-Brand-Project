@@ -1,0 +1,943 @@
+{
+  "task": "DN-BRAND-001-WP06-EXEC-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "sourceHashes": {
+    "wp02json": "e4866524b983cd1aeeae18931ad50a43b451e3a8e094e332895513d857e0209a",
+    "wp02css": "c379f491556f2d1879c2d32213b1f557447fde7aa7285202b378b99eb5c850c0",
+    "wp03json": "c462aa3c76a8c0905a396586b56c32ff97634b754f9a90b81dba7e2063e378c4",
+    "wp03css": "07bb085f4e6971432a3ea9da6c1873069636b43437d9bbb6efb64f1e8cc66ef2",
+    "wp04index": "5bc61fb7fe8acaa60692b6454e6adaa478455288583a38517e78f452da060524",
+    "wp04sums": "28a8c169492a38a6b56162f40451e5b917b3aedfca70201663f50d12f3b9638d",
+    "wp05md": "b77f1d8bc995154a3115eba302fa37ecbb6fc86ebd5f8ac06f9d565d40a4648b"
+  },
+  "componentCount": 41,
+  "categories": {
+    "Foundation": 8,
+    "Buttons": 5,
+    "Forms": 8,
+    "Information": 7,
+    "Navigation": 5,
+    "Content and layout": 8
+  },
+  "components": [
+    {
+      "componentId": "foundation-color-theme",
+      "name": "Color and theme foundation",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "light",
+        "dark"
+      ],
+      "sourceTokenDependencies": [
+        "theme.light.*",
+        "theme.dark.*",
+        "primitive.color.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "foundation-type-scale",
+      "name": "Typography roles",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "display",
+        "heading",
+        "body",
+        "caption",
+        "code"
+      ],
+      "sourceTokenDependencies": [
+        "WP03 typography candidate roles"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "foundation-spacing",
+      "name": "Spacing scale",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "token scale"
+      ],
+      "sourceTokenDependencies": [
+        "primitive.spacing.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "foundation-radius",
+      "name": "Radius scale",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "token scale"
+      ],
+      "sourceTokenDependencies": [
+        "primitive.radius.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "foundation-borders",
+      "name": "Borders and dividers",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "separated"
+      ],
+      "sourceTokenDependencies": [
+        "theme.light.border",
+        "theme.dark.border",
+        "component.divider"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "foundation-focus",
+      "name": "Keyboard focus indicator",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "focus-visible"
+      ],
+      "sourceTokenDependencies": [
+        "focus.light",
+        "focus.dark"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "foundation-surfaces",
+      "name": "Surface hierarchy",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "canvas",
+        "surface",
+        "elevated"
+      ],
+      "sourceTokenDependencies": [
+        "theme.light.*",
+        "theme.dark.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "foundation-direction",
+      "name": "Direction handling",
+      "category": "Foundation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "LTR",
+        "RTL",
+        "mixed isolation"
+      ],
+      "sourceTokenDependencies": [
+        "semantic.direction"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "button-primary",
+      "name": "Primary button",
+      "category": "Buttons",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "hover",
+        "active",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "component.button.*",
+        "theme.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "button-secondary",
+      "name": "Secondary button",
+      "category": "Buttons",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "hover",
+        "active",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "component.button.*",
+        "theme.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "button-ghost",
+      "name": "Tertiary/ghost button",
+      "category": "Buttons",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "hover",
+        "active",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "component.button.*",
+        "theme.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "button-destructive",
+      "name": "Destructive button",
+      "category": "Buttons",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.status.error.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "button-disabled",
+      "name": "Disabled button",
+      "category": "Buttons",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.disabledSurface",
+        "theme.*.disabledText"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-text-input",
+      "name": "Text input",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "focus-visible",
+        "disabled",
+        "error",
+        "success"
+      ],
+      "sourceTokenDependencies": [
+        "component.input.*",
+        "theme.*.status.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-textarea",
+      "name": "Textarea",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "focus-visible",
+        "disabled",
+        "error"
+      ],
+      "sourceTokenDependencies": [
+        "component.input.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-select",
+      "name": "Select",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "component.input.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-checkbox",
+      "name": "Checkbox",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "unchecked",
+        "checked",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.brandPrimary",
+        "focus.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-radio",
+      "name": "Radio",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "unselected",
+        "selected",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.brandPrimary",
+        "focus.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-toggle",
+      "name": "Toggle candidate",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "off",
+        "on",
+        "focus-visible",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.brandPrimary",
+        "focus.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-validation",
+      "name": "Validation message",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "error",
+        "success",
+        "warning"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.status.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "form-helper-disabled",
+      "name": "Helper and disabled text",
+      "category": "Forms",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "helper",
+        "disabled"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.textMuted",
+        "theme.*.disabledText"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "info-card",
+      "name": "Card",
+      "category": "Information",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "interactive"
+      ],
+      "sourceTokenDependencies": [
+        "component.card.*",
+        "theme.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "info-badge",
+      "name": "Badge",
+      "category": "Information",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "neutral",
+        "success",
+        "warning",
+        "error",
+        "info"
+      ],
+      "sourceTokenDependencies": [
+        "component.badge.*",
+        "theme.*.status.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "info-alert",
+      "name": "Alert",
+      "category": "Information",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "success",
+        "warning",
+        "error",
+        "info"
+      ],
+      "sourceTokenDependencies": [
+        "component.alert.*",
+        "theme.*.status.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "info-status",
+      "name": "Status indicator",
+      "category": "Information",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "success",
+        "warning",
+        "error",
+        "info"
+      ],
+      "sourceTokenDependencies": [
+        "semantic.functional"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "info-tooltip-static",
+      "name": "Static tooltip specimen",
+      "category": "Information",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "static"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.surfaceElevated",
+        "theme.*.textPrimary"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "info-empty-state",
+      "name": "Empty state",
+      "category": "Information",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "empty"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.textPrimary",
+        "theme.*.textSecondary"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "info-loading-state",
+      "name": "Loading state specimen",
+      "category": "Information",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "loading"
+      ],
+      "sourceTokenDependencies": [
+        "theme.*.textSecondary"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "nav-top",
+      "name": "Top navigation",
+      "category": "Navigation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "selected",
+        "focus-visible"
+      ],
+      "sourceTokenDependencies": [
+        "component.navigation.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "nav-sidebar",
+      "name": "Sidebar navigation",
+      "category": "Navigation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "selected",
+        "focus-visible"
+      ],
+      "sourceTokenDependencies": [
+        "component.navigation.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "nav-breadcrumbs",
+      "name": "Breadcrumbs",
+      "category": "Navigation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default"
+      ],
+      "sourceTokenDependencies": [
+        "component.link.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "nav-tabs",
+      "name": "Tabs specimen",
+      "category": "Navigation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "selected",
+        "unselected",
+        "focus-visible"
+      ],
+      "sourceTokenDependencies": [
+        "component.navigation.*",
+        "focus.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "nav-pagination",
+      "name": "Pagination",
+      "category": "Navigation",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "default",
+        "current",
+        "disabled",
+        "focus-visible"
+      ],
+      "sourceTokenDependencies": [
+        "component.link.*",
+        "focus.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-page-header",
+      "name": "Page header",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "title",
+        "description",
+        "actions"
+      ],
+      "sourceTokenDependencies": [
+        "WP03 display/h1/body roles",
+        "primitive.spacing.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-section-header",
+      "name": "Section header",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "title",
+        "description"
+      ],
+      "sourceTokenDependencies": [
+        "WP03 h2/h3/body roles"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-container",
+      "name": "Content container",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "fluid",
+        "bounded"
+      ],
+      "sourceTokenDependencies": [
+        "primitive.spacing.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-two-column",
+      "name": "Two-column layout",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "wide",
+        "stacked"
+      ],
+      "sourceTokenDependencies": [
+        "primitive.spacing.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-card-grid",
+      "name": "Responsive card grid",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "sourceTokenDependencies": [
+        "primitive.spacing.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-divider",
+      "name": "Divider",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "horizontal"
+      ],
+      "sourceTokenDependencies": [
+        "component.divider"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-icon-container",
+      "name": "Icon container",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "decorative",
+        "labeled"
+      ],
+      "sourceTokenDependencies": [
+        "component.icon.*",
+        "theme.*"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "componentId": "content-code-block",
+      "name": "Code and technical content",
+      "category": "Content and layout",
+      "supportedThemes": [
+        "light",
+        "dark"
+      ],
+      "directionSupport": [
+        "LTR",
+        "RTL"
+      ],
+      "availableStates": [
+        "LTR code",
+        "wrapped"
+      ],
+      "sourceTokenDependencies": [
+        "WP03 technical/code roles"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ]
+}
