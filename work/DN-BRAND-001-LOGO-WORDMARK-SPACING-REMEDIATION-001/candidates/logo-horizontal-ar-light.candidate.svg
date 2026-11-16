@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="270" viewBox="0 0 1080 270" role="img" aria-labelledby="title desc">
+<title id="title">DigitalNawa horizontal logo Arabic light background</title><desc id="desc">DigitalNawa Arabic horizontal logo. Symbol geometry is independent; wordmark typography uses Cairo or IBM Plex Sans Arabic (candidate; final font not approved).</desc>
+
+<g id="symbol" transform="translate(26 34) scale(0.79)"><g id="dn-symbol" fill-rule="evenodd">
+  <path id="d-monogram" fill="#0EA5A4" d="M42 78h76c47 0 76 27 76 66s-29 66-76 66H42z M74 110v68h42c27 0 45-11 45-34s-18-34-45-34z"/>
+  <path id="n-monogram" fill="#EA5808" d="M111 104h27l66 79v-79h30v106h-27l-66-78v78h-30z"/>
+  <path id="rising-pixels" fill="#EA5808" d="M190 69h19v19h-19z M216 43h19v19h-19z M242 17h19v19h-19z"/>
+</g></g><g id="wordmark" fill="#1C1917" font-family="Cairo, 'IBM Plex Sans Arabic', sans-serif"><text x="365" y="145" font-size="82" font-weight="700" text-anchor="start" direction="rtl">ديجيتال نواة</text><text x="369" y="225" font-size="29" font-weight="500" letter-spacing="2">Build. Innovate. Teach.</text></g>
+</svg>

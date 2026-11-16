@@ -1,0 +1,91 @@
+{
+  "task": "DN-BRAND-001-LOGO-WORDMARK-SPACING-REMEDIATION-001",
+  "overallResult": "NEEDS MORE EVIDENCE",
+  "candidateOnly": true,
+  "productionIntegration": false,
+  "sources": [
+    {
+      "variant": "light",
+      "source": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\DigitalNawa\\03-Logo-Assets\\03-Variants\\light\\digitalnawa-horizontal-ar-light.svg",
+      "sourceBytes": 1234,
+      "sourceSha256": "44930bf763267ccc8ff8527eb1a747494f88ab400c00300813ead97f77941b86",
+      "manifestEntry": {
+        "id": "03-Variants-light-digitalnawa-horizontal-ar-light-svg",
+        "type": "logo-horizontal-variant",
+        "path": "03-Variants/light/digitalnawa-horizontal-ar-light.svg",
+        "parentRef": "02-Master/dn-symbol-master.svg",
+        "sha256": "44930bf763267ccc8ff8527eb1a747494f88ab400c00300813ead97f77941b86"
+      },
+      "candidate": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-LOGO-WORDMARK-SPACING-REMEDIATION-001\\candidates\\logo-horizontal-ar-light.candidate.svg",
+      "candidateRelativePath": "candidates/logo-horizontal-ar-light.candidate.svg",
+      "candidateBytes": 1234,
+      "candidateSha256": "28f02318d6b06236077c2946a6103c75e771dac0bc229f630df13bd9b1a6e27e",
+      "sourceY": {
+        "arabic": 159,
+        "english": 215
+      },
+      "candidateY": {
+        "arabic": 145,
+        "english": 225
+      },
+      "svgDiffPaths": [
+        "/svg/g[@id=\"wordmark\"]/text[@x=\"365\"]/@y",
+        "/svg/g[@id=\"wordmark\"]/text[@x=\"369\"]/@y"
+      ],
+      "symbolPathsUnchanged": 3
+    },
+    {
+      "variant": "dark",
+      "source": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\DigitalNawa\\03-Logo-Assets\\03-Variants\\dark\\digitalnawa-horizontal-ar-dark.svg",
+      "sourceBytes": 1233,
+      "sourceSha256": "636fefbbcfdb762fce899a7c5fd4cf098acd1f3a4ee4796e5d753102b6b08449",
+      "manifestEntry": {
+        "id": "03-Variants-dark-digitalnawa-horizontal-ar-dark-svg",
+        "type": "logo-horizontal-variant",
+        "path": "03-Variants/dark/digitalnawa-horizontal-ar-dark.svg",
+        "parentRef": "02-Master/dn-symbol-master.svg",
+        "sha256": "636fefbbcfdb762fce899a7c5fd4cf098acd1f3a4ee4796e5d753102b6b08449"
+      },
+      "candidate": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-LOGO-WORDMARK-SPACING-REMEDIATION-001\\candidates\\logo-horizontal-ar-dark.candidate.svg",
+      "candidateRelativePath": "candidates/logo-horizontal-ar-dark.candidate.svg",
+      "candidateBytes": 1233,
+      "candidateSha256": "59b997dd059c34aca42c9cfb38722e70e0cb7d8527e5981bbda2369a112f9541",
+      "sourceY": {
+        "arabic": 159,
+        "english": 215
+      },
+      "candidateY": {
+        "arabic": 145,
+        "english": 225
+      },
+      "svgDiffPaths": [
+        "/svg/g[@id=\"wordmark\"]/text[@x=\"365\"]/@y",
+        "/svg/g[@id=\"wordmark\"]/text[@x=\"369\"]/@y"
+      ],
+      "symbolPathsUnchanged": 3
+    }
+  ],
+  "reports": [
+    {
+      "path": "reports/SOURCE-INVENTORY.md",
+      "bytes": 1415,
+      "sha256": "c327b8cdadca73da3f8ce7f9d4252ceaee59e9bfe2690240d3b608c3a291424b"
+    },
+    {
+      "path": "reports/CHANGE-REPORT.md",
+      "bytes": 1699,
+      "sha256": "2f10069cd1bf71daae13d2fc17c697c3ed5d75a2576855b6c2f76bf8dd14d5d1"
+    },
+    {
+      "path": "reports/SVG-VALIDATION-REPORT.md",
+      "bytes": 1148,
+      "sha256": "fd0aabf2cbb59092426bb0b8a61d740172df00403d7a265a8a13906d8384f7e2"
+    },
+    {
+      "path": "reports/VISUAL-QA-REPORT.md",
+      "bytes": 668,
+      "sha256": "9eabaf0522cf7aada98d1ca6b4af0585f031f8a95c17144213b33b826a86825f"
+    }
+  ],
+  "validation": "XML and structural checks pass; visual verification blocked."
+}
