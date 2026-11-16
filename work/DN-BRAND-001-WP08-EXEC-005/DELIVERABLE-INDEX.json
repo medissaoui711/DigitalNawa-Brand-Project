@@ -1,32 +1,35 @@
 {
   "task": "DN-BRAND-001-WP08-EXEC-005",
-  "status": "NEEDS MORE EVIDENCE — NO SUITABLE UNREPRESENTED OPERATIONAL TEMPLATE IN REGISTRY",
+  "status": "NEEDS MORE EVIDENCE",
   "projectRoot": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project",
   "registry": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-001\\collateral-template-index.json",
   "registeredTemplateCount": 23,
-  "candidateDeliverables": [],
-  "officeFilesCreated": 0,
-  "reason": "No remaining registered template matches the requested operational template purposes without duplicating excluded prior uses.",
-  "priorCoverage": {
-    "EXEC-002": [
-      "report-page-en",
-      "proposal-page-ar",
-      "presentation-title-en",
-      "presentation-divider-ar",
-      "presentation-content-en",
-      "presentation-two-column-ar",
-      "presentation-media-en",
-      "presentation-chart-en",
-      "presentation-closing-bi"
-    ],
-    "EXEC-003": [
-      "letterhead-en",
-      "invoice-en"
-    ],
-    "EXEC-004": [
-      "general-document-ar",
-      "email-signature-en"
-    ]
-  },
+  "candidateDeliverables": [
+    {
+      "templateId": "digital-business-card-bi",
+      "path": "digital-business-card-bi.candidate.docx",
+      "format": "DOCX",
+      "bytes": 37898,
+      "sha256": "27447086b92a8833204ede55688bf5cac4b2a4e36d891484730b0c9478f866f4",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "note": "Registered bilingual metadata but source sample is English-only; DOCX is A4 editable carrier for a responsive digital-card specification."
+    },
+    {
+      "templateId": "professional-contact-card",
+      "path": "professional-contact-card.candidate.docx",
+      "format": "DOCX",
+      "bytes": 38042,
+      "sha256": "4409f28f34106342f57a6c740c2e27824141d2a342f10c8bfb1fcdf0bf7ffedc",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "note": "Arabic-first source specimen; DOCX is an A4 editable carrier for responsive digital-card specification."
+    }
+  ],
+  "requestedOperationalIdsAbsent": [
+    "meeting agenda/minutes",
+    "project status update",
+    "client onboarding",
+    "project handoff",
+    "digital memo"
+  ],
   "productionIntegrationAuthorized": false
 }

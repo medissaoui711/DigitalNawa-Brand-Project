@@ -4,32 +4,39 @@
 
 ## Outcome
 
-No editable Office candidate was created. The WP08 registry contains no unrepresented template for a digital meeting agenda/minutes, project status update, client onboarding/project handoff, or digital communication memo. Remaining registered items either duplicate an excluded prior purpose or are contact-card assets rather than operational documents. Creating a new or adapted template would exceed this task's registry-only constraint.
+Two editable DOCX candidates were produced from the actual WP08 contact-card registrations. This corrects the earlier coverage conclusion: digital contact cards are within the task’s broad digital-communication scope and are not one of the explicitly excluded duplicate types. No meeting agenda, status update, onboarding/handoff, or memo was invented because none is registered.
 
-## Registry coverage
+The “bilingual” digital-business-card registry entry is represented by an English-only source specimen, so this candidate retains the registered source text and does not add an unapproved translation. The Arabic-first professional contact card is a separate registered template. Both DOCX files use A4 as an editable Word carrier; the registry’s `digital-card` export format specifies a responsive/fluid CSS canvas with no fixed dimensions. Therefore these documents do not establish the final responsive digital-card layout.
 
-- Registry count: 23; registry status: `PROVISIONAL — NOT APPROVED FOR PRODUCTION`.
-- Existing IDs represented: EXEC-002 (report page, proposal page, seven presentation patterns); EXEC-003 (English letterhead, English invoice); EXEC-004 (Arabic general document, English email signature).
-- Unrepresented but not suitable: four business/contact card IDs; Arabic email signature (duplicates email signature); Arabic/English stationery and Arabic letterhead (duplicate formal correspondence/letterhead); report cover and proposal cover (duplicate report/proposal purposes).
-- No meeting agenda, minutes, project status, onboarding, handoff, or memo ID exists in this registry. See `TEMPLATE-COVERAGE-REPORT.md` for per-ID classification.
+## Deliverables
 
-## Production and validation
+| Registered template | Candidate | Bytes | SHA-256 |
+|---|---|---:|---|
+| `digital-business-card-bi` | `digital-business-card-bi.candidate.docx` | 37,898 | `27447086b92a8833204ede55688bf5cac4b2a4e36d891484730b0c9478f866f4` |
+| `professional-contact-card` | `professional-contact-card.candidate.docx` | 38,042 | `4409f28f34106342f57a6c740c2e27824141d2a342f10c8bfb1fcdf0bf7ffedc` |
 
-Only these four task records were created in the new isolated folder: `EXECUTION-REPORT.md`, `DELIVERABLE-INDEX.json`, `VALIDATION-REPORT.md`, and `TEMPLATE-COVERAGE-REPORT.md`; `SHA256SUMS.txt` records their hashes. No DOCX/PPTX/PDF was generated. Validation is limited to registry parsing, prior-index reconciliation, source-presence/hash checks, and output/checksum validation; per-Office-package checks are not applicable. All commands completed with exit code `0`; raw command outcomes are recorded in `VALIDATION-REPORT.md`.
+Full paths are under `C:\Users\DELL\Documents\Codex\DigitalNawa-Brand-Project\work\DN-BRAND-001-WP08-EXEC-005\`.
 
-No project source, previous candidate, production token, manifest, inventory, logo asset, or application file was changed. No installation, network, Git, Office app, PDF, or lock-file inspection was performed.
+## Implementation and validation summary
+
+- Exact registered specimen text was carried into each candidate; unknown identity/contact details remain placeholders.
+- Approved palette values used unchanged: `#0EA5A4`, `#1C1917`, `#78716C`, `#FEF3C7`. No provisional functional colors or embedded font files were added. Typography remains provisional; no logo asset or clear-space rule was applied.
+- ZIP integrity and XML parsing passed for both files; python-docx opened/read them; each is one table-based A4 document (210.01 × 297.00 mm). No external relationships, media, or embedded font parts were found.
+- Arabic candidate contains `ar-SA`, `en-US`, paragraph bidi and RTL run metadata. The English candidate uses `en-US`.
+- Validation command exit code: `0` after UTF-8 console configuration. An initial identical inspection command exited `1` while printing Arabic to a CP1252 console; this was an output-encoding issue and was rerun successfully with UTF-8.
+- Word is installed but was not running/opened in this execution; no visual inspection or screenshot was performed. Arabic shaping, visual RTL, clipping, and final responsive rendering remain NOT VERIFIED.
 
 ## QA continuity register
 
-The following prior findings remain open and were not modified:
+1. Arabic DOCX alignment discrepancy from WP08-VISUAL-QA-002 remains unresolved.
+2. Reproducible saved Office screenshots remain missing.
+3. Arabic shaping and font-rendering evidence remains unavailable.
+4. Existing brand PDF page-2 Arabic replacement-glyph defect remains.
+5. Logo clear-space conflict between the foundation proportional rule and WP04/WP05 provisional guidance remains unresolved.
+6. Historical hash transcription discrepancy remains a report-record issue; it is not evidence that the underlying artifact changed.
 
-1. Arabic DOCX alignment discrepancy.
-2. Missing reproducible Office screenshots.
-3. Arabic shaping and font evidence gaps.
-4. Existing PDF page-2 replacement-glyph defect.
-5. Logo clear-space conflict between the foundation proportional rule and WP04/WP05 provisional 19-unit guidance.
-6. Historical EXEC-002 report hash transcription discrepancy; remains a report transcription issue, not evidence of artifact corruption.
+No previous candidate, registered source, production asset, token, manifest, inventory, or application source was modified. Production integration and owner acceptance are not claimed.
 
 ## Recommended next task
 
-Add owner-reviewed operational template specifications and registry entries for the desired agenda/status/onboarding/handoff/memo types, then authorize a separate candidate-production task. This is required because the existing registry does not define those deliverables.
+Have the owner approve an authoritative bilingual/contact-card content and responsive layout specification (including business identity placeholders and Arabic/English presentation). Then perform renderer-based visual QA on these isolated DOCX candidates or produce a separately authorized responsive digital-card candidate.
