@@ -1,0 +1,738 @@
+{
+  "task": "DN-BRAND-001-WP07-EXEC-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "templateCount": 33,
+  "templates": [
+    {
+      "templateId": "profile-primary",
+      "name": "Primary profile avatar",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Profile/avatar presentation",
+      "formatId": "avatar-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "profile-symbol-dark",
+      "name": "Symbol-only avatar on dark field",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Profile/avatar presentation",
+      "formatId": "avatar-square",
+      "language": "none",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "profile-symbol-light",
+      "name": "Symbol-only avatar on light field",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Profile/avatar presentation",
+      "formatId": "avatar-square",
+      "language": "none",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "cover-general-en",
+      "name": "General DigitalNawa cover — English",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-wide",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No supported full cover composition was supplied in either source HTML."
+    },
+    {
+      "templateId": "cover-professional-en",
+      "name": "Professional technology cover — English",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-wide",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "Positioning is registered, but no complete cover composition/copy is supplied in the source package."
+    },
+    {
+      "templateId": "cover-education-ar",
+      "name": "Education-focused cover — Arabic",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-wide",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No supported Arabic cover copy/composition is supplied in the source package."
+    },
+    {
+      "templateId": "cover-brand-ar",
+      "name": "General DigitalNawa cover — Arabic",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-compact",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No complete Arabic compact cover composition is supplied in the source package."
+    },
+    {
+      "templateId": "cover-brand-en-compact",
+      "name": "General DigitalNawa cover — English compact",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Wide cover/banner",
+      "formatId": "cover-compact",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No complete English compact cover composition is supplied in the source package."
+    },
+    {
+      "templateId": "post-announcement-en",
+      "name": "General announcement",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "post-education-tip-ar",
+      "name": "Educational tip",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-portrait",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No source composition for this registered Arabic educational-tip template."
+    },
+    {
+      "templateId": "post-tutorial-en",
+      "name": "Technical tutorial",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-portrait",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "post-ai-insight-ar",
+      "name": "AI and automation insight",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "post-project-showcase-en",
+      "name": "Project showcase",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-portrait",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No distinct source composition for this registered project-showcase template."
+    },
+    {
+      "templateId": "post-product-launch-ar",
+      "name": "Product launch",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "post-milestone-en",
+      "name": "Milestone / achievement",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No supported milestone/achievement content is supplied."
+    },
+    {
+      "templateId": "post-quote-ar",
+      "name": "Short statement",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No source quote was supplied; no quotation was invented."
+    },
+    {
+      "templateId": "post-discussion-en",
+      "name": "Question / discussion prompt",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Feed post",
+      "formatId": "feed-square",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "No distinct registered discussion composition content is supplied."
+    },
+    {
+      "templateId": "carousel-safety-en",
+      "name": "Seven-slide educational carousel",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Carousel",
+      "formatId": "carousel-portrait",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "story-announcement-ar",
+      "name": "Story announcement",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "story-education-en",
+      "name": "Educational story",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "story-poll-ar",
+      "name": "Poll / question prompt",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "story-new-content-en",
+      "name": "New content notification",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "story-progress-ar",
+      "name": "Project progress story",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "story-cta-ar",
+      "name": "Story call to action",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "video-tutorial-en",
+      "name": "Technical tutorial thumbnail",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "video-ai-en",
+      "name": "AI tools and automation thumbnail",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "video-project-ar",
+      "name": "Development project thumbnail",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "video-education-en",
+      "name": "Educational explanation thumbnail",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "video-brand-ar",
+      "name": "General brand video thumbnail",
+      "contentPillar": "Brand identity",
+      "platformOrientedUse": "Video thumbnail",
+      "formatId": "video-landscape",
+      "language": "ar",
+      "direction": "rtl",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    },
+    {
+      "templateId": "pillar-development",
+      "name": "Digital Products & Development pillar",
+      "contentPillar": "Digital Products & Development",
+      "platformOrientedUse": "Feed/story/carousel",
+      "formatId": "feed-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "Registry requires bilingual/mixed treatment; available pillar guidance is English-only."
+    },
+    {
+      "templateId": "pillar-ai",
+      "name": "AI & Automation pillar",
+      "contentPillar": "AI & Automation",
+      "platformOrientedUse": "Feed/story/carousel",
+      "formatId": "feed-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "Registry requires bilingual/mixed treatment; available pillar guidance is English-only."
+    },
+    {
+      "templateId": "pillar-education",
+      "name": "Digital Education pillar",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Feed/story/carousel",
+      "formatId": "feed-square",
+      "language": "bi",
+      "direction": "mixed",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "NOT IMPLEMENTED",
+      "implementationNote": "Registry requires bilingual/mixed treatment; available pillar guidance is English-only."
+    },
+    {
+      "templateId": "story-quick-tutorial-en",
+      "name": "Short tutorial story",
+      "contentPillar": "Digital Education",
+      "platformOrientedUse": "Story",
+      "formatId": "story-vertical",
+      "language": "en",
+      "direction": "ltr",
+      "themeCompatibility": [
+        "light",
+        "dark"
+      ],
+      "sourceAssetDependencies": [
+        "./dependencies/design-tokens.candidate-v2.css",
+        "./dependencies/typography-tokens.candidate.css",
+        "./assets/logo-lockups.candidate/",
+        "./dependencies/component-library.candidate.css"
+      ],
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "implementationStatus": "IMPLEMENTED",
+      "implementationNote": "Mapped to candidate HTML and source evidence."
+    }
+  ],
+  "candidateTask": "DN-BRAND-001-WP07-REMEDIATION-001",
+  "sourceRegistry": "../DN-BRAND-001-WP07-EXEC-001/social-template-index.json",
+  "implementedTemplateCount": 20,
+  "notImplementedTemplateCount": 13,
+  "reconciliationNote": "IDs, registered names, formats, languages and directions are preserved; status fields describe this candidate package only."
+}

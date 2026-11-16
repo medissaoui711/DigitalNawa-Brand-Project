@@ -1,0 +1,543 @@
+{
+  "task": "DN-BRAND-001-WP04-EXEC-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "source": {
+    "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\DigitalNawa\\03-Logo-Assets\\02-Master\\dn-symbol-master.svg",
+    "bytes": 798,
+    "sha256": "52b96d8f7c706944de8199eccfda27fd624eb2ddf6dadfc23e3a1c982017353a",
+    "width": "280",
+    "height": "240",
+    "viewBox": "0 0 280 240",
+    "geometryMethod": "Parsed dn-symbol-master.svg; copied each source path d attribute verbatim; fills and composition only changed."
+  },
+  "approvedPalette": {
+    "warmIvory": "#FEF3C7",
+    "warmGray": "#78716C",
+    "mutedTeal": "#0EA5A4",
+    "darkBrown": "#1C1917",
+    "warmOrange": "#EA5808"
+  },
+  "candidateCount": 65,
+  "candidates": [
+    {
+      "candidateId": "symbol-only-full-color",
+      "filename": "logo-lockups.candidate/symbol-only/full-color.svg",
+      "composition": "symbol-only",
+      "language": "none",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "symbol-only-dark-background-reverse",
+      "filename": "logo-lockups.candidate/symbol-only/dark-background-reverse.svg",
+      "composition": "symbol-only",
+      "language": "none",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "symbol-only-light-background",
+      "filename": "logo-lockups.candidate/symbol-only/light-background.svg",
+      "composition": "symbol-only",
+      "language": "none",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "symbol-only-monochrome-dark",
+      "filename": "logo-lockups.candidate/symbol-only/monochrome-dark.svg",
+      "composition": "symbol-only",
+      "language": "none",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "symbol-only-monochrome-light",
+      "filename": "logo-lockups.candidate/symbol-only/monochrome-light.svg",
+      "composition": "symbol-only",
+      "language": "none",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-en-full-color",
+      "filename": "logo-lockups.candidate/wordmark-en/full-color.svg",
+      "composition": "wordmark",
+      "language": "en",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-en-dark-background-reverse",
+      "filename": "logo-lockups.candidate/wordmark-en/dark-background-reverse.svg",
+      "composition": "wordmark",
+      "language": "en",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-en-light-background",
+      "filename": "logo-lockups.candidate/wordmark-en/light-background.svg",
+      "composition": "wordmark",
+      "language": "en",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-en-monochrome-dark",
+      "filename": "logo-lockups.candidate/wordmark-en/monochrome-dark.svg",
+      "composition": "wordmark",
+      "language": "en",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-en-monochrome-light",
+      "filename": "logo-lockups.candidate/wordmark-en/monochrome-light.svg",
+      "composition": "wordmark",
+      "language": "en",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-ar-full-color",
+      "filename": "logo-lockups.candidate/wordmark-ar/full-color.svg",
+      "composition": "wordmark",
+      "language": "ar",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-ar-dark-background-reverse",
+      "filename": "logo-lockups.candidate/wordmark-ar/dark-background-reverse.svg",
+      "composition": "wordmark",
+      "language": "ar",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-ar-light-background",
+      "filename": "logo-lockups.candidate/wordmark-ar/light-background.svg",
+      "composition": "wordmark",
+      "language": "ar",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-ar-monochrome-dark",
+      "filename": "logo-lockups.candidate/wordmark-ar/monochrome-dark.svg",
+      "composition": "wordmark",
+      "language": "ar",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "wordmark-ar-monochrome-light",
+      "filename": "logo-lockups.candidate/wordmark-ar/monochrome-light.svg",
+      "composition": "wordmark",
+      "language": "ar",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-tight-full-color",
+      "filename": "logo-lockups.candidate/horizontal-en-tight/full-color.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-tight-dark-background-reverse",
+      "filename": "logo-lockups.candidate/horizontal-en-tight/dark-background-reverse.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-tight-light-background",
+      "filename": "logo-lockups.candidate/horizontal-en-tight/light-background.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-tight-monochrome-dark",
+      "filename": "logo-lockups.candidate/horizontal-en-tight/monochrome-dark.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-tight-monochrome-light",
+      "filename": "logo-lockups.candidate/horizontal-en-tight/monochrome-light.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-open-full-color",
+      "filename": "logo-lockups.candidate/horizontal-en-open/full-color.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-open-dark-background-reverse",
+      "filename": "logo-lockups.candidate/horizontal-en-open/dark-background-reverse.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-open-light-background",
+      "filename": "logo-lockups.candidate/horizontal-en-open/light-background.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-open-monochrome-dark",
+      "filename": "logo-lockups.candidate/horizontal-en-open/monochrome-dark.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-en-open-monochrome-light",
+      "filename": "logo-lockups.candidate/horizontal-en-open/monochrome-light.svg",
+      "composition": "horizontal",
+      "language": "en",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-ar-full-color",
+      "filename": "logo-lockups.candidate/horizontal-ar/full-color.svg",
+      "composition": "horizontal",
+      "language": "ar",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-ar-dark-background-reverse",
+      "filename": "logo-lockups.candidate/horizontal-ar/dark-background-reverse.svg",
+      "composition": "horizontal",
+      "language": "ar",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-ar-light-background",
+      "filename": "logo-lockups.candidate/horizontal-ar/light-background.svg",
+      "composition": "horizontal",
+      "language": "ar",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-ar-monochrome-dark",
+      "filename": "logo-lockups.candidate/horizontal-ar/monochrome-dark.svg",
+      "composition": "horizontal",
+      "language": "ar",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-ar-monochrome-light",
+      "filename": "logo-lockups.candidate/horizontal-ar/monochrome-light.svg",
+      "composition": "horizontal",
+      "language": "ar",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-en-primary-full-color",
+      "filename": "logo-lockups.candidate/horizontal-bi-en-primary/full-color.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-en-primary-dark-background-reverse",
+      "filename": "logo-lockups.candidate/horizontal-bi-en-primary/dark-background-reverse.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-en-primary-light-background",
+      "filename": "logo-lockups.candidate/horizontal-bi-en-primary/light-background.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-en-primary-monochrome-dark",
+      "filename": "logo-lockups.candidate/horizontal-bi-en-primary/monochrome-dark.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-en-primary-monochrome-light",
+      "filename": "logo-lockups.candidate/horizontal-bi-en-primary/monochrome-light.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-ar-primary-full-color",
+      "filename": "logo-lockups.candidate/horizontal-bi-ar-primary/full-color.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-ar-primary-dark-background-reverse",
+      "filename": "logo-lockups.candidate/horizontal-bi-ar-primary/dark-background-reverse.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-ar-primary-light-background",
+      "filename": "logo-lockups.candidate/horizontal-bi-ar-primary/light-background.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-ar-primary-monochrome-dark",
+      "filename": "logo-lockups.candidate/horizontal-bi-ar-primary/monochrome-dark.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "horizontal-bi-ar-primary-monochrome-light",
+      "filename": "logo-lockups.candidate/horizontal-bi-ar-primary/monochrome-light.svg",
+      "composition": "horizontal-bilingual",
+      "language": "bilingual",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-en-full-color",
+      "filename": "logo-lockups.candidate/stacked-en/full-color.svg",
+      "composition": "stacked",
+      "language": "en",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-en-dark-background-reverse",
+      "filename": "logo-lockups.candidate/stacked-en/dark-background-reverse.svg",
+      "composition": "stacked",
+      "language": "en",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-en-light-background",
+      "filename": "logo-lockups.candidate/stacked-en/light-background.svg",
+      "composition": "stacked",
+      "language": "en",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-en-monochrome-dark",
+      "filename": "logo-lockups.candidate/stacked-en/monochrome-dark.svg",
+      "composition": "stacked",
+      "language": "en",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-en-monochrome-light",
+      "filename": "logo-lockups.candidate/stacked-en/monochrome-light.svg",
+      "composition": "stacked",
+      "language": "en",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-ar-full-color",
+      "filename": "logo-lockups.candidate/stacked-ar/full-color.svg",
+      "composition": "stacked",
+      "language": "ar",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-ar-dark-background-reverse",
+      "filename": "logo-lockups.candidate/stacked-ar/dark-background-reverse.svg",
+      "composition": "stacked",
+      "language": "ar",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-ar-light-background",
+      "filename": "logo-lockups.candidate/stacked-ar/light-background.svg",
+      "composition": "stacked",
+      "language": "ar",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-ar-monochrome-dark",
+      "filename": "logo-lockups.candidate/stacked-ar/monochrome-dark.svg",
+      "composition": "stacked",
+      "language": "ar",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-ar-monochrome-light",
+      "filename": "logo-lockups.candidate/stacked-ar/monochrome-light.svg",
+      "composition": "stacked",
+      "language": "ar",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-bi-en-primary-full-color",
+      "filename": "logo-lockups.candidate/stacked-bi-en-primary/full-color.svg",
+      "composition": "stacked-bilingual",
+      "language": "bilingual",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-bi-en-primary-dark-background-reverse",
+      "filename": "logo-lockups.candidate/stacked-bi-en-primary/dark-background-reverse.svg",
+      "composition": "stacked-bilingual",
+      "language": "bilingual",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-bi-en-primary-light-background",
+      "filename": "logo-lockups.candidate/stacked-bi-en-primary/light-background.svg",
+      "composition": "stacked-bilingual",
+      "language": "bilingual",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-bi-en-primary-monochrome-dark",
+      "filename": "logo-lockups.candidate/stacked-bi-en-primary/monochrome-dark.svg",
+      "composition": "stacked-bilingual",
+      "language": "bilingual",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "stacked-bi-en-primary-monochrome-light",
+      "filename": "logo-lockups.candidate/stacked-bi-en-primary/monochrome-light.svg",
+      "composition": "stacked-bilingual",
+      "language": "bilingual",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-en-full-color",
+      "filename": "logo-lockups.candidate/tagline-en/full-color.svg",
+      "composition": "tagline-lockup",
+      "language": "en",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-en-dark-background-reverse",
+      "filename": "logo-lockups.candidate/tagline-en/dark-background-reverse.svg",
+      "composition": "tagline-lockup",
+      "language": "en",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-en-light-background",
+      "filename": "logo-lockups.candidate/tagline-en/light-background.svg",
+      "composition": "tagline-lockup",
+      "language": "en",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-en-monochrome-dark",
+      "filename": "logo-lockups.candidate/tagline-en/monochrome-dark.svg",
+      "composition": "tagline-lockup",
+      "language": "en",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-en-monochrome-light",
+      "filename": "logo-lockups.candidate/tagline-en/monochrome-light.svg",
+      "composition": "tagline-lockup",
+      "language": "en",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-ar-full-color",
+      "filename": "logo-lockups.candidate/tagline-ar/full-color.svg",
+      "composition": "tagline-lockup",
+      "language": "ar",
+      "colorVariant": "full-color",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-ar-dark-background-reverse",
+      "filename": "logo-lockups.candidate/tagline-ar/dark-background-reverse.svg",
+      "composition": "tagline-lockup",
+      "language": "ar",
+      "colorVariant": "dark-background-reverse",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-ar-light-background",
+      "filename": "logo-lockups.candidate/tagline-ar/light-background.svg",
+      "composition": "tagline-lockup",
+      "language": "ar",
+      "colorVariant": "light-background",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-ar-monochrome-dark",
+      "filename": "logo-lockups.candidate/tagline-ar/monochrome-dark.svg",
+      "composition": "tagline-lockup",
+      "language": "ar",
+      "colorVariant": "monochrome-dark",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "candidateId": "tagline-ar-monochrome-light",
+      "filename": "logo-lockups.candidate/tagline-ar/monochrome-light.svg",
+      "composition": "tagline-lockup",
+      "language": "ar",
+      "colorVariant": "monochrome-light",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ]
+}

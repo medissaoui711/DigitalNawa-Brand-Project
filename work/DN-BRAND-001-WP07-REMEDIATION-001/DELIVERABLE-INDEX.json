@@ -1,0 +1,261 @@
+{
+  "task": "DN-BRAND-001-WP07-REMEDIATION-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "sourceDirectory": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001",
+  "candidateDirectory": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-REMEDIATION-001",
+  "templateCount": 33,
+  "implementedTemplateCount": 20,
+  "notImplementedTemplateCount": 13,
+  "templateIdsRepresentedOnce": true,
+  "registeredFormatCount": 9,
+  "allTemplateFormatsRegistered": true,
+  "sourceExecutionReport": "NOT FOUND",
+  "sourceFiles": {
+    "social-identity-system.css": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\social-identity-system.css",
+      "sizeBytes": 7321,
+      "sha256": "187a15aaa1204c5c3f4c8fecaf3141fdceebdf6357d55e4a6ba365fe73312510",
+      "exists": true
+    },
+    "social-media-specimen.html": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\social-media-specimen.html",
+      "sizeBytes": 11234,
+      "sha256": "be1cf6a7694c4f90429cbc5612f961273bc98fb7dd41c9e7feb7bd97e90780f6",
+      "exists": true
+    },
+    "social-media-templates.html": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\social-media-templates.html",
+      "sizeBytes": 12787,
+      "sha256": "74c43dcd7096c216da0ef979a52670b3defa19e88d9c9d6b4985b42bb913f5fd",
+      "exists": true
+    },
+    "social-format-registry.json": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\social-format-registry.json",
+      "sizeBytes": 4762,
+      "sha256": "b574376858f77b78c0fb24bab2510871f1db084fc5fbaa403cf560f68c38faa9",
+      "exists": true
+    },
+    "social-template-index.json": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\social-template-index.json",
+      "sizeBytes": 26070,
+      "sha256": "6510ec160a4b007e41439c95a49ee172521b0926c2ed9126c258daa35cd11d8e",
+      "exists": true
+    },
+    "social-identity-guidelines.md": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\social-identity-guidelines.md",
+      "sizeBytes": 6405,
+      "sha256": "f652dd51e09ee030033f8898b2938430138239de99400823a1325b7aae0970a6",
+      "exists": true
+    },
+    "README.md": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\README.md",
+      "sizeBytes": 1537,
+      "sha256": "a763c1f98e58c333aa851c10de7f051e119342d5a838ca708e30b3f154c8febd",
+      "exists": true
+    },
+    "SHA256SUMS.txt": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-EXEC-001\\SHA256SUMS.txt",
+      "sizeBytes": 646,
+      "sha256": "5ce75e21fdefe1cfff7376593a48f74e01c22e3e5d2fb2639a794ffed52d0729",
+      "exists": true
+    }
+  },
+  "payloadFiles": [
+    {
+      "path": "assets/logo-lockups.candidate/horizontal-bi-ar-primary/dark-background-reverse.svg",
+      "sizeBytes": 1442,
+      "sha256": "7d0a90ea442f1049598abdee5190042ad8c3601f5db65dc89204d0d88ffc47be"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/horizontal-bi-ar-primary/full-color.svg",
+      "sizeBytes": 1429,
+      "sha256": "82a7b2f2da659bbd217ecfb39e468b9d8ff6a0e06df7300c30c929f70e63fade"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/horizontal-bi-en-primary/dark-background-reverse.svg",
+      "sizeBytes": 1423,
+      "sha256": "1f9163c5725003f4832f068810b8f5eb9833cd600b307fd774e2d5d7da8fa7e1"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/horizontal-bi-en-primary/full-color.svg",
+      "sizeBytes": 1410,
+      "sha256": "befae41f813448f82967d74e4674df7f17f74c833f86f449c15c4ce902a0c51a"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/horizontal-en-open/full-color.svg",
+      "sizeBytes": 1148,
+      "sha256": "86b38c6a55cd22ccc6b809dc5c21d263ac5067cb7b1be95a3e68b9df7f9eed3b"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/horizontal-en-open/monochrome-dark.svg",
+      "sizeBytes": 1153,
+      "sha256": "5211b50b5317c9b9bf40884cfa6e788c36d288e2a85ca7055f3e492802c05ccf"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/symbol-only/dark-background-reverse.svg",
+      "sizeBytes": 983,
+      "sha256": "4372906bc1615122b6685ae8e29e96be60085c7cf40d9b443b0e6e600580432f"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/symbol-only/light-background.svg",
+      "sizeBytes": 976,
+      "sha256": "981fe7feb79d1caf03a47366447f7ae6051adac572258a93538c17d71b350df5"
+    },
+    {
+      "path": "assets/logo-lockups.candidate/symbol-only/monochrome-dark.svg",
+      "sizeBytes": 975,
+      "sha256": "5616565263b3b62c679390202d4fb3d8964896e75240d707aba57760ccbaf3fb"
+    },
+    {
+      "path": "DEFECT-REMEDIATION-REPORT.md",
+      "sizeBytes": 1855,
+      "sha256": "1e86fb8472e604e7628a2e29c371727ed798ab6a3f783366ee0e2cf99a10e196"
+    },
+    {
+      "path": "dependencies/component-library.candidate.css",
+      "sizeBytes": 9171,
+      "sha256": "9393443a0c5c5a3797a0893875f69e699c1e4e5271aa597f82761d2963fcce2b"
+    },
+    {
+      "path": "dependencies/design-tokens.candidate-v2.css",
+      "sizeBytes": 5414,
+      "sha256": "c379f491556f2d1879c2d32213b1f557447fde7aa7285202b378b99eb5c850c0"
+    },
+    {
+      "path": "dependencies/typography-tokens.candidate.css",
+      "sizeBytes": 4299,
+      "sha256": "07bb085f4e6971432a3ea9da6c1873069636b43437d9bbb6efb64f1e8cc66ef2"
+    },
+    {
+      "path": "EXECUTION-REPORT.md",
+      "sizeBytes": 2992,
+      "sha256": "81e7f48f64ca24eea939b71a6b3451b5f3e1b2fa7818989ede7a89fe1562dae3"
+    },
+    {
+      "path": "README.md",
+      "sizeBytes": 4196,
+      "sha256": "4d164e13452d4575f7389c71ca40cb373e9a0a618604fcdcae210ce7f72b05ad"
+    },
+    {
+      "path": "REGISTRY-RECONCILIATION-REPORT.md",
+      "sizeBytes": 2208,
+      "sha256": "4a417f7f7b0b2f5434861a2ab0b34d189e545cbf383316de7535bd31b49fcb0d"
+    },
+    {
+      "path": "social-format-registry.candidate.json",
+      "sizeBytes": 4956,
+      "sha256": "b5c4427c6fcb764c3eba1668b4bb8a8c0345ae46a9dbb5268a669def72388f8b"
+    },
+    {
+      "path": "social-identity-guidelines.md",
+      "sizeBytes": 2957,
+      "sha256": "e6b6e2eb93ac122ce2d8a154429d55b83603dc719c77951e78f17bc617fb6e52"
+    },
+    {
+      "path": "social-identity-system.css",
+      "sizeBytes": 7855,
+      "sha256": "a9dbf67761e9dbb315b8f083ccb7e1cfced2d09ef0d2313aed89bab8811a2443"
+    },
+    {
+      "path": "social-media-specimen.html",
+      "sizeBytes": 17022,
+      "sha256": "ccfce3856e3faa57d01c1eef9bb689a97bf66cf2853689cb2715879d448d6f5e"
+    },
+    {
+      "path": "social-media-templates.html",
+      "sizeBytes": 5599,
+      "sha256": "87c617e7ca71c8bdc149aa8439c7106542954c231ffd9867af28c28cb938c228"
+    },
+    {
+      "path": "social-template-index.candidate.json",
+      "sizeBytes": 27315,
+      "sha256": "215e962f693122d8de624c6d5b3e8ff763e9bd41358d5fc431441007513d4ae3"
+    },
+    {
+      "path": "VALIDATION-REPORT.md",
+      "sizeBytes": 2763,
+      "sha256": "9ba85f2190e721d2df953ef6b706d2633ae4191d5f5ceae8f35fcbb1e2d0438e"
+    }
+  ],
+  "note": "This index omits itself and SHA256SUMS.txt to avoid self-referential hashing; SHA256SUMS.txt inventories all candidate files except itself.",
+  "limitations": [
+    "Browser responsive/visual tests blocked by file: URL policy.",
+    "Complete CSS parser unavailable.",
+    "Arabic shaping and rendered visual QA not verified.",
+    "No production or owner approval implied."
+  ],
+  "copiedLogoAssets": [
+    {
+      "candidatePath": "assets/logo-lockups.candidate/horizontal-bi-ar-primary/dark-background-reverse.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\horizontal-bi-ar-primary\\dark-background-reverse.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 1442,
+      "sha256": "7d0a90ea442f1049598abdee5190042ad8c3601f5db65dc89204d0d88ffc47be"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/horizontal-bi-ar-primary/full-color.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\horizontal-bi-ar-primary\\full-color.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 1429,
+      "sha256": "82a7b2f2da659bbd217ecfb39e468b9d8ff6a0e06df7300c30c929f70e63fade"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/horizontal-bi-en-primary/dark-background-reverse.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\horizontal-bi-en-primary\\dark-background-reverse.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 1423,
+      "sha256": "1f9163c5725003f4832f068810b8f5eb9833cd600b307fd774e2d5d7da8fa7e1"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/horizontal-bi-en-primary/full-color.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\horizontal-bi-en-primary\\full-color.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 1410,
+      "sha256": "befae41f813448f82967d74e4674df7f17f74c833f86f449c15c4ce902a0c51a"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/horizontal-en-open/full-color.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\horizontal-en-open\\full-color.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 1148,
+      "sha256": "86b38c6a55cd22ccc6b809dc5c21d263ac5067cb7b1be95a3e68b9df7f9eed3b"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/horizontal-en-open/monochrome-dark.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\horizontal-en-open\\monochrome-dark.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 1153,
+      "sha256": "5211b50b5317c9b9bf40884cfa6e788c36d288e2a85ca7055f3e492802c05ccf"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/symbol-only/dark-background-reverse.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\symbol-only\\dark-background-reverse.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 983,
+      "sha256": "4372906bc1615122b6685ae8e29e96be60085c7cf40d9b443b0e6e600580432f"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/symbol-only/light-background.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\symbol-only\\light-background.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 976,
+      "sha256": "981fe7feb79d1caf03a47366447f7ae6051adac572258a93538c17d71b350df5"
+    },
+    {
+      "candidatePath": "assets/logo-lockups.candidate/symbol-only/monochrome-dark.svg",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP04-EXEC-001\\logo-lockups.candidate\\symbol-only\\monochrome-dark.svg",
+      "sourceExists": true,
+      "byteIdentical": true,
+      "sizeBytes": 975,
+      "sha256": "5616565263b3b62c679390202d4fb3d8964896e75240d707aba57760ccbaf3fb"
+    }
+  ]
+}

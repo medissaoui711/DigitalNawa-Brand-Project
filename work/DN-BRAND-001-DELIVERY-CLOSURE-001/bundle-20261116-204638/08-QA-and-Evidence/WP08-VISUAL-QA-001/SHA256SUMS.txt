@@ -1,0 +1,11 @@
+50a6b5531b3775ebfc2e3acf73906922206982841ab81896de7588b0374cafbf  C:\Users\DELL\Documents\Codex\DigitalNawa-Brand-Project\work\DN-BRAND-001-WP08-EXEC-002\report-page-en.candidate.docx  size=38322 bytes  matches_existing_inventory=True
+1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2  C:\Users\DELL\Documents\Codex\DigitalNawa-Brand-Project\work\DN-BRAND-001-WP08-EXEC-002\proposal-page-ar.candidate.docx  size=38285 bytes  matches_existing_inventory=True
+0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b  C:\Users\DELL\Documents\Codex\DigitalNawa-Brand-Project\work\DN-BRAND-001-WP08-EXEC-002\presentation-template-16x9.candidate.pptx  size=38179 bytes  matches_existing_inventory=True
+
+Output report files (SHA256SUMS.txt excludes itself):
+9b125d933fc25f29ca914101d09cf792025f8d1e73909298fed88960b5a8963c  DEFECT-REGISTER.json  size=775 bytes
+25103b52b656041783129e6248a0b0e07df78633630dbdf3dd03951f4138f1f2  DOCX-AR-RTL-REVIEW.md  size=1008 bytes
+753e2e49db1eb338e9a07b8abd374bdde473dfc570d76cd7488f29e388829a82  DOCX-EN-REVIEW.md  size=688 bytes
+8b2005febe6ac437f31ad35077efc5c893a3fb0287dcd97f8268952f869b06cc  PPTX-SLIDE-REVIEW.md  size=1211 bytes
+433bb01ee75180e01f7168d8c539cf147aab9d09fb7e7195da2a29789a1f6b6c  SCREENSHOT-INVENTORY.md  size=603 bytes
+b4094fc751bb9ced2fb9fbdb1551d6c4391bb2b12a30461773eec64a6e772cbc  VISUAL-QA-REPORT.md  size=3629 bytes

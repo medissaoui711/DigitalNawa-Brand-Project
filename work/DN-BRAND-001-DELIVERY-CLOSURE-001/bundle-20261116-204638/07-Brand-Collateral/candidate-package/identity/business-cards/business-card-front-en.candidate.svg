@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="90mm" height="50mm" viewBox="0 0 900 500" role="img" aria-labelledby="title desc" lang="en" xml:lang="en">
+<title id="title">DigitalNawa business card front English candidate</title>
+<desc id="desc">Editable conceptual card artwork. Contact fields are placeholders. Provisional, not approved for production or print.</desc>
+<metadata>Template: business-card-front-en. Status: PROVISIONAL — NOT APPROVED FOR PRODUCTION. Candidate trim canvas follows local WP08 90 x 50 mm recommendation only. No provider bleed, safe area, stock, color profile, or print preset verified. Logo omitted pending owner variant selection and clear-space decision.</metadata>
+<style>text{fill:#1C1917;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}.brand{font-size:27px;font-weight:700}.name{font-size:43px;font-weight:700}.role{font-size:29px;font-weight:500}.contact{font-size:25px;font-weight:400}.accent{fill:#0EA5A4}</style>
+<rect width="900" height="500" fill="#FEF3C7"/>
+<rect x="40" y="42" width="80" height="8" rx="4" class="accent"/>
+<text x="40" y="100" class="brand">DigitalNawa</text>
+<text x="40" y="166" class="name">[Full Name]</text>
+<text x="40" y="216" class="role">[Role / Title]</text>
+<text x="40" y="286" class="contact">[Email Address]</text>
+<text x="40" y="326" class="contact">[Telephone]</text>
+<text x="40" y="366" class="contact">[Website]</text>
+<text x="40" y="406" class="contact">[Social Link]</text>
+</svg>

@@ -1,0 +1,128 @@
+<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DigitalNawa Candidate Component Library</title><link rel="stylesheet" href="component-library.candidate.css"></head><body><main class="dn-type-candidate dn-component-library"><header><p><strong>PROVISIONAL — NOT APPROVED FOR PRODUCTION</strong></p><h1>DigitalNawa Component Library</h1><p>Candidate showcase based on WP02 tokens and WP03 typography. Functional and focus values remain provisional; no application integration is shown.</p><p>Candidate dependencies: <a href="../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.json">WP02 V2 tokens</a> · <a href="../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.json">WP03 typography</a> · <a href="../DN-BRAND-001-WP04-EXEC-001/logo-candidate-index.json">WP04 logo index</a> · <a href="../DN-BRAND-001-WP05-EXEC-001/DigitalNawa-Brand-Guidelines.candidate.md">WP05 guidelines</a></p></header><section class="dn-library-section" data-theme="light" lang="en" dir="ltr" aria-labelledby="demo-en-light-title">
+<header class="dn-page-header"><div><span class="dn-provisional">PROVISIONAL — NOT APPROVED FOR PRODUCTION</span><h2 id="demo-en-light-title">Component showcase — light — English — LTR</h2><p class="role-body-md">The text and state colors shown here are provisional candidates.</p></div><button class="dn-button dn-button--primary dn-focus-ring">Primary</button></header>
+<h3 class="role-h3">Foundation / Foundation</h3>
+<div class="dn-two-column"><div class="dn-card"><strong>Surface</strong><p class="role-body-sm">Surface and border use candidate semantic tokens.</p><span class="dn-icon-box" aria-hidden="true">✦</span></div><div><p class="role-label">Spacing: --dn-space-* · Radius: --dn-radius-*</p><div class="dn-stack"><span class="dn-badge">Default</span><span class="dn-badge">Selected</span></div><p class="dn-provisional-note">Focus is provisional; adjacent-surface contrast needs review.</p></div></div>
+<h3 class="role-h3">Buttons</h3><div class="dn-stack"><button class="dn-button dn-button--primary dn-focus-ring">Primary</button><button class="dn-button dn-button--secondary dn-focus-ring">Secondary</button><button class="dn-button dn-button--ghost dn-focus-ring">Ghost</button><button class="dn-button dn-button--destructive dn-focus-ring">Destructive</button><button class="dn-button" disabled>Disabled</button></div>
+<h3 class="role-h3">Forms</h3><div class="dn-two-column"><div>
+<label class="dn-field"><span class="dn-label">Full name</span><input class="dn-control dn-focus-ring" type="text" placeholder="e.g. Sam"><span class="dn-helper">Enter your name.</span></label>
+<label class="dn-field"><span class="dn-label">Email</span><input class="dn-control dn-focus-ring" type="email" aria-invalid="true" aria-describedby="demo-en-light-err"></label><p class="dn-helper dn-status" id="demo-en-light-err" role="status">Check the email format.</p>
+<label class="dn-field"><span class="dn-label">Message</span><textarea class="dn-control dn-focus-ring"></textarea></label>
+<label class="dn-field"><span class="dn-label">Country</span><select class="dn-control dn-focus-ring"><option>Select</option><option>Saudi Arabia</option></select></label>
+</div><div>
+<label class="dn-check-row"><input type="checkbox" checked><span>I agree to continue</span></label>
+<label class="dn-check-row"><input type="checkbox"><span>Optional choice</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-en-light-radio" checked><span>Option one</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-en-light-radio"><span>Option two</span></label>
+<label class="dn-check-row"><input class="dn-toggle dn-focus-ring" type="checkbox" role="switch" aria-label="Enable setting"><span>Enable setting</span></label>
+<p class="dn-helper">Static helper copy.</p><p class="dn-helper" aria-disabled="true">Disabled field: Unavailable</p>
+</div></div><div class="dn-stack"><button class="dn-button dn-button--primary">Submit</button><button class="dn-button dn-button--secondary" disabled>Disabled</button></div>
+<h3 class="role-h3">Information and states</h3><div class="dn-grid"><article class="dn-card"><h4>Account summary</h4><p class="role-body-sm">A short explanatory card description.</p></article><div class="dn-stack"><span class="dn-badge dn-badge--success">Success — Complete</span><span class="dn-badge dn-badge--warning">Warning — In review</span><span class="dn-badge dn-badge--error">Error — Action needed</span><span class="dn-badge dn-badge--info">Info — Details</span></div></div>
+<div class="dn-alert dn-alert--info" role="status"><strong>Information:</strong> Candidate alert: functional colors remain provisional. <span class="dn-provisional">PROVISIONAL</span></div>
+<div class="dn-grid"><div class="dn-empty"><strong>No items yet.</strong><p>Start by adding an item.</p><button class="dn-button dn-button--secondary">Add item</button></div><div class="dn-loading" role="status" aria-live="polite">Loading (static specimen).</div></div>
+<div class="dn-tooltip-specimen"><span class="dn-label">Static tooltip specimen</span><span class="dn-tooltip" role="tooltip">A short explanatory tooltip; no interaction is implemented.</span></div>
+<h3 class="role-h3">Navigation</h3>
+<nav class="dn-top-nav" aria-label="Primary navigation"><a class="dn-nav-link" href="#demo-en-light-title">Home</a><a class="dn-nav-link" href="#demo-en-light-title">Products</a><a class="dn-nav-link" href="#demo-en-light-title">Learn</a></nav>
+<div class="dn-two-column"><nav class="dn-sidebar-nav" aria-label="Sidebar"><a class="dn-nav-link" aria-current="page" href="#demo-en-light-title">Home</a><a class="dn-nav-link" href="#demo-en-light-title">Products</a><a class="dn-nav-link" href="#demo-en-light-title">Learn</a></nav><div>
+<nav class="dn-breadcrumbs" aria-label="Breadcrumb"><a class="dn-link" href="#demo-en-light-title">Home</a><span aria-hidden="true">/</span><span>Path</span></nav>
+<nav class="dn-tabs" aria-label="Tabs"><a class="dn-tab" aria-current="page" href="#demo-en-light-title">Overview</a><a class="dn-tab" href="#demo-en-light-title">Details</a></nav>
+<nav class="dn-pagination" aria-label="Pagination"><a class="dn-page-link" href="#demo-en-light-title">Previous</a><a class="dn-page-link" aria-current="page" href="#demo-en-light-title">1</a><a class="dn-page-link" href="#demo-en-light-title">2</a><a class="dn-page-link" href="#demo-en-light-title">Next</a></nav>
+</div></div>
+<h3 class="role-h3">Content and layout</h3><div class="dn-two-column"><div><h4>Data</h4><hr class="dn-divider"><p>Two columns stack at narrow widths.</p></div><pre class="dn-code"><code dir="ltr">const locale = "en";
+renderDashboard({ dir: "ltr" });</code></pre></div>
+</section>
+<section class="dn-library-section" data-theme="dark" lang="en" dir="ltr" aria-labelledby="demo-en-dark-title">
+<header class="dn-page-header"><div><span class="dn-provisional">PROVISIONAL — NOT APPROVED FOR PRODUCTION</span><h2 id="demo-en-dark-title">Component showcase — dark — English — LTR</h2><p class="role-body-md">The text and state colors shown here are provisional candidates.</p></div><button class="dn-button dn-button--primary dn-focus-ring">Primary</button></header>
+<h3 class="role-h3">Foundation / Foundation</h3>
+<div class="dn-two-column"><div class="dn-card"><strong>Surface</strong><p class="role-body-sm">Surface and border use candidate semantic tokens.</p><span class="dn-icon-box" aria-hidden="true">✦</span></div><div><p class="role-label">Spacing: --dn-space-* · Radius: --dn-radius-*</p><div class="dn-stack"><span class="dn-badge">Default</span><span class="dn-badge">Selected</span></div><p class="dn-provisional-note">Focus is provisional; adjacent-surface contrast needs review.</p></div></div>
+<h3 class="role-h3">Buttons</h3><div class="dn-stack"><button class="dn-button dn-button--primary dn-focus-ring">Primary</button><button class="dn-button dn-button--secondary dn-focus-ring">Secondary</button><button class="dn-button dn-button--ghost dn-focus-ring">Ghost</button><button class="dn-button dn-button--destructive dn-focus-ring">Destructive</button><button class="dn-button" disabled>Disabled</button></div>
+<h3 class="role-h3">Forms</h3><div class="dn-two-column"><div>
+<label class="dn-field"><span class="dn-label">Full name</span><input class="dn-control dn-focus-ring" type="text" placeholder="e.g. Sam"><span class="dn-helper">Enter your name.</span></label>
+<label class="dn-field"><span class="dn-label">Email</span><input class="dn-control dn-focus-ring" type="email" aria-invalid="true" aria-describedby="demo-en-dark-err"></label><p class="dn-helper dn-status" id="demo-en-dark-err" role="status">Check the email format.</p>
+<label class="dn-field"><span class="dn-label">Message</span><textarea class="dn-control dn-focus-ring"></textarea></label>
+<label class="dn-field"><span class="dn-label">Country</span><select class="dn-control dn-focus-ring"><option>Select</option><option>Saudi Arabia</option></select></label>
+</div><div>
+<label class="dn-check-row"><input type="checkbox" checked><span>I agree to continue</span></label>
+<label class="dn-check-row"><input type="checkbox"><span>Optional choice</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-en-dark-radio" checked><span>Option one</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-en-dark-radio"><span>Option two</span></label>
+<label class="dn-check-row"><input class="dn-toggle dn-focus-ring" type="checkbox" role="switch" aria-label="Enable setting"><span>Enable setting</span></label>
+<p class="dn-helper">Static helper copy.</p><p class="dn-helper" aria-disabled="true">Disabled field: Unavailable</p>
+</div></div><div class="dn-stack"><button class="dn-button dn-button--primary">Submit</button><button class="dn-button dn-button--secondary" disabled>Disabled</button></div>
+<h3 class="role-h3">Information and states</h3><div class="dn-grid"><article class="dn-card"><h4>Account summary</h4><p class="role-body-sm">A short explanatory card description.</p></article><div class="dn-stack"><span class="dn-badge dn-badge--success">Success — Complete</span><span class="dn-badge dn-badge--warning">Warning — In review</span><span class="dn-badge dn-badge--error">Error — Action needed</span><span class="dn-badge dn-badge--info">Info — Details</span></div></div>
+<div class="dn-alert dn-alert--info" role="status"><strong>Information:</strong> Candidate alert: functional colors remain provisional. <span class="dn-provisional">PROVISIONAL</span></div>
+<div class="dn-grid"><div class="dn-empty"><strong>No items yet.</strong><p>Start by adding an item.</p><button class="dn-button dn-button--secondary">Add item</button></div><div class="dn-loading" role="status" aria-live="polite">Loading (static specimen).</div></div>
+<div class="dn-tooltip-specimen"><span class="dn-label">Static tooltip specimen</span><span class="dn-tooltip" role="tooltip">A short explanatory tooltip; no interaction is implemented.</span></div>
+<h3 class="role-h3">Navigation</h3>
+<nav class="dn-top-nav" aria-label="Primary navigation"><a class="dn-nav-link" href="#demo-en-dark-title">Home</a><a class="dn-nav-link" href="#demo-en-dark-title">Products</a><a class="dn-nav-link" href="#demo-en-dark-title">Learn</a></nav>
+<div class="dn-two-column"><nav class="dn-sidebar-nav" aria-label="Sidebar"><a class="dn-nav-link" aria-current="page" href="#demo-en-dark-title">Home</a><a class="dn-nav-link" href="#demo-en-dark-title">Products</a><a class="dn-nav-link" href="#demo-en-dark-title">Learn</a></nav><div>
+<nav class="dn-breadcrumbs" aria-label="Breadcrumb"><a class="dn-link" href="#demo-en-dark-title">Home</a><span aria-hidden="true">/</span><span>Path</span></nav>
+<nav class="dn-tabs" aria-label="Tabs"><a class="dn-tab" aria-current="page" href="#demo-en-dark-title">Overview</a><a class="dn-tab" href="#demo-en-dark-title">Details</a></nav>
+<nav class="dn-pagination" aria-label="Pagination"><a class="dn-page-link" href="#demo-en-dark-title">Previous</a><a class="dn-page-link" aria-current="page" href="#demo-en-dark-title">1</a><a class="dn-page-link" href="#demo-en-dark-title">2</a><a class="dn-page-link" href="#demo-en-dark-title">Next</a></nav>
+</div></div>
+<h3 class="role-h3">Content and layout</h3><div class="dn-two-column"><div><h4>Data</h4><hr class="dn-divider"><p>Two columns stack at narrow widths.</p></div><pre class="dn-code"><code dir="ltr">const locale = "en";
+renderDashboard({ dir: "ltr" });</code></pre></div>
+</section>
+<section class="dn-library-section" data-theme="light" lang="ar" dir="rtl" aria-labelledby="demo-ar-light-title">
+<header class="dn-page-header"><div><span class="dn-provisional">PROVISIONAL — NOT APPROVED FOR PRODUCTION</span><h2 id="demo-ar-light-title">واجهة المكونات — light — العربية — RTL</h2><p class="role-body-md">النصوص والحالات هنا تجريبية ومؤقتة.</p></div><button class="dn-button dn-button--primary dn-focus-ring">أساسي</button></header>
+<h3 class="role-h3">Foundation / الأساس</h3>
+<div class="dn-two-column"><div class="dn-card"><strong>سطح</strong><p class="role-body-sm">السطح والحدود من رموز مرشحة.</p><span class="dn-icon-box" aria-hidden="true">✦</span></div><div><p class="role-label">مسافات: --dn-space-* · أنصاف الأقطار: --dn-radius-*</p><div class="dn-stack"><span class="dn-badge">حد افتراضي</span><span class="dn-badge">حد محدد</span></div><p class="dn-provisional-note">مؤشر التركيز مرشح؛ يلزم فحص التباين حول كل سطح.</p></div></div>
+<h3 class="role-h3">الأزرار</h3><div class="dn-stack"><button class="dn-button dn-button--primary dn-focus-ring">أساسي</button><button class="dn-button dn-button--secondary dn-focus-ring">ثانوي</button><button class="dn-button dn-button--ghost dn-focus-ring">هادئ</button><button class="dn-button dn-button--destructive dn-focus-ring">حذف</button><button class="dn-button" disabled>معطل</button></div>
+<h3 class="role-h3">النماذج</h3><div class="dn-two-column"><div>
+<label class="dn-field"><span class="dn-label">الاسم</span><input class="dn-control dn-focus-ring" type="text" placeholder="مثال: سارة"><span class="dn-helper">أدخل الاسم الكامل.</span></label>
+<label class="dn-field"><span class="dn-label">البريد الإلكتروني</span><input class="dn-control dn-focus-ring" type="email" aria-invalid="true" aria-describedby="demo-ar-light-err"></label><p class="dn-helper dn-status" id="demo-ar-light-err" role="status">تحقق من صيغة البريد الإلكتروني.</p>
+<label class="dn-field"><span class="dn-label">الرسالة</span><textarea class="dn-control dn-focus-ring"></textarea></label>
+<label class="dn-field"><span class="dn-label">البلد</span><select class="dn-control dn-focus-ring"><option>اختر</option><option>السعودية</option></select></label>
+</div><div>
+<label class="dn-check-row"><input type="checkbox" checked><span>أوافق على المتابعة</span></label>
+<label class="dn-check-row"><input type="checkbox"><span>خيار إضافي</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-ar-light-radio" checked><span>الخيار الأول</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-ar-light-radio"><span>الخيار الثاني</span></label>
+<label class="dn-check-row"><input class="dn-toggle dn-focus-ring" type="checkbox" role="switch" aria-label="التفعيل"><span>تشغيل الإعداد</span></label>
+<p class="dn-helper">مساعدة ثابتة.</p><p class="dn-helper" aria-disabled="true">حقل معطل: غير متاح</p>
+</div></div><div class="dn-stack"><button class="dn-button dn-button--primary">إرسال</button><button class="dn-button dn-button--secondary" disabled>معطل</button></div>
+<h3 class="role-h3">المعلومات والحالات</h3><div class="dn-grid"><article class="dn-card"><h4>ملخص الحساب</h4><p class="role-body-sm">هذا المحتوى يشرح ملخصاً قصيراً.</p></article><div class="dn-stack"><span class="dn-badge dn-badge--success">نجاح — مكتمل</span><span class="dn-badge dn-badge--warning">تحذير — قيد المراجعة</span><span class="dn-badge dn-badge--error">خطأ — مطلوب إجراء</span><span class="dn-badge dn-badge--info">معلومة — تفاصيل</span></div></div>
+<div class="dn-alert dn-alert--info" role="status"><strong>معلومة:</strong> تنبيه تجريبي: الألوان الوظيفية مؤقتة. <span class="dn-provisional">PROVISIONAL</span></div>
+<div class="dn-grid"><div class="dn-empty"><strong>لا توجد عناصر بعد.</strong><p>ابدأ بإضافة عنصر.</p><button class="dn-button dn-button--secondary">إضافة</button></div><div class="dn-loading" role="status" aria-live="polite">جارٍ التحميل (عرض ثابت).</div></div>
+<div class="dn-tooltip-specimen"><span class="dn-label">تلميح ثابت</span><span class="dn-tooltip" role="tooltip">شرح قصير لا يملك تفاعلاً.</span></div>
+<h3 class="role-h3">التنقل</h3>
+<nav class="dn-top-nav" aria-label="التنقل الرئيسي"><a class="dn-nav-link" href="#demo-ar-light-title">الرئيسية</a><a class="dn-nav-link" href="#demo-ar-light-title">المنتجات</a><a class="dn-nav-link" href="#demo-ar-light-title">التعليم</a></nav>
+<div class="dn-two-column"><nav class="dn-sidebar-nav" aria-label="القائمة الجانبية"><a class="dn-nav-link" aria-current="page" href="#demo-ar-light-title">الرئيسية</a><a class="dn-nav-link" href="#demo-ar-light-title">المنتجات</a><a class="dn-nav-link" href="#demo-ar-light-title">التعليم</a></nav><div>
+<nav class="dn-breadcrumbs" aria-label="مسار التنقل"><a class="dn-link" href="#demo-ar-light-title">الرئيسية</a><span aria-hidden="true">/</span><span>المسار</span></nav>
+<nav class="dn-tabs" aria-label="علامات تبويب"><a class="dn-tab" aria-current="page" href="#demo-ar-light-title">نظرة عامة</a><a class="dn-tab" href="#demo-ar-light-title">التفاصيل</a></nav>
+<nav class="dn-pagination" aria-label="ترقيم الصفحات"><a class="dn-page-link" href="#demo-ar-light-title">السابق</a><a class="dn-page-link" aria-current="page" href="#demo-ar-light-title">1</a><a class="dn-page-link" href="#demo-ar-light-title">2</a><a class="dn-page-link" href="#demo-ar-light-title">التالي</a></nav>
+</div></div>
+<h3 class="role-h3">المحتوى والتخطيط</h3><div class="dn-two-column"><div><h4>البيانات</h4><hr class="dn-divider"><p>تخطيط بعمودين يتحول إلى عمود واحد على الهاتف.</p></div><pre class="dn-code"><code dir="ltr">const locale = "ar";
+renderDashboard({ dir: "rtl" });</code></pre></div>
+</section>
+<section class="dn-library-section" data-theme="dark" lang="ar" dir="rtl" aria-labelledby="demo-ar-dark-title">
+<header class="dn-page-header"><div><span class="dn-provisional">PROVISIONAL — NOT APPROVED FOR PRODUCTION</span><h2 id="demo-ar-dark-title">واجهة المكونات — dark — العربية — RTL</h2><p class="role-body-md">النصوص والحالات هنا تجريبية ومؤقتة.</p></div><button class="dn-button dn-button--primary dn-focus-ring">أساسي</button></header>
+<h3 class="role-h3">Foundation / الأساس</h3>
+<div class="dn-two-column"><div class="dn-card"><strong>سطح</strong><p class="role-body-sm">السطح والحدود من رموز مرشحة.</p><span class="dn-icon-box" aria-hidden="true">✦</span></div><div><p class="role-label">مسافات: --dn-space-* · أنصاف الأقطار: --dn-radius-*</p><div class="dn-stack"><span class="dn-badge">حد افتراضي</span><span class="dn-badge">حد محدد</span></div><p class="dn-provisional-note">مؤشر التركيز مرشح؛ يلزم فحص التباين حول كل سطح.</p></div></div>
+<h3 class="role-h3">الأزرار</h3><div class="dn-stack"><button class="dn-button dn-button--primary dn-focus-ring">أساسي</button><button class="dn-button dn-button--secondary dn-focus-ring">ثانوي</button><button class="dn-button dn-button--ghost dn-focus-ring">هادئ</button><button class="dn-button dn-button--destructive dn-focus-ring">حذف</button><button class="dn-button" disabled>معطل</button></div>
+<h3 class="role-h3">النماذج</h3><div class="dn-two-column"><div>
+<label class="dn-field"><span class="dn-label">الاسم</span><input class="dn-control dn-focus-ring" type="text" placeholder="مثال: سارة"><span class="dn-helper">أدخل الاسم الكامل.</span></label>
+<label class="dn-field"><span class="dn-label">البريد الإلكتروني</span><input class="dn-control dn-focus-ring" type="email" aria-invalid="true" aria-describedby="demo-ar-dark-err"></label><p class="dn-helper dn-status" id="demo-ar-dark-err" role="status">تحقق من صيغة البريد الإلكتروني.</p>
+<label class="dn-field"><span class="dn-label">الرسالة</span><textarea class="dn-control dn-focus-ring"></textarea></label>
+<label class="dn-field"><span class="dn-label">البلد</span><select class="dn-control dn-focus-ring"><option>اختر</option><option>السعودية</option></select></label>
+</div><div>
+<label class="dn-check-row"><input type="checkbox" checked><span>أوافق على المتابعة</span></label>
+<label class="dn-check-row"><input type="checkbox"><span>خيار إضافي</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-ar-dark-radio" checked><span>الخيار الأول</span></label>
+<label class="dn-check-row"><input type="radio" name="demo-ar-dark-radio"><span>الخيار الثاني</span></label>
+<label class="dn-check-row"><input class="dn-toggle dn-focus-ring" type="checkbox" role="switch" aria-label="التفعيل"><span>تشغيل الإعداد</span></label>
+<p class="dn-helper">مساعدة ثابتة.</p><p class="dn-helper" aria-disabled="true">حقل معطل: غير متاح</p>
+</div></div><div class="dn-stack"><button class="dn-button dn-button--primary">إرسال</button><button class="dn-button dn-button--secondary" disabled>معطل</button></div>
+<h3 class="role-h3">المعلومات والحالات</h3><div class="dn-grid"><article class="dn-card"><h4>ملخص الحساب</h4><p class="role-body-sm">هذا المحتوى يشرح ملخصاً قصيراً.</p></article><div class="dn-stack"><span class="dn-badge dn-badge--success">نجاح — مكتمل</span><span class="dn-badge dn-badge--warning">تحذير — قيد المراجعة</span><span class="dn-badge dn-badge--error">خطأ — مطلوب إجراء</span><span class="dn-badge dn-badge--info">معلومة — تفاصيل</span></div></div>
+<div class="dn-alert dn-alert--info" role="status"><strong>معلومة:</strong> تنبيه تجريبي: الألوان الوظيفية مؤقتة. <span class="dn-provisional">PROVISIONAL</span></div>
+<div class="dn-grid"><div class="dn-empty"><strong>لا توجد عناصر بعد.</strong><p>ابدأ بإضافة عنصر.</p><button class="dn-button dn-button--secondary">إضافة</button></div><div class="dn-loading" role="status" aria-live="polite">جارٍ التحميل (عرض ثابت).</div></div>
+<div class="dn-tooltip-specimen"><span class="dn-label">تلميح ثابت</span><span class="dn-tooltip" role="tooltip">شرح قصير لا يملك تفاعلاً.</span></div>
+<h3 class="role-h3">التنقل</h3>
+<nav class="dn-top-nav" aria-label="التنقل الرئيسي"><a class="dn-nav-link" href="#demo-ar-dark-title">الرئيسية</a><a class="dn-nav-link" href="#demo-ar-dark-title">المنتجات</a><a class="dn-nav-link" href="#demo-ar-dark-title">التعليم</a></nav>
+<div class="dn-two-column"><nav class="dn-sidebar-nav" aria-label="القائمة الجانبية"><a class="dn-nav-link" aria-current="page" href="#demo-ar-dark-title">الرئيسية</a><a class="dn-nav-link" href="#demo-ar-dark-title">المنتجات</a><a class="dn-nav-link" href="#demo-ar-dark-title">التعليم</a></nav><div>
+<nav class="dn-breadcrumbs" aria-label="مسار التنقل"><a class="dn-link" href="#demo-ar-dark-title">الرئيسية</a><span aria-hidden="true">/</span><span>المسار</span></nav>
+<nav class="dn-tabs" aria-label="علامات تبويب"><a class="dn-tab" aria-current="page" href="#demo-ar-dark-title">نظرة عامة</a><a class="dn-tab" href="#demo-ar-dark-title">التفاصيل</a></nav>
+<nav class="dn-pagination" aria-label="ترقيم الصفحات"><a class="dn-page-link" href="#demo-ar-dark-title">السابق</a><a class="dn-page-link" aria-current="page" href="#demo-ar-dark-title">1</a><a class="dn-page-link" href="#demo-ar-dark-title">2</a><a class="dn-page-link" href="#demo-ar-dark-title">التالي</a></nav>
+</div></div>
+<h3 class="role-h3">المحتوى والتخطيط</h3><div class="dn-two-column"><div><h4>البيانات</h4><hr class="dn-divider"><p>تخطيط بعمودين يتحول إلى عمود واحد على الهاتف.</p></div><pre class="dn-code"><code dir="ltr">const locale = "ar";
+renderDashboard({ dir: "rtl" });</code></pre></div>
+</section></main></body></html>

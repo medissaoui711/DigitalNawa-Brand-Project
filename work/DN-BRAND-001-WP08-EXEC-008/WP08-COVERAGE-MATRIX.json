@@ -1,0 +1,956 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-008",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "counts": {
+    "originalRegisteredIds": 23,
+    "extensionIds": 3,
+    "unifiedIds": 26,
+    "implementedUniqueTemplates": 17,
+    "partialTemplates": 3,
+    "duplicateRepresentations": 2,
+    "missingTemplates": 6,
+    "ownerDecisionItems": 6,
+    "candidateAssetFilesCopied": 16,
+    "supportFilesCopied": 2,
+    "hashMismatches": 0
+  },
+  "sourceRegistries": {
+    "originalTemplateRegistry": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-001\\collateral-template-index.json",
+      "sha256": "912eb2a85b209d1c82b8036be54acc1bd46bf446a13ad1e39f8bbb647e3b90d0"
+    },
+    "exportRegistry": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-001\\export-registry.json",
+      "sha256": "d4e65fd0dc39a32062c5dab9543cb2b50f4a44a79dc8489f7761a0d30e4f1cce"
+    },
+    "provisionalAddendum": {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\operational-template-registry.addendum.candidate.json",
+      "sha256": "c42cf28bf5c2a1b60d93869bc7750ec1896f23d36d169a77c06786fd2270e618"
+    }
+  },
+  "sourceChecksumInventories": {
+    "DN-BRAND-001-WP08-EXEC-001": {
+      "entries": 9,
+      "verified": 9
+    },
+    "DN-BRAND-001-WP08-EXEC-002": {
+      "entries": 6,
+      "verified": 6
+    },
+    "DN-BRAND-001-WP08-EXEC-003": {
+      "entries": 5,
+      "verified": 5
+    },
+    "DN-BRAND-001-WP08-EXEC-004": {
+      "entries": 6,
+      "verified": 6
+    },
+    "DN-BRAND-001-WP08-EXEC-005": {
+      "entries": 6,
+      "verified": 6
+    },
+    "DN-BRAND-001-WP08-EXEC-006": {
+      "entries": 8,
+      "verified": 8
+    },
+    "DN-BRAND-001-WP08-EXEC-007": {
+      "entries": 10,
+      "verified": 10
+    }
+  },
+  "items": [
+    {
+      "templateId": "business-card-front-en",
+      "name": "Business card front — English",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "business-card",
+      "intendedDimensions": "90 × 50 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-007/business-card-front-en.candidate.svg",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\business-card-front-en.candidate.svg",
+          "format": "editable SVG",
+          "sizeBytes": 1572,
+          "sha256": "1c3195312148f439fe093919aba375e4fa121c7c2ca2080f0cf7fe765125136e",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "Conceptual 90 × 50 mm trim only; no printer bleed/profile or selected logo; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "business-card-back-ar",
+      "name": "Business card back — Arabic",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "business-card",
+      "intendedDimensions": "90 × 50 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-007/business-card-back-ar.candidate.svg",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\business-card-back-ar.candidate.svg",
+          "format": "editable SVG",
+          "sizeBytes": 2318,
+          "sha256": "2392920047a9d2c01fcf70ccf831cdd9e6a55dc64e0886c6e5acbfe0cde5a613",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "Conceptual 90 × 50 mm trim only; no printer bleed/profile or selected logo; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "digital-business-card-bi",
+      "name": "Digital business card — bilingual",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "digital-card",
+      "intendedDimensions": "fluid/responsive; no fixed canvas (responsive CSS)",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-005/digital-business-card-bi.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-005",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-005\\digital-business-card-bi.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 37898,
+          "sha256": "27447086b92a8833204ede55688bf5cac4b2a4e36d891484730b0c9478f866f4",
+          "classification": "DUPLICATE"
+        },
+        {
+          "path": "candidate-package/EXEC-007/digital-business-card-bi.candidate.html",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\digital-business-card-bi.candidate.html",
+          "format": "responsive HTML with shared CSS",
+          "sizeBytes": 2037,
+          "sha256": "0197b3d35b6d850b3e9d5f74e428a0bdc335b56ffe62b6201482c106bfb8822b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "bi",
+      "direction": "mixed",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "DOCX not visually opened per report; HTML browser layout not verified.",
+      "printExportReadiness": "Responsive HTML candidate; browser rendering not verified; no final content/logo approval.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "EXEC-005 says original specimen is English-only; EXEC-007 HTML includes bilingual sections; final copy approval not located."
+      ]
+    },
+    {
+      "templateId": "professional-contact-card",
+      "name": "Professional contact card",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "digital-card",
+      "intendedDimensions": "fluid/responsive; no fixed canvas (responsive CSS)",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-005/professional-contact-card.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-005",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-005\\professional-contact-card.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38042,
+          "sha256": "4409f28f34106342f57a6c740c2e27824141d2a342f10c8bfb1fcdf0bf7ffedc",
+          "classification": "DUPLICATE"
+        },
+        {
+          "path": "candidate-package/EXEC-007/professional-contact-card.candidate.html",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\professional-contact-card.candidate.html",
+          "format": "responsive HTML with shared CSS",
+          "sizeBytes": 2338,
+          "sha256": "97b54ecad76261457a14d3431665659780af76b15b8bd21ebafc5652226086ae",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "bi",
+      "direction": "mixed",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "DOCX not visually opened per report; HTML browser layout not verified.",
+      "printExportReadiness": "Responsive HTML candidate; browser rendering not verified; no final content/logo approval.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "email-signature-en",
+      "name": "Email signature — English",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "email-signature",
+      "intendedDimensions": "fluid/responsive; no fixed canvas (px maximum suggested width; fluid height)",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-004/email-signature-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-004",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\email-signature-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38511,
+          "sha256": "40580d449b1e42ae588a657a669729c684f06adcf53998e300c88a3cd0e0f08b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "Word live review; DOCX carrier only, no saved screenshot.",
+      "printExportReadiness": "DOCX editing carrier only; not mail-client export; width/rendering unverified.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "DOCX carrier is not the registered email-signature export format."
+      ]
+    },
+    {
+      "templateId": "email-signature-ar",
+      "name": "Email signature — Arabic",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "email-signature",
+      "intendedDimensions": "fluid/responsive; no fixed canvas (px maximum suggested width; fluid height)",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "DOCX editing carrier only; not mail-client export; width/rendering unverified.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "stationery-en",
+      "name": "Basic stationery — English",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "stationery-ar",
+      "name": "Basic stationery — Arabic",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "letterhead-en",
+      "name": "Official letterhead — English",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-003/letterhead-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-003",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\letterhead-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38562,
+          "sha256": "e0e33b40066b6b968cc4ca77113432876b4c984e44fdc9d88b67a0933ec70e8b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "Word live review at 33%; no obvious clipping; screenshot not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "letterhead-ar",
+      "name": "Official letterhead — Arabic",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "report-cover-en",
+      "name": "Report cover — English",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "report-page-en",
+      "name": "Report page — English",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/report-page-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\report-page-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38322,
+          "sha256": "50a6b5531b3775ebfc2e3acf73906922206982841ab81896de7588b0374cafbf",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "Word live review; one page, no obvious clipping; screenshots not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "proposal-cover-ar",
+      "name": "Proposal cover — Arabic",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "proposal-page-ar",
+      "name": "Proposal page — Arabic",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/proposal-page-ar.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\proposal-page-ar.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38285,
+          "sha256": "1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "Word live review; Arabic connected, but observed left-positioned despite XML right alignment; unresolved; screenshot not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "invoice-en",
+      "name": "Invoice candidate — English",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-003/invoice-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-003",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\invoice-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 39211,
+          "sha256": "b8632a698bdff61a6d2d782d48bd31c2a3b77fa40f8eb61d71237cb9e3819a3f",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "Word live review at 33%; no obvious clipping; screenshot not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "general-document-ar",
+      "name": "General business document — Arabic",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-004/general-document-ar.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-004",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\general-document-ar.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38714,
+          "sha256": "b107a171b6701ce3a1c8996c6a8756dd296777f6c130a853823be4277c40e49b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "Word live review reported; no saved screenshot; shaping/alignment not conclusively established.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": []
+    },
+    {
+      "templateId": "presentation-title-en",
+      "name": "Presentation title slide",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "intendedDimensions": "1920 × 1080 px",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Export registry says presentation-assets are SVG/PNG; produced artifact is editable PPTX."
+      ]
+    },
+    {
+      "templateId": "presentation-divider-ar",
+      "name": "Presentation section divider",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "intendedDimensions": "1920 × 1080 px",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Export registry says presentation-assets are SVG/PNG; produced artifact is editable PPTX."
+      ]
+    },
+    {
+      "templateId": "presentation-content-en",
+      "name": "Presentation content slide",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "intendedDimensions": "1920 × 1080 px",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Export registry says presentation-assets are SVG/PNG; produced artifact is editable PPTX."
+      ]
+    },
+    {
+      "templateId": "presentation-two-column-ar",
+      "name": "Presentation two-column slide",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "intendedDimensions": "1920 × 1080 px",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "ar",
+      "direction": "rtl",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Export registry says presentation-assets are SVG/PNG; produced artifact is editable PPTX."
+      ]
+    },
+    {
+      "templateId": "presentation-media-en",
+      "name": "Presentation image/media slide",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "intendedDimensions": "1920 × 1080 px",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Export registry says presentation-assets are SVG/PNG; produced artifact is editable PPTX."
+      ]
+    },
+    {
+      "templateId": "presentation-chart-en",
+      "name": "Presentation chart slide",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "intendedDimensions": "1920 × 1080 px",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "en",
+      "direction": "ltr",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Export registry says presentation-assets are SVG/PNG; produced artifact is editable PPTX."
+      ]
+    },
+    {
+      "templateId": "presentation-closing-bi",
+      "name": "Presentation closing/contact slide",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "intendedDimensions": "1920 × 1080 px",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "bi",
+      "direction": "mixed",
+      "logoInclusionStatus": "No logo artwork embedded; logo slot omitted/reserved per candidate report; candidate media/reference check.",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Export registry says presentation-assets are SVG/PNG; produced artifact is editable PPTX."
+      ]
+    },
+    {
+      "templateId": "meeting-agenda-minutes",
+      "name": "Meeting Agenda and Minutes",
+      "registryOrigin": "EXEC-006_PROVISIONAL_EXTENSION_ADDENDUM",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-006/meeting-agenda-minutes.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-006",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\meeting-agenda-minutes.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 37957,
+          "sha256": "fda4ff9f3cf8b78766470dc2dc6708a504149ed98c9702001ba45c101d0ba2b2",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "bi",
+      "direction": "mixed",
+      "logoInclusionStatus": "No embedded logo artwork; Office package has no media.",
+      "visualQaStatus": "No renderer QA; structural-only validation.",
+      "printExportReadiness": "A4 DOCX candidate only; no PDF or print proof.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Extension record is provisional and separate from original registry."
+      ]
+    },
+    {
+      "templateId": "project-status-update",
+      "name": "Project Status Update",
+      "registryOrigin": "EXEC-006_PROVISIONAL_EXTENSION_ADDENDUM",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-006/project-status-update.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-006",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\project-status-update.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 37990,
+          "sha256": "48c8fac7ac3934b9d9b2b2165d78b65078c28fd6031e70f6cbc375fb5b346c34",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "bi",
+      "direction": "mixed",
+      "logoInclusionStatus": "No embedded logo artwork; Office package has no media.",
+      "visualQaStatus": "No renderer QA; structural-only validation.",
+      "printExportReadiness": "A4 DOCX candidate only; no PDF or print proof.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Extension record is provisional and separate from original registry."
+      ]
+    },
+    {
+      "templateId": "client-onboarding-handoff",
+      "name": "Client Onboarding and Project Handoff",
+      "registryOrigin": "EXEC-006_PROVISIONAL_EXTENSION_ADDENDUM",
+      "intendedFormatId": "document-a4",
+      "intendedDimensions": "210 × 297 mm",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-006/client-onboarding-handoff.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-006",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\client-onboarding-handoff.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38258,
+          "sha256": "4044fa451e920cc6a1d036ff4fb6dd4617b6183a8b492430d6c521f4b8a209d9",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "language": "bi",
+      "direction": "mixed",
+      "logoInclusionStatus": "No embedded logo artwork; Office package has no media.",
+      "visualQaStatus": "No renderer QA; structural-only validation.",
+      "printExportReadiness": "A4 DOCX candidate only; no PDF or print proof.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "discrepancies": [
+        "Extension record is provisional and separate from original registry."
+      ]
+    }
+  ],
+  "copiedCandidateFiles": [
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-002",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\report-page-en.candidate.docx",
+      "sourceRelative": "report-page-en.candidate.docx",
+      "templateIds": [
+        "report-page-en"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 38322,
+      "sha256": "50a6b5531b3775ebfc2e3acf73906922206982841ab81896de7588b0374cafbf",
+      "packagePath": "candidate-package/EXEC-002/report-page-en.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-002",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\proposal-page-ar.candidate.docx",
+      "sourceRelative": "proposal-page-ar.candidate.docx",
+      "templateIds": [
+        "proposal-page-ar"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 38285,
+      "sha256": "1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2",
+      "packagePath": "candidate-package/EXEC-002/proposal-page-ar.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-002",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+      "sourceRelative": "presentation-template-16x9.candidate.pptx",
+      "templateIds": [
+        "presentation-title-en",
+        "presentation-divider-ar",
+        "presentation-content-en",
+        "presentation-two-column-ar",
+        "presentation-media-en",
+        "presentation-chart-en",
+        "presentation-closing-bi"
+      ],
+      "format": "PPTX",
+      "role": "candidate",
+      "sizeBytes": 38179,
+      "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+      "packagePath": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-003",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\letterhead-en.candidate.docx",
+      "sourceRelative": "letterhead-en.candidate.docx",
+      "templateIds": [
+        "letterhead-en"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 38562,
+      "sha256": "e0e33b40066b6b968cc4ca77113432876b4c984e44fdc9d88b67a0933ec70e8b",
+      "packagePath": "candidate-package/EXEC-003/letterhead-en.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-003",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\invoice-en.candidate.docx",
+      "sourceRelative": "invoice-en.candidate.docx",
+      "templateIds": [
+        "invoice-en"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 39211,
+      "sha256": "b8632a698bdff61a6d2d782d48bd31c2a3b77fa40f8eb61d71237cb9e3819a3f",
+      "packagePath": "candidate-package/EXEC-003/invoice-en.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-004",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\general-document-ar.candidate.docx",
+      "sourceRelative": "general-document-ar.candidate.docx",
+      "templateIds": [
+        "general-document-ar"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 38714,
+      "sha256": "b107a171b6701ce3a1c8996c6a8756dd296777f6c130a853823be4277c40e49b",
+      "packagePath": "candidate-package/EXEC-004/general-document-ar.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-004",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\email-signature-en.candidate.docx",
+      "sourceRelative": "email-signature-en.candidate.docx",
+      "templateIds": [
+        "email-signature-en"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 38511,
+      "sha256": "40580d449b1e42ae588a657a669729c684f06adcf53998e300c88a3cd0e0f08b",
+      "packagePath": "candidate-package/EXEC-004/email-signature-en.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-005",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-005\\digital-business-card-bi.candidate.docx",
+      "sourceRelative": "digital-business-card-bi.candidate.docx",
+      "templateIds": [
+        "digital-business-card-bi"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 37898,
+      "sha256": "27447086b92a8833204ede55688bf5cac4b2a4e36d891484730b0c9478f866f4",
+      "packagePath": "candidate-package/EXEC-005/digital-business-card-bi.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-005",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-005\\professional-contact-card.candidate.docx",
+      "sourceRelative": "professional-contact-card.candidate.docx",
+      "templateIds": [
+        "professional-contact-card"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 38042,
+      "sha256": "4409f28f34106342f57a6c740c2e27824141d2a342f10c8bfb1fcdf0bf7ffedc",
+      "packagePath": "candidate-package/EXEC-005/professional-contact-card.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-006",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\meeting-agenda-minutes.candidate.docx",
+      "sourceRelative": "meeting-agenda-minutes.candidate.docx",
+      "templateIds": [
+        "meeting-agenda-minutes"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 37957,
+      "sha256": "fda4ff9f3cf8b78766470dc2dc6708a504149ed98c9702001ba45c101d0ba2b2",
+      "packagePath": "candidate-package/EXEC-006/meeting-agenda-minutes.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-006",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\project-status-update.candidate.docx",
+      "sourceRelative": "project-status-update.candidate.docx",
+      "templateIds": [
+        "project-status-update"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 37990,
+      "sha256": "48c8fac7ac3934b9d9b2b2165d78b65078c28fd6031e70f6cbc375fb5b346c34",
+      "packagePath": "candidate-package/EXEC-006/project-status-update.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-006",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\client-onboarding-handoff.candidate.docx",
+      "sourceRelative": "client-onboarding-handoff.candidate.docx",
+      "templateIds": [
+        "client-onboarding-handoff"
+      ],
+      "format": "DOCX",
+      "role": "candidate",
+      "sizeBytes": 38258,
+      "sha256": "4044fa451e920cc6a1d036ff4fb6dd4617b6183a8b492430d6c521f4b8a209d9",
+      "packagePath": "candidate-package/EXEC-006/client-onboarding-handoff.candidate.docx"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-007",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\business-card-front-en.candidate.svg",
+      "sourceRelative": "business-card-front-en.candidate.svg",
+      "templateIds": [
+        "business-card-front-en"
+      ],
+      "format": "editable SVG",
+      "role": "candidate",
+      "sizeBytes": 1572,
+      "sha256": "1c3195312148f439fe093919aba375e4fa121c7c2ca2080f0cf7fe765125136e",
+      "packagePath": "candidate-package/EXEC-007/business-card-front-en.candidate.svg"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-007",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\business-card-back-ar.candidate.svg",
+      "sourceRelative": "business-card-back-ar.candidate.svg",
+      "templateIds": [
+        "business-card-back-ar"
+      ],
+      "format": "editable SVG",
+      "role": "candidate",
+      "sizeBytes": 2318,
+      "sha256": "2392920047a9d2c01fcf70ccf831cdd9e6a55dc64e0886c6e5acbfe0cde5a613",
+      "packagePath": "candidate-package/EXEC-007/business-card-back-ar.candidate.svg"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-007",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\digital-business-card-bi.candidate.html",
+      "sourceRelative": "digital-business-card-bi.candidate.html",
+      "templateIds": [
+        "digital-business-card-bi"
+      ],
+      "format": "responsive HTML with shared CSS",
+      "role": "candidate",
+      "sizeBytes": 2037,
+      "sha256": "0197b3d35b6d850b3e9d5f74e428a0bdc335b56ffe62b6201482c106bfb8822b",
+      "packagePath": "candidate-package/EXEC-007/digital-business-card-bi.candidate.html"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-007",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\professional-contact-card.candidate.html",
+      "sourceRelative": "professional-contact-card.candidate.html",
+      "templateIds": [
+        "professional-contact-card"
+      ],
+      "format": "responsive HTML with shared CSS",
+      "role": "candidate",
+      "sizeBytes": 2338,
+      "sha256": "97b54ecad76261457a14d3431665659780af76b15b8bd21ebafc5652226086ae",
+      "packagePath": "candidate-package/EXEC-007/professional-contact-card.candidate.html"
+    },
+    {
+      "task": "DN-BRAND-001-WP08-EXEC-007",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\contact-cards.candidate.css",
+      "sourceRelative": "contact-cards.candidate.css",
+      "templateIds": [],
+      "format": "shared responsive CSS",
+      "role": "support",
+      "sizeBytes": 2411,
+      "sha256": "3e8fa79c3152863a42642c360033a3a051f91f11db25607d93ad654824786ea6",
+      "packagePath": "candidate-package/EXEC-007/contact-cards.candidate.css"
+    }
+  ],
+  "copiedSupportFile": {
+    "task": "DN-BRAND-001-WP08-EXEC-006",
+    "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\operational-template-registry.addendum.candidate.json",
+    "packagePath": "candidate-package/EXEC-006/operational-template-registry.addendum.candidate.json",
+    "sizeBytes": 2281,
+    "sha256": "c42cf28bf5c2a1b60d93869bc7750ec1896f23d36d169a77c06786fd2270e618",
+    "role": "provisional registry addendum support"
+  }
+}

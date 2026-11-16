@@ -1,0 +1,196 @@
+{
+  "task": "DN-BRAND-001-WP05-EXEC-001",
+  "packageStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "decisionRegisterContext": {
+    "documentId": "DN-GOV-001",
+    "version": "1.0.0",
+    "documentStatus": "DRAFT FOR OWNER APPROVAL",
+    "approvalRecord": "PENDING",
+    "note": "Some decisions carry APPROVED status in this draft register; owner approval of this local document version is not verified."
+  },
+  "brandFacts": [
+    {
+      "id": "brand-name",
+      "statement": "DigitalNawa",
+      "status": "APPROVED",
+      "evidence": "Owner-supplied WP05 brief; no separate local decision record."
+    },
+    {
+      "id": "brand-name-ar",
+      "statement": "ديجيتال نواة",
+      "status": "APPROVED",
+      "evidence": "Owner-supplied WP05 brief."
+    },
+    {
+      "id": "positioning",
+      "statement": "Founder-Led Digital Brand",
+      "status": "APPROVED",
+      "evidence": "DN-DEC-001 recorded in local register."
+    },
+    {
+      "id": "professional-positioning",
+      "statement": [
+        "AI-Assisted Full-Stack Developer",
+        "Tech Educator",
+        "Digital Product Creator"
+      ],
+      "status": "APPROVED",
+      "evidence": "DN-DEC-003 recorded in local register."
+    },
+    {
+      "id": "taglines",
+      "statement": {
+        "en": "Build. Innovate. Teach.",
+        "ar": "نبني. نبتكر. نُعلّم."
+      },
+      "status": "APPROVED",
+      "evidence": "DN-DEC-002 recorded in local register."
+    },
+    {
+      "id": "symbol-concept",
+      "statement": "Interlocked D/N with rising pixels",
+      "status": "APPROVED",
+      "evidence": "DN-DEC-004; concept only, not geometry/master acceptance."
+    },
+    {
+      "id": "palette",
+      "statement": {
+        "warmIvory": "#FEF3C7",
+        "warmGray": "#78716C",
+        "mutedTeal": "#0EA5A4",
+        "darkBrown": "#1C1917",
+        "warmOrange": "#EA5808"
+      },
+      "status": "APPROVED",
+      "evidence": "DN-DEC-006 and brief; theme/function values separate."
+    },
+    {
+      "id": "brand-architecture",
+      "statement": "Branded House initially; possible future Endorsed Brands; independent products need not show master brand in every UI.",
+      "status": "APPROVED",
+      "evidence": "DN-DEC-011/012 recorded in local register."
+    },
+    {
+      "id": "core-areas",
+      "statement": [
+        "Digital Products & Development",
+        "AI & Automation",
+        "Digital Education"
+      ],
+      "status": "APPROVED",
+      "evidence": "Supplied brief; not separately located in register."
+    }
+  ],
+  "provisionalSystems": [
+    {
+      "id": "logo-lockups",
+      "status": "PROVISIONAL",
+      "source": "WP04 EXEC-001",
+      "detail": "65 candidates; no final primary selection."
+    },
+    {
+      "id": "design-tokens",
+      "status": "PROVISIONAL",
+      "source": "WP02 EXEC-003 V2",
+      "detail": "Primitive, semantic, theme, focus, component layers."
+    },
+    {
+      "id": "typography",
+      "status": "PROVISIONAL",
+      "source": "WP03 EXEC-011",
+      "detail": {
+        "englishUi": "Inter",
+        "arabic": "IBM Plex Sans Arabic",
+        "technical": "JetBrains Mono",
+        "alternativeArabic": "Cairo"
+      }
+    }
+  ],
+  "unverifiedRequirements": [
+    {
+      "id": "register-document-approval",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "exact-logo-geometry",
+      "status": "NOT VERIFIED",
+      "detail": "Reference image unavailable; symbol is a geometric reconstruction."
+    },
+    {
+      "id": "arabic-browser-shaping",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "full-wcag-conformance",
+      "status": "NOT VERIFIED",
+      "detail": "Pair ratios do not prove full interface compliance."
+    },
+    {
+      "id": "manifest-final-acceptance",
+      "status": "NOT VERIFIED",
+      "detail": "Manifest status is draft."
+    },
+    {
+      "id": "contract-compliance",
+      "status": "NOT VERIFIED",
+      "detail": "Authoritative contract sources are incomplete."
+    }
+  ],
+  "outstandingOwnerDecisions": [
+    {
+      "id": "final-logo-lockup",
+      "status": "DECISION REQUIRED"
+    },
+    {
+      "id": "bilingual-hierarchy",
+      "status": "DECISION REQUIRED"
+    },
+    {
+      "id": "final-typography",
+      "status": "DECISION REQUIRED"
+    },
+    {
+      "id": "themes-functional-colors",
+      "status": "DECISION REQUIRED"
+    },
+    {
+      "id": "focus-configuration",
+      "status": "DECISION REQUIRED"
+    },
+    {
+      "id": "production-integration-acceptance",
+      "status": "DECISION REQUIRED"
+    }
+  ],
+  "finalQA": [
+    {
+      "id": "arabic-rtl-rendering",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "logo-clear-space-minimum-size",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "component-contrast",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "keyboard-focus",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "responsive-layout",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "production-integration",
+      "status": "NOT VERIFIED"
+    },
+    {
+      "id": "owner-acceptance",
+      "status": "DECISION REQUIRED"
+    }
+  ],
+  "statusVocabularySource": "DN-GOV-001: APPROVED, PROVISIONAL, NOT VERIFIED, DEFERRED, SUPERSEDED, DECISION REQUIRED."
+}

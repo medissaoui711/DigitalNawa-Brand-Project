@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DigitalNawa Brand Guidelines — Candidate</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#FEF3C7;color:#1C1917;font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:1rem max(1rem,calc((100% - 76rem)/2));border-bottom:1px solid #78716C}main{max-width:76rem;margin:auto;padding:1rem}
+h1,h2,h3{line-height:1.25}h1{font-size:2.2rem}h2{font-size:1.55rem;border-bottom:1px solid #78716C;padding-bottom:.35rem;margin-top:2.4rem}h3{font-size:1.2rem}
+a{color:#1C1917;text-underline-offset:.15em}a:focus-visible{outline:3px solid #1C1917;outline-offset:3px}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;margin:1rem 0}td,th{border:1px solid #78716C;padding:.5rem;text-align:start;vertical-align:top}
+p,li{max-width:80ch}blockquote{border-inline-start:4px solid #1C1917;padding:.4rem 1rem}
+.preview-pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin:1rem 0}
+.preview-pair figure,.preview-pair div{margin:0;padding:1rem}.preview-pair figcaption{margin-bottom:.5rem}.preview-pair img{width:100%;height:auto;max-height:12rem;object-fit:contain;display:block}
+.light-surface{background:#FEF3C7;color:#1C1917;border:1px solid #78716C}.dark-surface{background:#1C1917;color:#FEF3C7;border:1px solid #78716C}
+[lang="ar"]{font-family:"IBM Plex Sans Arabic","Noto Sans Arabic",Tahoma,sans-serif;letter-spacing:0}
+code{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;overflow-wrap:anywhere}
+nav#table-of-contents{border:1px solid #78716C;padding:1rem}
+@media(max-width:42rem){body{font-size:1rem}main{padding:.85rem}h1{font-size:1.8rem}h2{font-size:1.35rem}}
+</style></head><body><header><strong>PROVISIONAL — NOT APPROVED FOR PRODUCTION</strong><br>Documentation synthesis. Visual QA and owner acceptance remain outstanding.</header><main><h1 id="digitalnawa-brand-guidelines-candidate">DigitalNawa Brand Guidelines — Candidate</h1>
+<p><strong>Package status: PROVISIONAL — NOT APPROVED FOR PRODUCTION</strong></p>
+<p>This candidate consolidates verified project evidence and provisional systems. It does not approve a final logo, typography, theme, functional palette, or production integration.</p>
+<blockquote>
+<p><strong>Governance caveat:</strong> The local DN-GOV-001 v1.0.0 register records certain decisions as APPROVED, but the register document itself is DRAFT FOR OWNER APPROVAL and its approval record is PENDING. Recorded decision status is not proof that this local document version or related implementation assets received owner approval.</p>
+</blockquote>
+<div class="toc">
+<ul>
+<li><a href="#digitalnawa-brand-guidelines-candidate">DigitalNawa Brand Guidelines — Candidate</a><ul>
+<li><a href="#evidence-labels">Evidence labels</a></li>
+<li><a href="#executive-summary">Executive summary</a></li>
+<li><a href="#chapter-01-brand-overview">Chapter 01 — Brand Overview</a></li>
+<li><a href="#chapter-02-brand-personality-and-communication">Chapter 02 — Brand Personality and Communication</a><ul>
+<li><a href="#proposed-personality">Proposed personality</a></li>
+</ul>
+</li>
+<li><a href="#chapter-03-logo-system">Chapter 03 — Logo System</a><ul>
+<li><a href="#candidate-preview">Candidate preview</a></li>
+</ul>
+</li>
+<li><a href="#chapter-04-color-system">Chapter 04 — Color System</a><ul>
+<li><a href="#approved-core-palette">Approved core palette</a></li>
+<li><a href="#contrast-and-themes">Contrast and themes</a></li>
+</ul>
+</li>
+<li><a href="#chapter-05-typography-system">Chapter 05 — Typography System</a></li>
+<li><a href="#chapter-06-layout-and-design-tokens">Chapter 06 — Layout and Design Tokens</a></li>
+<li><a href="#chapter-07-digital-applications">Chapter 07 — Digital Applications</a></li>
+<li><a href="#chapter-08-social-media-identity">Chapter 08 — Social Media Identity</a></li>
+<li><a href="#chapter-09-brand-collateral">Chapter 09 — Brand Collateral</a></li>
+<li><a href="#chapter-10-accessibility-and-technical-quality">Chapter 10 — Accessibility and Technical Quality</a></li>
+<li><a href="#chapter-11-incorrect-usage">Chapter 11 — Incorrect Usage</a></li>
+<li><a href="#chapter-12-governance-and-asset-management">Chapter 12 — Governance and Asset Management</a></li>
+<li><a href="#chapter-13-outstanding-decisions-and-final-qa">Chapter 13 — Outstanding Decisions and Final QA</a></li>
+<li><a href="#source-references">Source references</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="evidence-labels">Evidence labels</h2>
+<ul>
+<li><strong>APPROVED (recorded):</strong> A decision is marked approved in the local register or supplied as established in the current project brief. Its scope remains limited.</li>
+<li><strong>PROVISIONAL:</strong> Candidate direction; not approved for production.</li>
+<li><strong>NOT VERIFIED:</strong> Available evidence does not establish completion, fidelity, compliance, or visual correctness.</li>
+<li><strong>DECISION REQUIRED:</strong> An owner decision remains open.</li>
+<li><strong>PROPOSED guidance:</strong> Editorial advice introduced here; provisional, not a new governance status.</li>
+</ul>
+<h2 id="executive-summary">Executive summary</h2>
+<p>DigitalNawa is described as a Founder-Led Digital Brand with a Branded House as its initial architecture. Its professional positioning is AI-Assisted Full-Stack Developer, Tech Educator, and Digital Product Creator. Core areas are Digital Products &amp; Development, AI &amp; Automation, and Digital Education. The concept is an interlocked D/N with rising pixels. The original visual reference is unavailable, and the SVG is documented as a geometric reconstruction; exact fidelity is NOT VERIFIED.</p>
+<p>The five core palette HEX values are approved as values in the supplied brief and recorded under DN-DEC-006. Usage roles noted below come from a draft local visual-system document and are not separately evidenced as approved assignments.</p>
+<p>WP02 theme, focus, functional, and component values; WP03 typography; and WP04 lockups remain candidates. This guide selects no final primary logo and makes no whole-product accessibility claim.</p>
+<hr>
+<h2 id="chapter-01-brand-overview">Chapter 01 — Brand Overview</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Statement</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Brand</td>
+<td>DigitalNawa</td>
+<td>APPROVED in supplied brief; no separate local name decision found.</td>
+</tr>
+<tr>
+<td>Arabic name</td>
+<td><span lang="ar" dir="rtl">ديجيتال نواة</span></td>
+<td>APPROVED in supplied brief; exact supplied form.</td>
+</tr>
+<tr>
+<td>Taglines</td>
+<td>Build. Innovate. Teach.; <span lang="ar" dir="rtl">نبني. نبتكر. نُعلّم.</span></td>
+<td>DN-DEC-002 recorded APPROVED.</td>
+</tr>
+<tr>
+<td>Brand positioning</td>
+<td>Founder-Led Digital Brand</td>
+<td>DN-DEC-001 recorded APPROVED; register document approval pending.</td>
+</tr>
+<tr>
+<td>Professional positioning</td>
+<td>AI-Assisted Full-Stack Developer; Tech Educator; Digital Product Creator</td>
+<td>DN-DEC-003 recorded APPROVED. Do not substitute Systems Architect or Engineer.</td>
+</tr>
+<tr>
+<td>Core areas</td>
+<td>Digital Products &amp; Development; AI &amp; Automation; Digital Education</td>
+<td>Supplied brief; no separate local decision found.</td>
+</tr>
+<tr>
+<td>Architecture</td>
+<td>Branded House initially; possible Endorsed Brands for sufficiently independent products</td>
+<td>DN-DEC-011/012 recorded APPROVED. Possibility does not authorize a new product brand.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Identity context:</strong> DigitalNawa brings the founder’s development, teaching, and product work together under one identity. This is a descriptive summary, not a finalized mission or vision.</p>
+<p>The interlocked D/N with rising pixels is the concept direction recorded under DN-DEC-004. That covers concept only, not the SVG geometry, lockups, or production readiness. DN-DEC-005 marks exact geometry NOT VERIFIED. No mission, product promise, testimonial, market claim, legal registration, or trademark status is invented here.</p>
+<hr>
+<h2 id="chapter-02-brand-personality-and-communication">Chapter 02 — Brand Personality and Communication</h2>
+<p>All principles here are <strong>PROPOSED guidance</strong>, pending owner acceptance.</p>
+<h3 id="proposed-personality">Proposed personality</h3>
+<ul>
+<li><strong>Clear:</strong> explain functionality and lessons directly.</li>
+<li><strong>Curious:</strong> show useful AI and automation experiments without implying every experiment is production-ready.</li>
+<li><strong>Practical:</strong> connect explanations to steps, examples, and known limitations.</li>
+<li><strong>Credible:</strong> separate evidence, opinion, and unfinished work.</li>
+<li><strong>Generous:</strong> teach in a way that helps readers apply ideas independently.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Context</th>
+<th>Proposed practice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Professional</td>
+<td>Use the recorded role descriptions and state scope plainly.</td>
+</tr>
+<tr>
+<td>Educational</td>
+<td>State the learning goal, order steps, and identify prerequisites.</td>
+</tr>
+<tr>
+<td>Technical</td>
+<td>Name tools/versions only when verified; distinguish observed behavior from advice.</td>
+</tr>
+<tr>
+<td>Product</td>
+<td>Describe known functionality and availability; do not invent promises or testimonials.</td>
+</tr>
+<tr>
+<td>Arabic/English</td>
+<td>Preserve supplied names/taglines, use language-appropriate copy, and keep technical identifiers unchanged.</td>
+</tr>
+</tbody>
+</table>
+<p>Use “DigitalNawa” in English and <span lang="ar" dir="rtl">ديجيتال نواة</span> in Arabic. Unrecorded bios, translations, and campaign phrases remain provisional.</p>
+<hr>
+<h2 id="chapter-03-logo-system">Chapter 03 — Logo System</h2>
+<p>The symbol concept is recorded as approved; the current geometry and WP04 compositions are candidates. No primary logo is selected. WP04’s index contains 65 candidates across 13 compositions and five variants; all remain PROVISIONAL — NOT APPROVED FOR PRODUCTION.</p>
+<table>
+<thead>
+<tr>
+<th>Use</th>
+<th>Candidate ID</th>
+<th>Candidate file</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Symbol only</td>
+<td>symbol-only-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/symbol-only/full-color.svg">symbol-only/full-color.svg</a></td>
+</tr>
+<tr>
+<td>English wordmark</td>
+<td>wordmark-en-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/wordmark-en/full-color.svg">wordmark-en/full-color.svg</a></td>
+</tr>
+<tr>
+<td>Arabic wordmark</td>
+<td>wordmark-ar-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/wordmark-ar/full-color.svg">wordmark-ar/full-color.svg</a></td>
+</tr>
+<tr>
+<td>English horizontal alternatives</td>
+<td>horizontal-en-tight-full-color; horizontal-en-open-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/horizontal-en-tight/full-color.svg">tight</a>; <a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/horizontal-en-open/full-color.svg">open</a></td>
+</tr>
+<tr>
+<td>Arabic horizontal</td>
+<td>horizontal-ar-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/horizontal-ar/full-color.svg">horizontal-ar/full-color.svg</a></td>
+</tr>
+<tr>
+<td>Bilingual horizontal</td>
+<td>horizontal-bi-en-primary-full-color; horizontal-bi-ar-primary-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/horizontal-bi-en-primary/full-color.svg">English primary</a>; <a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/horizontal-bi-ar-primary/full-color.svg">Arabic primary</a></td>
+</tr>
+<tr>
+<td>Stacked</td>
+<td>stacked-en-full-color; stacked-ar-full-color; stacked-bi-en-primary-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/stacked-en/full-color.svg">English</a>; <a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/stacked-ar/full-color.svg">Arabic</a>; <a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/stacked-bi-en-primary/full-color.svg">bilingual</a></td>
+</tr>
+<tr>
+<td>Tagline combinations</td>
+<td>tagline-en-full-color; tagline-ar-full-color</td>
+<td><a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/tagline-en/full-color.svg">English</a>; <a href="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/tagline-ar/full-color.svg">Arabic</a></td>
+</tr>
+</tbody>
+</table>
+<p>Other variants: dark-background-reverse, light-background, monochrome-dark, monochrome-light. Names do not prove surface suitability.</p>
+<p>WP04’s Arabic horizontal candidate places the symbol to the right, retains RTL text metadata, and does not mirror the D/N paths. Arabic remains editable SVG text; shaping and text bounds are NOT VERIFIED.</p>
+<p><strong>PROPOSED integrity guidance:</strong> Do not stretch, skew, clip, redraw, or decorate the symbol; keep symbol and wordmark distinct; do not mirror for RTL; do not promote any candidate to master without owner selection.</p>
+<p><strong>PROVISIONAL — SUBJECT TO FINAL QA:</strong> WP04 proposes 19 source units of clear space (one rising pixel) using a 280 × 240 viewBox. The older draft visual-system foundation instead proposes one quarter of symbol height. The proposals differ; neither is approved. WP04 suggests 32 CSS px as a symbol starting width; 16px favicon use is NOT VERIFIED. Horizontal 240px and stacked 144px are review thresholds only.</p>
+<h4 id="candidate-preview">Candidate preview</h4>
+<section class="preview-pair" aria-label="Provisional logo previews">
+  <figure class="light-surface"><figcaption>Light surface — English horizontal candidate</figcaption><img src="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/horizontal-en-open/full-color.svg" alt="Provisional English DigitalNawa lockup on Warm Ivory"></figure>
+  <figure class="dark-surface"><figcaption>Dark surface — reverse candidate</figcaption><img src="../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/horizontal-en-open/dark-background-reverse.svg" alt="Provisional reverse DigitalNawa lockup on Dark Brown"></figure>
+</section>
+
+<hr>
+<h2 id="chapter-04-color-system">Chapter 04 — Color System</h2>
+<h3 id="approved-core-palette">Approved core palette</h3>
+<p>The supplied brief and DN-DEC-006 specify the exact values below; preserve them.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>HEX</th>
+<th>Documented usage intent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Warm Ivory</td>
+<td>#FEF3C7</td>
+<td>Light background intent in draft foundation.</td>
+</tr>
+<tr>
+<td>Warm Gray</td>
+<td>#78716C</td>
+<td>Secondary text intent in draft; fails normal text AA on Ivory.</td>
+</tr>
+<tr>
+<td>Muted Teal</td>
+<td>#0EA5A4</td>
+<td>D monogram intent in draft; not normal text on Ivory.</td>
+</tr>
+<tr>
+<td>Dark Brown</td>
+<td>#1C1917</td>
+<td>Primary text and dark monochrome intent in draft.</td>
+</tr>
+<tr>
+<td>Warm Orange</td>
+<td>#EA5808</td>
+<td>N and rising pixel intent in draft; not normal text on Ivory.</td>
+</tr>
+</tbody>
+</table>
+<p>Palette values are approved; these usage roles are from a draft local document and are not independently recorded as approved.</p>
+<h3 id="contrast-and-themes">Contrast and themes</h3>
+<p>Previously recorded relative-luminance pairs on Warm Ivory:</p>
+<table>
+<thead>
+<tr>
+<th>Foreground</th>
+<th style="text-align: right;">Ratio</th>
+<th>Pair-level result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dark Brown</td>
+<td style="text-align: right;">15.71:1</td>
+<td>Above normal-text AA threshold for this pair.</td>
+</tr>
+<tr>
+<td>Warm Gray</td>
+<td style="text-align: right;">4.31:1</td>
+<td>Below 4.5:1 normal-text AA.</td>
+</tr>
+<tr>
+<td>Muted Teal</td>
+<td style="text-align: right;">2.72:1</td>
+<td>Below normal-text and 3:1 large-text thresholds.</td>
+</tr>
+<tr>
+<td>Warm Orange</td>
+<td style="text-align: right;">3.20:1</td>
+<td>Below normal-text AA; above 3:1 large-text threshold for this pair only.</td>
+</tr>
+</tbody>
+</table>
+<p>Do not use Warm Gray, Teal, or Orange as normal-sized text on Warm Ivory. WP02 records a 5.78:1 candidate ratio for Dark Brown text on Teal; this is still only one pair. Individual ratios do not establish full WCAG conformance.</p>
+<p>WP02 V2 separates primitive, semantic, theme, focus, and component tokens. Theme surfaces, functional Success/Warning/Error/Info, interactions, and focus remain PROVISIONAL — NOT APPROVED FOR PRODUCTION and are not additions to the brand palette. Refer to <a href="../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.json">V2 JSON</a> and <a href="../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css">CSS</a>. Test actual foreground/surface, UI boundary, and focus-adjacent pairs. Do not infer complete accessibility from token ratios.</p>
+<section class="preview-pair" aria-label="Candidate theme surfaces">
+  <div class="light-surface"><h3>Light theme candidate</h3><p>Warm Ivory surface. Use a pair-tested foreground; other mappings remain provisional.</p></div>
+  <div class="dark-surface"><h3>Dark theme candidate</h3><p>Dark Brown surface with Warm Ivory text. Component conformance is not verified.</p></div>
+</section>
+
+<hr>
+<h2 id="chapter-05-typography-system">Chapter 05 — Typography System</h2>
+<p><strong>All font recommendations: PROVISIONAL — NOT APPROVED FOR PRODUCTION.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Candidate</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>English/UI</td>
+<td>Inter</td>
+<td>English interface and Latin content.</td>
+</tr>
+<tr>
+<td>Arabic</td>
+<td>IBM Plex Sans Arabic</td>
+<td>Arabic interface, heading, and body candidate.</td>
+</tr>
+<tr>
+<td>Technical</td>
+<td>JetBrains Mono</td>
+<td>Code and technical identifiers.</td>
+</tr>
+<tr>
+<td>Alternative Arabic</td>
+<td>Cairo</td>
+<td>Comparison candidate; owner decision open.</td>
+</tr>
+</tbody>
+</table>
+<p>WP03 defines fallback stacks and display, h1–h3, body-lg/md/sm, label, caption, button, code, and technical-inline roles. These candidate values are not approved:</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th style="text-align: right;">Size</th>
+<th style="text-align: right;">Line height</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>display</td>
+<td style="text-align: right;">48px</td>
+<td style="text-align: right;">1.20</td>
+<td style="text-align: right;">700</td>
+</tr>
+<tr>
+<td>h1 / h2 / h3</td>
+<td style="text-align: right;">36 / 28 / 22px</td>
+<td style="text-align: right;">1.25 / 1.35 / 1.40</td>
+<td style="text-align: right;">700 / 600 / 600</td>
+</tr>
+<tr>
+<td>body-lg / body-md / body-sm</td>
+<td style="text-align: right;">18 / 16 / 14px</td>
+<td style="text-align: right;">1.70 / 1.65 / 1.55</td>
+<td style="text-align: right;">400</td>
+</tr>
+<tr>
+<td>label / caption / button</td>
+<td style="text-align: right;">14 / 13 / 15px</td>
+<td style="text-align: right;">1.45 / 1.50 / 1.40</td>
+<td style="text-align: right;">500 / 400 / 600</td>
+</tr>
+<tr>
+<td>code / technical-inline</td>
+<td style="text-align: right;">14px / 0.95em</td>
+<td style="text-align: right;">1.60 / 1.45</td>
+<td style="text-align: right;">400</td>
+</tr>
+</tbody>
+</table>
+<p>Refer to <a href="../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.json">typography JSON</a> and <a href="../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css">candidate CSS</a> for source values and fallback stacks.</p>
+<p>WP03 proposes zero Arabic letter-spacing and increased line-height for marks; both require rendering QA. Do not add positive Latin tracking to connected Arabic. Test joining, diacritics, punctuation, numerals, wrapping, clipping, and weights with the actual fonts. Set language and direction, isolate known Latin/URLs/code in RTL with LTR direction, and use <code>bdi</code> or <code>dir="auto"</code> for dynamic unknown-direction text. Example: <span lang="ar" dir="rtl">الإصدار <bdi dir="ltr">v2.1.0</bdi> مع <bdi dir="ltr">DigitalNawa</bdi>.</span></p>
+<p><strong>PROPOSED responsive guidance:</strong> Adjust headings fluidly only after checking narrow screens. Preserve body readability and Arabic line-height. Font fallback can change widths. No browser rendering or shaping is claimed as verified.</p>
+<hr>
+<h2 id="chapter-06-layout-and-design-tokens">Chapter 06 — Layout and Design Tokens</h2>
+<p>WP02 V2 is the current candidate architecture reference:</p>
+<ol>
+<li><strong>Primitive:</strong> palette, spacing, radius, typography.</li>
+<li><strong>Semantic:</strong> intent aliases for text, background, brand, direction, and functional roles.</li>
+<li><strong>Theme:</strong> light and dark mappings.</li>
+<li><strong>Component:</strong> button, card, input, navigation, badge, alert, link, icon, divider.</li>
+</ol>
+<p>The JSON is designated candidate source of truth and CSS candidate export; neither is production-approved. Refer to token paths rather than duplicating values: <code>primitive.spacing</code>, <code>primitive.radius</code> (including explicit zero), <code>semantic.color</code>, <code>semantic.direction</code>, <code>semantic.functional</code>, <code>theme.light</code>, <code>theme.dark</code>, <code>focus</code>, and <code>component</code>.</p>
+<p><strong>PROPOSED guidance:</strong> Reuse shared spacing tokens, align related elements, use logical layout properties, preserve Arabic line width/height, and consume semantic component aliases rather than hardcoding primitives. Production exports in <code>DigitalNawa/03-Logo-Assets/06-Exports/</code> are separate from WP02 V2 in <code>work/DN-BRAND-001-WP02-EXEC-003/</code>.</p>
+<hr>
+<h2 id="chapter-07-digital-applications">Chapter 07 — Digital Applications</h2>
+<p><strong>PROPOSED principles; no templates are claimed to exist.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Proposed principle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Websites</td>
+<td>Clear hierarchy across development, education, and products.</td>
+</tr>
+<tr>
+<td>Web apps/dashboards</td>
+<td>Task clarity, semantic states, keyboard focus, RTL-aware layout.</td>
+</tr>
+<tr>
+<td>Digital products</td>
+<td>Use independent identity when appropriate; decide endorsement through governance.</td>
+</tr>
+<tr>
+<td>Education</td>
+<td>Distinguish code, explanation, sequence, and warnings.</td>
+</tr>
+<tr>
+<td>Documentation</td>
+<td>Semantic headings, searchable text, code blocks, language metadata.</td>
+</tr>
+<tr>
+<td>Email signatures</td>
+<td>Factual role and verified contact details only.</td>
+</tr>
+<tr>
+<td>Presentations</td>
+<td>Use selected lockup/hierarchy after approval.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="chapter-08-social-media-identity">Chapter 08 — Social Media Identity</h2>
+<p><strong>PROPOSED principles; production templates belong to WP07.</strong> No platform dimensions are asserted.</p>
+<ul>
+<li>Profile images: test symbol at actual crop and display size.</li>
+<li>Covers: confirm current crop and safe areas.</li>
+<li>Posts: consistent title/body/source hierarchy.</li>
+<li>Educational carousels: one clear teaching point per frame and explicit sequence.</li>
+<li>Video thumbnails: test text at actual display size and crop.</li>
+<li>Announcements: verified information only; no invented promises or dates.</li>
+</ul>
+<p>These are conceptual principles, not templates.</p>
+<hr>
+<h2 id="chapter-09-brand-collateral">Chapter 09 — Brand Collateral</h2>
+<p><strong>PROPOSED principles; production belongs to WP08.</strong></p>
+<ul>
+<li>Presentations/reports: apply approved lockup and hierarchy after selection.</li>
+<li>Proposals/documents: distinguish drafts from accepted content; keep claims attributable.</li>
+<li>Email signatures: include only verified identity and contact details.</li>
+<li>Digital stationery: accessible structure; no implication of trademark or legal status.</li>
+</ul>
+<p>No collateral files are produced here.</p>
+<hr>
+<h2 id="chapter-10-accessibility-and-technical-quality">Chapter 10 — Accessibility and Technical Quality</h2>
+<p>Requirements and checks, not a conformance statement:</p>
+<ul>
+<li>Test actual text/surface pairs and UI boundaries separately against applicable contrast thresholds.</li>
+<li>Pair color status with text, icon, or programmatic state.</li>
+<li>Use semantic HTML, ordered headings, accessible names, keyboard-operable controls.</li>
+<li>Declare language and direction, isolate mixed-direction runs, test focus and keyboard order in RTL/LTR.</li>
+<li>Use logical CSS properties and test responsive reflow.</li>
+<li>Provide useful alt text; use empty alt for decorative images.</li>
+<li>Verify SVG titles, descriptions, paths, and external references.</li>
+<li>XML validity does not prove visual correctness or logo fidelity.</li>
+</ul>
+<p>Browser/assistive technology behavior, component contrast, focus, keyboard flow, responsive reflow, Arabic shaping, and production integration remain NOT VERIFIED. No blanket WCAG claim is made.</p>
+<hr>
+<h2 id="chapter-11-incorrect-usage">Chapter 11 — Incorrect Usage</h2>
+<p>The rules below are candidate guidance unless tied to an existing decision.</p>
+<table>
+<thead>
+<tr>
+<th>Avoid</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stretch, skew, clip, redraw, or mirror the symbol</td>
+<td>Proposed integrity rule; concept approved, exact master not verified.</td>
+</tr>
+<tr>
+<td>Change the five approved HEX values arbitrarily</td>
+<td>Conflicts with DN-DEC-006.</td>
+</tr>
+<tr>
+<td>Treat candidate fonts as final</td>
+<td>DN-DEC-007 records provisional typography.</td>
+</tr>
+<tr>
+<td>Use Teal, Orange, or Warm Gray as normal text on Ivory</td>
+<td>Recorded pair results are under 4.5:1.</td>
+</tr>
+<tr>
+<td>Promote a candidate lockup/theme as approved</td>
+<td>No final selection is evidenced.</td>
+</tr>
+<tr>
+<td>Use inconsistent spacing or distracting effects</td>
+<td>Proposed consistency guidance; test actual output.</td>
+</tr>
+<tr>
+<td>Claim exact reconstruction, contract compliance, or accessibility from candidates</td>
+<td>Reference/contracts and full implementation evidence are unavailable or unverified.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="chapter-12-governance-and-asset-management">Chapter 12 — Governance and Asset Management</h2>
+<p>DN-GOV-001 defines six statuses: APPROVED, PROVISIONAL, NOT VERIFIED, DEFERRED, SUPERSEDED, DECISION REQUIRED. This guide does not create a competing approval model. A recorded decision applies only to its stated scope.</p>
+<p>The local register is v1.0.0, DRAFT FOR OWNER APPROVAL, approval PENDING. The asset manifest is draft. Hashes establish file integrity relative to a record, not design approval or contract compliance.</p>
+<p>Keep candidate and production assets distinct:
+- WP02 V2: design-token candidate.
+- WP03: provisional typography.
+- WP04: 65 provisional logo SVGs and index.
+- Production assets/manifests/inventories remain separate.</p>
+<p>Retain source path, candidate ID, and hashes. Recompute hashes after an authorized change. This guide does not update a manifest, inventory, or production asset.</p>
+<hr>
+<h2 id="chapter-13-outstanding-decisions-and-final-qa">Chapter 13 — Outstanding Decisions and Final QA</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Item</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Select final logo lockup and primary/secondary use</td>
+<td>DECISION REQUIRED</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Select bilingual hierarchy</td>
+<td>DECISION REQUIRED</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Approve fonts, weights, and fallbacks</td>
+<td>DECISION REQUIRED</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Verify Arabic shaping, diacritics, RTL in target browsers</td>
+<td>NOT VERIFIED</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>Approve themes and functional states</td>
+<td>DECISION REQUIRED</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>Visually check focus on controls/adjacent surfaces</td>
+<td>NOT VERIFIED</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>Validate actual component contrast</td>
+<td>NOT VERIFIED</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>Verify logo clear space, alignment, minimum size</td>
+<td>NOT VERIFIED</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>Recover original logo reference for geometry comparison</td>
+<td>NOT VERIFIED</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td>Complete production integration and owner acceptance</td>
+<td>DECISION REQUIRED</td>
+</tr>
+</tbody>
+</table>
+<p>Final QA must inspect rendered logos, typography, theme/components, direction, keyboard behavior, contrast, and responsive layouts. Owner acceptance is separate. This document resolves none of these items.</p>
+<h2 id="source-references">Source references</h2>
+<p>See <a href="brand-guidelines-source-register.md">brand-guidelines-source-register.md</a> for source paths/hashes/status; see <a href="brand-guidelines-status.json">brand-guidelines-status.json</a> for machine-readable status.</p>
+<p><strong>Final package status: PROVISIONAL — NOT APPROVED FOR PRODUCTION.</strong> No merge, publication, or promotion is authorized.</p></main></body></html>

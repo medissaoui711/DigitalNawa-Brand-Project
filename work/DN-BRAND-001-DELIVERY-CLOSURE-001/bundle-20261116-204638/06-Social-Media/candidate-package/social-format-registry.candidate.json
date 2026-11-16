@@ -1,0 +1,112 @@
+{
+  "task": "DN-BRAND-001-WP07-EXEC-001",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "notes": [
+    "Presets are design canvases, not official/current platform specifications.",
+    "Preview sources remain editable HTML/CSS; no raster export is included in this candidate package.",
+    "Verify each platform's current crop, UI overlays, and upload constraints during Final QA."
+  ],
+  "formats": [
+    {
+      "formatId": "avatar-square",
+      "intendedUse": "Profile avatar / symbol-first",
+      "width": 800,
+      "height": 800,
+      "aspectRatio": "1:1",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Keep symbol within central 68%; preserve circular crop reserve.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "feed-square",
+      "intendedUse": "Square feed post",
+      "width": 1080,
+      "height": 1080,
+      "aspectRatio": "1:1",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Keep essential text within central 82%; leave edge breathing room.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "feed-portrait",
+      "intendedUse": "Portrait feed post",
+      "width": 1080,
+      "height": 1350,
+      "aspectRatio": "4:5",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Keep headline and logo inside central 84%; avoid edge-aligned copy.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "carousel-portrait",
+      "intendedUse": "Carousel slide",
+      "width": 1080,
+      "height": 1350,
+      "aspectRatio": "4:5",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Consistent title, page number and footer zones; central 84% content.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "story-vertical",
+      "intendedUse": "Story / vertical short-form",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Keep key content within central 72% height; platform overlays require later checking.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "video-vertical",
+      "intendedUse": "Vertical video cover",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Headline in central region; reserve top/bottom for interface overlays.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "video-landscape",
+      "intendedUse": "Landscape video thumbnail",
+      "width": 1280,
+      "height": 720,
+      "aspectRatio": "16:9",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Keep text and logo within central 84%; test small-screen crop.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "cover-wide",
+      "intendedUse": "Wide brand cover/banner",
+      "width": 1920,
+      "height": 640,
+      "aspectRatio": "3:1",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Keep identity and headline in broad central safe field; per-platform crop testing required.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    },
+    {
+      "formatId": "cover-compact",
+      "intendedUse": "Compact cover/banner alternative",
+      "width": 1500,
+      "height": 500,
+      "aspectRatio": "3:1",
+      "exportFormat": "PNG preview; editable HTML/CSS source",
+      "safeAreaRecommendation": "Alternate canvas preset only; do not assume platform fit or universal safe zone.",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "dimensionsType": "Design preset only; not a current platform requirement"
+    }
+  ],
+  "candidateTask": "DN-BRAND-001-WP07-REMEDIATION-001",
+  "candidateNote": "Copied without changing the nine source presets; dimensions remain provisional platform-independent design presets."
+}

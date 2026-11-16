@@ -1,0 +1,42 @@
+/*
+ * DigitalNawa typography candidate tokens
+ * PROVISIONAL — NOT APPROVED FOR PRODUCTION
+ * Corresponding candidate export. No production selectors, imports, or external font requests.
+ */
+.dn-type-candidate {
+  --dn-font-en: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --dn-font-ar: "IBM Plex Sans Arabic", "Noto Sans Arabic", Tahoma, sans-serif;
+  --dn-font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --dn-font-ar-alternative: Cairo, Tahoma, sans-serif;
+  --dn-type-display-size: 48px; --dn-type-display-line: 1.2; --dn-type-display-weight: 700;
+  --dn-type-h1-size: 36px; --dn-type-h1-line: 1.25; --dn-type-h1-weight: 700;
+  --dn-type-h2-size: 28px; --dn-type-h2-line: 1.35; --dn-type-h2-weight: 600;
+  --dn-type-h3-size: 22px; --dn-type-h3-line: 1.4; --dn-type-h3-weight: 600;
+  --dn-type-body-lg-size: 18px; --dn-type-body-lg-line: 1.7; --dn-type-body-lg-weight: 400;
+  --dn-type-body-md-size: 16px; --dn-type-body-md-line: 1.65; --dn-type-body-md-weight: 400;
+  --dn-type-body-sm-size: 14px; --dn-type-body-sm-line: 1.55; --dn-type-body-sm-weight: 400;
+  --dn-type-label-size: 14px; --dn-type-label-line: 1.45; --dn-type-label-weight: 500;
+  --dn-type-caption-size: 13px; --dn-type-caption-line: 1.5; --dn-type-caption-weight: 400;
+  --dn-type-button-size: 15px; --dn-type-button-line: 1.4; --dn-type-button-weight: 600;
+  --dn-type-code-size: 14px; --dn-type-code-line: 1.6; --dn-type-code-weight: 400;
+  --dn-type-technical-inline-size: 0.95em; --dn-type-technical-inline-line: 1.45; --dn-type-technical-inline-weight: 400;
+  --dn-type-ar-line-adjustment: 1.75; --dn-type-ar-letter-spacing: 0; --dn-type-en-letter-spacing: 0;
+}
+.dn-type-candidate { font-family: var(--dn-font-en); font-size: var(--dn-type-body-md-size); line-height: var(--dn-type-body-md-line); font-weight: var(--dn-type-body-md-weight); letter-spacing: var(--dn-type-en-letter-spacing); }
+.dn-type-candidate [lang="ar"], .dn-type-candidate:lang(ar) { font-family: var(--dn-font-ar); letter-spacing: var(--dn-type-ar-letter-spacing); }
+.dn-type-candidate [dir="rtl"] { text-align: start; line-height: var(--dn-type-ar-line-adjustment); }
+.dn-type-candidate [dir="ltr"] { text-align: start; }
+.dn-type-candidate .role-display { font-size: var(--dn-type-display-size); line-height: var(--dn-type-display-line); font-weight: var(--dn-type-display-weight); }
+.dn-type-candidate .role-h1 { font-size: var(--dn-type-h1-size); line-height: var(--dn-type-h1-line); font-weight: var(--dn-type-h1-weight); }
+.dn-type-candidate .role-h2 { font-size: var(--dn-type-h2-size); line-height: var(--dn-type-h2-line); font-weight: var(--dn-type-h2-weight); }
+.dn-type-candidate .role-h3 { font-size: var(--dn-type-h3-size); line-height: var(--dn-type-h3-line); font-weight: var(--dn-type-h3-weight); }
+.dn-type-candidate .role-body-lg { font-size: var(--dn-type-body-lg-size); line-height: var(--dn-type-body-lg-line); font-weight: var(--dn-type-body-lg-weight); }
+.dn-type-candidate .role-body-md { font-size: var(--dn-type-body-md-size); line-height: var(--dn-type-body-md-line); font-weight: var(--dn-type-body-md-weight); }
+.dn-type-candidate .role-body-sm { font-size: var(--dn-type-body-sm-size); line-height: var(--dn-type-body-sm-line); font-weight: var(--dn-type-body-sm-weight); }
+.dn-type-candidate .role-label { font-size: var(--dn-type-label-size); line-height: var(--dn-type-label-line); font-weight: var(--dn-type-label-weight); }
+.dn-type-candidate .role-caption { font-size: var(--dn-type-caption-size); line-height: var(--dn-type-caption-line); font-weight: var(--dn-type-caption-weight); }
+.dn-type-candidate .role-button { font-size: var(--dn-type-button-size); line-height: var(--dn-type-button-line); font-weight: var(--dn-type-button-weight); }
+.dn-type-candidate .role-code, .dn-type-candidate .role-technical-inline { font-family: var(--dn-font-mono); font-size: var(--dn-type-code-size); line-height: var(--dn-type-code-line); font-weight: var(--dn-type-code-weight); }
+.dn-type-candidate .role-technical-inline { font-size: var(--dn-type-technical-inline-size); line-height: var(--dn-type-technical-inline-line); font-weight: var(--dn-type-technical-inline-weight); }
+.dn-type-candidate .alternative-arabic { font-family: var(--dn-font-ar-alternative); }
+

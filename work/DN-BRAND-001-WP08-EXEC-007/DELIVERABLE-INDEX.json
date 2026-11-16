@@ -1,0 +1,70 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-007",
+  "projectRoot": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project",
+  "status": "NEEDS MORE EVIDENCE",
+  "sourceRegistry": "work/DN-BRAND-001-WP08-EXEC-001/collateral-template-index.json",
+  "sourceRegistryEntryCount": 23,
+  "sourceRegistryModified": false,
+  "productionIntegrationAuthorized": false,
+  "assets": [
+    {
+      "templateId": "business-card-front-en",
+      "name": "English business card front",
+      "file": "business-card-front-en.candidate.svg",
+      "format": "editable SVG",
+      "dimensions": "90 × 50 mm; viewBox 0 0 900 500",
+      "bytes": 1572,
+      "sha256": "1c3195312148f439fe093919aba375e4fa121c7c2ca2080f0cf7fe765125136e",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "notes": "Conceptual trim canvas; no printer bleed/profile verified; logo omitted pending variant and clear-space decisions."
+    },
+    {
+      "templateId": "business-card-back-ar",
+      "name": "Arabic business card reverse",
+      "file": "business-card-back-ar.candidate.svg",
+      "format": "editable SVG",
+      "dimensions": "90 × 50 mm; viewBox 0 0 900 500",
+      "bytes": 2318,
+      "sha256": "2392920047a9d2c01fcf70ccf831cdd9e6a55dc64e0886c6e5acbfe0cde5a613",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "notes": "Conceptual trim canvas; RTL/language metadata included; no printer bleed/profile verified; logo omitted pending decisions."
+    },
+    {
+      "templateId": "digital-business-card-bi",
+      "name": "Bilingual digital business card",
+      "file": "digital-business-card-bi.candidate.html",
+      "format": "responsive HTML with shared CSS",
+      "dimensions": "Responsive; no fixed device canvas per export registry",
+      "bytes": 2037,
+      "sha256": "0197b3d35b6d850b3e9d5f74e428a0bdc335b56ffe62b6201482c106bfb8822b",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "notes": "Shares contact-cards.candidate.css; EN/AR sections and bdi-isolated contact placeholders."
+    },
+    {
+      "templateId": "professional-contact-card",
+      "name": "Professional contact profile",
+      "file": "professional-contact-card.candidate.html",
+      "format": "responsive HTML with shared CSS",
+      "dimensions": "Responsive; no fixed device canvas per export registry",
+      "bytes": 2338,
+      "sha256": "97b54ecad76261457a14d3431665659780af76b15b8bd21ebafc5652226086ae",
+      "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+      "notes": "Shares contact-cards.candidate.css; bilingual profile and neutral expertise placeholders."
+    }
+  ],
+  "sharedStylesheet": {
+    "file": "contact-cards.candidate.css",
+    "format": "shared responsive CSS",
+    "bytes": 2411,
+    "sha256": "3e8fa79c3152863a42642c360033a3a051f91f11db25607d93ad654824786ea6",
+    "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+    "usedBy": [
+      "digital-business-card-bi.candidate.html",
+      "professional-contact-card.candidate.html"
+    ],
+    "notes": "Balanced delimiters and responsive/RTL/LTR/dark-theme rules checked; full CSS parser unavailable, so formal syntax parsing NOT VERIFIED."
+  },
+  "logoArtworkPlaced": false,
+  "logoReason": "WP04 variants remain provisional and the logo clear-space decision is unresolved; no logo was reconstructed or embedded.",
+  "printReadiness": "NOT CLAIMED; business-card dimensions are candidate trim guidance and provider production settings remain unverified."
+}

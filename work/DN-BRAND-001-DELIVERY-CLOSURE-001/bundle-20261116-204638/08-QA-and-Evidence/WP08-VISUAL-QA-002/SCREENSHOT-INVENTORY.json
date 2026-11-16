@@ -1,0 +1,33 @@
+{
+  "taskId": "DN-BRAND-001-WP08-VISUAL-QA-002",
+  "captureMechanism": {
+    "application": "Windows Snipping Tool",
+    "packageId": "Microsoft.ScreenSketch_8wekyb3d8bbwe!App",
+    "availableModesObserved": ["Rectangle", "Window", "Full screen", "Freeform"],
+    "result": "FAILED_TO_CAPTURE_TARGET",
+    "details": "The capture displayed the Codex/ChatGPT interface instead of Word or PowerPoint; it is excluded from evidence. Snipping Tool displayed a notice that screenshots are automatically saved to the Screenshots folder.",
+    "incidentalCapturePath": null,
+    "incidentalCaptureHash": null,
+    "incidentalCaptureDimensions": null,
+    "incidentalCaptureTimestamp": null,
+    "cleanupPerformed": false
+  },
+  "officeApplicationScreenshotsSaved": 0,
+  "screenshots": [],
+  "liveOfficeViewsInspected": [
+    {
+      "file": "proposal-page-ar.candidate.docx",
+      "application": "Microsoft Word 16.0.15601.20142",
+      "pages": 1,
+      "persistedImage": false,
+      "dimensions": null,
+      "timestamp": null,
+      "sha256": null
+    }
+  ],
+  "notReinspectedInThisTask": [
+    "report-page-en.candidate.docx",
+    "presentation-template-16x9.candidate.pptx"
+  ],
+  "status": "NEEDS MORE EVIDENCE"
+}

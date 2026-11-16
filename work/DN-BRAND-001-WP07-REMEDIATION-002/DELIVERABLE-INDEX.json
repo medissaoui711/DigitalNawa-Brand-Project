@@ -1,0 +1,61 @@
+{
+  "task": "DN-BRAND-001-WP07-REMEDIATION-002",
+  "result": "PASS",
+  "candidateStatus": "ISOLATED — NOT PRODUCTION INTEGRATED",
+  "sourceCss": {
+    "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-REMEDIATION-001\\social-identity-system.css",
+    "bytes": 7855,
+    "sha256": "a9dbf67761e9dbb315b8f083ccb7e1cfced2d09ef0d2313aed89bab8811a2443"
+  },
+  "qaEvidence": [
+    {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-VISUAL-QA-001\\CSS-ACCESSIBILITY-REPORT.md",
+      "bytes": 2807,
+      "sha256": "7cde82a034677438210f22d638cbac9c43a3f8cfe560aa523bea101f9c18c400"
+    },
+    {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-VISUAL-QA-001\\DEFECT-REGISTER.json",
+      "bytes": 1393,
+      "sha256": "46ff17621aae9b53ac15ef3ad44e175c2d257dfa7a58fb439def82841767ac8f"
+    }
+  ],
+  "candidateAssets": [
+    {
+      "path": "candidate-assets/dependencies/component-library.candidate.css",
+      "bytes": 9171,
+      "sha256": "9393443a0c5c5a3797a0893875f69e699c1e4e5271aa597f82761d2963fcce2b",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-REMEDIATION-001\\dependencies\\component-library.candidate.css",
+      "sourceBytes": 9171,
+      "sourceSha256": "9393443a0c5c5a3797a0893875f69e699c1e4e5271aa597f82761d2963fcce2b",
+      "changed": false
+    },
+    {
+      "path": "candidate-assets/dependencies/design-tokens.candidate-v2.css",
+      "bytes": 5414,
+      "sha256": "c379f491556f2d1879c2d32213b1f557447fde7aa7285202b378b99eb5c850c0",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-REMEDIATION-001\\dependencies\\design-tokens.candidate-v2.css",
+      "sourceBytes": 5414,
+      "sourceSha256": "c379f491556f2d1879c2d32213b1f557447fde7aa7285202b378b99eb5c850c0",
+      "changed": false
+    },
+    {
+      "path": "candidate-assets/dependencies/typography-tokens.candidate.css",
+      "bytes": 4299,
+      "sha256": "07bb085f4e6971432a3ea9da6c1873069636b43437d9bbb6efb64f1e8cc66ef2",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-REMEDIATION-001\\dependencies\\typography-tokens.candidate.css",
+      "sourceBytes": 4299,
+      "sourceSha256": "07bb085f4e6971432a3ea9da6c1873069636b43437d9bbb6efb64f1e8cc66ef2",
+      "changed": false
+    },
+    {
+      "path": "candidate-assets/social-identity-system.css",
+      "bytes": 7977,
+      "sha256": "d1aa1ee815c17e92c09ef1dfb019c2a7c6a331c00db7108345b21b75ace25600",
+      "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP07-REMEDIATION-001\\social-identity-system.css",
+      "sourceBytes": 7855,
+      "sourceSha256": "a9dbf67761e9dbb315b8f083ccb7e1cfced2d09ef0d2313aed89bab8811a2443",
+      "changed": true
+    }
+  ],
+  "changeSummary": "One dark-only .art-paper foreground override; three imported CSS dependencies copied unchanged to preserve relative paths."
+}

@@ -1,0 +1,54 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-006",
+  "documentType": "operational-template-registry-addendum-candidate",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "relationshipToSourceRegistry": {
+    "path": "../DN-BRAND-001-WP08-EXEC-001/collateral-template-index.json",
+    "action": "separate addendum; original registry is not modified",
+    "sourceRegistryTemplateCount": 23
+  },
+  "templates": [
+    {
+      "templateId": "meeting-agenda-minutes",
+      "name": "Meeting Agenda and Minutes",
+      "category": "Operational Documents",
+      "intendedUse": "Prepare an agenda and record meeting notes, decisions, and agreed follow-up actions",
+      "formatId": "document-a4",
+      "language": "bi",
+      "direction": "mixed",
+      "candidateFile": "meeting-agenda-minutes.candidate.docx",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "project-status-update",
+      "name": "Project Status Update",
+      "category": "Operational Documents",
+      "intendedUse": "Record a time-bounded project status, evidence, risks, decisions needed, and next actions",
+      "formatId": "document-a4",
+      "language": "bi",
+      "direction": "mixed",
+      "candidateFile": "project-status-update.candidate.docx",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "client-onboarding-handoff",
+      "name": "Client Onboarding and Project Handoff",
+      "category": "Operational Documents",
+      "intendedUse": "Coordinate confirmed client/project details, onboarding checklist, handoff items, and next actions",
+      "formatId": "document-a4",
+      "language": "bi",
+      "direction": "mixed",
+      "candidateFile": "client-onboarding-handoff.candidate.docx",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ],
+  "governance": {
+    "ownerApproval": "not supplied; none implied",
+    "productionIntegrationAuthorized": false,
+    "typography": "provisional",
+    "logoGeometry": "provisional; no logo placed",
+    "clearSpace": "not specified by this addendum",
+    "brandColors": "existing approved palette preserved; no new palette value introduced"
+  }
+}

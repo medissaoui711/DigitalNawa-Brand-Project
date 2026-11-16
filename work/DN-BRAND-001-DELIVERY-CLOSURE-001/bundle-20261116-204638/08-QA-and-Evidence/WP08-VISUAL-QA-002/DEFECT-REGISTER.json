@@ -1,0 +1,32 @@
+{
+  "taskId": "DN-BRAND-001-WP08-VISUAL-QA-002",
+  "status": "NEEDS MORE EVIDENCE",
+  "confirmedSourceDefects": [],
+  "observedConcerns": [
+    {
+      "file": "work/DN-BRAND-001-WP08-EXEC-002/proposal-page-ar.candidate.docx",
+      "location": "Arabic paragraphs, especially paragraph 2: 02 · [القسم]",
+      "finding": "OOXML specifies w:jc=right and w:bidi, while the live Word view appeared left-positioned.",
+      "classification": "OBSERVED; cause not isolated",
+      "savedVisualEvidence": false,
+      "correctionCandidateCreated": false
+    },
+    {
+      "file": "Windows Snipping Tool capture attempt",
+      "location": "Out of project output scope; actual path unknown",
+      "finding": "Capture showed Codex/ChatGPT rather than Office; not accepted as evidence. Tool banner reported automatic saving to Screenshots folder.",
+      "classification": "FACT / OBSERVED",
+      "savedVisualEvidence": false,
+      "cleanupPerformed": false
+    }
+  ],
+  "hashReportingDiscrepancy": {
+    "file": "proposal-page-ar.candidate.docx",
+    "actualSha256": "1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2",
+    "incorrectSource": "EXECUTION-REPORT.md",
+    "authoritativeRecords": ["DELIVERABLE-INDEX.json", "SHA256SUMS.txt", "recomputed Get-FileHash"]
+  },
+  "sourceChanges": [],
+  "productionChanges": [],
+  "candidateCorrections": []
+}

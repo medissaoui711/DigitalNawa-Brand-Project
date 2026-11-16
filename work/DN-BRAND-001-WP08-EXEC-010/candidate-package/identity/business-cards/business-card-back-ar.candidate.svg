@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="90mm" height="50mm" viewBox="0 0 900 500" role="img" aria-labelledby="title desc" lang="ar" xml:lang="ar" direction="rtl">
+<title id="title">بطاقة أعمال ديجيتال نواة — الوجه العربي المرشح</title>
+<desc id="desc">عمل فني مفاهيمي قابل للتحرير. حقول التواصل نائبة. مرشح مؤقت وغير معتمد للطباعة أو الإنتاج.</desc>
+<metadata>Template: business-card-back-ar. Status: PROVISIONAL — NOT APPROVED FOR PRODUCTION. Candidate trim canvas follows local WP08 90 x 50 mm recommendation only. No provider bleed, safe area, stock, color profile, or print preset verified. Logo omitted pending owner variant selection and clear-space decision.</metadata>
+<style>text{fill:#1C1917;font-family:"IBM Plex Sans Arabic","Noto Sans Arabic",Tahoma,sans-serif}.brand{font-size:27px;font-weight:700}.name{font-size:43px;font-weight:700}.role{font-size:29px;font-weight:500}.contact{font-size:25px;font-weight:400}.accent{fill:#0EA5A4}.ltr{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;direction:ltr;unicode-bidi:isolate}</style>
+<rect width="900" height="500" fill="#FEF3C7"/>
+<rect x="780" y="42" width="80" height="8" rx="4" class="accent"/>
+<text x="860" y="100" text-anchor="end" direction="rtl" unicode-bidi="plaintext" class="brand">ديجيتال نواة</text>
+<text x="860" y="166" text-anchor="end" direction="rtl" unicode-bidi="plaintext" class="name">[الاسم]</text>
+<text x="860" y="216" text-anchor="end" direction="rtl" unicode-bidi="plaintext" class="role">[المسمى الوظيفي]</text>
+<text x="860" y="286" text-anchor="end" direction="rtl" unicode-bidi="plaintext" class="contact">[البريد الإلكتروني]</text>
+<text x="860" y="326" text-anchor="end" direction="rtl" unicode-bidi="plaintext" class="contact">[رقم الهاتف]</text>
+<text x="860" y="366" text-anchor="end" direction="rtl" unicode-bidi="plaintext" class="contact">[الموقع الإلكتروني]</text>
+<text x="860" y="406" text-anchor="end" direction="rtl" unicode-bidi="plaintext" class="contact">[رابط التواصل الاجتماعي]</text>
+</svg>

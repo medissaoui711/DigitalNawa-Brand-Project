@@ -1,0 +1,146 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-008",
+  "status": "NEEDS MORE EVIDENCE",
+  "outputRoot": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-008",
+  "candidatePackage": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-008\\candidate-package",
+  "candidatePackageFileCount": 18,
+  "summaryCounts": {
+    "originalIds": 23,
+    "extensionIds": 3,
+    "unifiedUniqueIds": 26,
+    "implementedUnique": 17,
+    "partial": 3,
+    "duplicateRepresentations": 2,
+    "missing": 6,
+    "ownerDecisionItems": 6,
+    "hashMismatches": 0
+  },
+  "files": [
+    {
+      "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+      "sizeBytes": 38179,
+      "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b"
+    },
+    {
+      "path": "candidate-package/EXEC-002/proposal-page-ar.candidate.docx",
+      "sizeBytes": 38285,
+      "sha256": "1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2"
+    },
+    {
+      "path": "candidate-package/EXEC-002/report-page-en.candidate.docx",
+      "sizeBytes": 38322,
+      "sha256": "50a6b5531b3775ebfc2e3acf73906922206982841ab81896de7588b0374cafbf"
+    },
+    {
+      "path": "candidate-package/EXEC-003/invoice-en.candidate.docx",
+      "sizeBytes": 39211,
+      "sha256": "b8632a698bdff61a6d2d782d48bd31c2a3b77fa40f8eb61d71237cb9e3819a3f"
+    },
+    {
+      "path": "candidate-package/EXEC-003/letterhead-en.candidate.docx",
+      "sizeBytes": 38562,
+      "sha256": "e0e33b40066b6b968cc4ca77113432876b4c984e44fdc9d88b67a0933ec70e8b"
+    },
+    {
+      "path": "candidate-package/EXEC-004/email-signature-en.candidate.docx",
+      "sizeBytes": 38511,
+      "sha256": "40580d449b1e42ae588a657a669729c684f06adcf53998e300c88a3cd0e0f08b"
+    },
+    {
+      "path": "candidate-package/EXEC-004/general-document-ar.candidate.docx",
+      "sizeBytes": 38714,
+      "sha256": "b107a171b6701ce3a1c8996c6a8756dd296777f6c130a853823be4277c40e49b"
+    },
+    {
+      "path": "candidate-package/EXEC-005/digital-business-card-bi.candidate.docx",
+      "sizeBytes": 37898,
+      "sha256": "27447086b92a8833204ede55688bf5cac4b2a4e36d891484730b0c9478f866f4"
+    },
+    {
+      "path": "candidate-package/EXEC-005/professional-contact-card.candidate.docx",
+      "sizeBytes": 38042,
+      "sha256": "4409f28f34106342f57a6c740c2e27824141d2a342f10c8bfb1fcdf0bf7ffedc"
+    },
+    {
+      "path": "candidate-package/EXEC-006/client-onboarding-handoff.candidate.docx",
+      "sizeBytes": 38258,
+      "sha256": "4044fa451e920cc6a1d036ff4fb6dd4617b6183a8b492430d6c521f4b8a209d9"
+    },
+    {
+      "path": "candidate-package/EXEC-006/meeting-agenda-minutes.candidate.docx",
+      "sizeBytes": 37957,
+      "sha256": "fda4ff9f3cf8b78766470dc2dc6708a504149ed98c9702001ba45c101d0ba2b2"
+    },
+    {
+      "path": "candidate-package/EXEC-006/operational-template-registry.addendum.candidate.json",
+      "sizeBytes": 2281,
+      "sha256": "c42cf28bf5c2a1b60d93869bc7750ec1896f23d36d169a77c06786fd2270e618"
+    },
+    {
+      "path": "candidate-package/EXEC-006/project-status-update.candidate.docx",
+      "sizeBytes": 37990,
+      "sha256": "48c8fac7ac3934b9d9b2b2165d78b65078c28fd6031e70f6cbc375fb5b346c34"
+    },
+    {
+      "path": "candidate-package/EXEC-007/business-card-back-ar.candidate.svg",
+      "sizeBytes": 2318,
+      "sha256": "2392920047a9d2c01fcf70ccf831cdd9e6a55dc64e0886c6e5acbfe0cde5a613"
+    },
+    {
+      "path": "candidate-package/EXEC-007/business-card-front-en.candidate.svg",
+      "sizeBytes": 1572,
+      "sha256": "1c3195312148f439fe093919aba375e4fa121c7c2ca2080f0cf7fe765125136e"
+    },
+    {
+      "path": "candidate-package/EXEC-007/contact-cards.candidate.css",
+      "sizeBytes": 2411,
+      "sha256": "3e8fa79c3152863a42642c360033a3a051f91f11db25607d93ad654824786ea6"
+    },
+    {
+      "path": "candidate-package/EXEC-007/digital-business-card-bi.candidate.html",
+      "sizeBytes": 2037,
+      "sha256": "0197b3d35b6d850b3e9d5f74e428a0bdc335b56ffe62b6201482c106bfb8822b"
+    },
+    {
+      "path": "candidate-package/EXEC-007/professional-contact-card.candidate.html",
+      "sizeBytes": 2338,
+      "sha256": "97b54ecad76261457a14d3431665659780af76b15b8bd21ebafc5652226086ae"
+    },
+    {
+      "path": "EXECUTION-REPORT.md",
+      "sizeBytes": 3808,
+      "sha256": "ceb0fcaa390f44120c0ce7eb8f18101cd36c6952f0efc41d08edaf92e387fd44"
+    },
+    {
+      "path": "README.md",
+      "sizeBytes": 1998,
+      "sha256": "04e92dc524b489ed104a9afa4d2d8d6e71bd7e18f5a07263ae717b5ad647a1d3"
+    },
+    {
+      "path": "WP08-COVERAGE-MATRIX.json",
+      "sizeBytes": 48409,
+      "sha256": "60e005629f7f7a53acb78746d1e36bb1e4a0a2d9e5b45eccfc98e3c27495d3ec"
+    },
+    {
+      "path": "WP08-DUPLICATE-AND-GAP-REPORT.md",
+      "sizeBytes": 2382,
+      "sha256": "b35f91d9c7ef2804fd93b11bdc0238d8de27c7128e764612b26303def22ce2b8"
+    },
+    {
+      "path": "WP08-PACKAGE-INTEGRITY-REPORT.md",
+      "sizeBytes": 4816,
+      "sha256": "a0af8bdd1929b08f1f27adada6357cd41e62d68bd1d8a30a425c6e1fdf7eefac"
+    },
+    {
+      "path": "WP08-READINESS-MATRIX.json",
+      "sizeBytes": 12596,
+      "sha256": "c5e1a90774927f101203f81bdeef1a1142038b9a8badcbe97762aa0c769f9141"
+    },
+    {
+      "path": "WP08-UNIFIED-CANDIDATE-REGISTRY.json",
+      "sizeBytes": 43475,
+      "sha256": "2b68ea0cd38e86ce1e19428a6ac98a21747113c15a62145b35be1d0662282c29"
+    }
+  ],
+  "note": "Index excludes itself and SHA256SUMS.txt to avoid self-referential hashes; SHA256SUMS inventories every other file."
+}

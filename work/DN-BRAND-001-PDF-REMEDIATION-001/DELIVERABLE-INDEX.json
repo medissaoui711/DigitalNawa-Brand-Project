@@ -1,0 +1,70 @@
+{
+  "task": "DN-BRAND-001-PDF-REMEDIATION-001",
+  "overallResult": "BLOCKED",
+  "candidatePdfProduced": false,
+  "productionIntegration": false,
+  "candidateAssets": [
+    {
+      "path": "candidate-assets/digitalnawa-brand-identity.candidate.designcraft",
+      "bytes": 27947,
+      "sha256": "e6705174a7841aed1534c804438dc3edb6ca05c69698c9ddc63116b8b8601219",
+      "provenance": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-ARABIC-BIDI-COPY-001\\digitalnawa-brand-identity.candidate.designcraft",
+      "provenanceSha256": "e6705174a7841aed1534c804438dc3edb6ca05c69698c9ddc63116b8b8601219",
+      "note": "Byte-identical carry-forward of previous authorized source candidate; no edit in this task."
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "SOURCE-AND-ROOT-CAUSE-REPORT.md",
+      "bytes": 4187,
+      "sha256": "5dd9572197c445594189884e27f79cf513b79122d2e9d2701bfa2dd5cf0ac800"
+    },
+    {
+      "path": "ARABIC-PDF-REMEDIATION-REPORT.md",
+      "bytes": 3073,
+      "sha256": "598d29d7ddeff1609692c412188e74f03884a96e6883fd7db39e015b08eaffa6"
+    },
+    {
+      "path": "VISUAL-VERIFICATION-REPORT.md",
+      "bytes": 1553,
+      "sha256": "d7fc9b90482b37a97d2dc397a0542c876597bf2d3d79f2a0443c0ebbadfff2fa"
+    },
+    {
+      "path": "PAGE-2-TEXT-EXTRACTION.txt",
+      "bytes": 1175,
+      "sha256": "5a88c9d6b3521b5184a57624a4dd63e24feae1b1f99b4682f152040efa2dcbef"
+    },
+    {
+      "path": "PDF-METADATA-REPORT.md",
+      "bytes": 2053,
+      "sha256": "4b8f3a8e68cf563e8a81d5c685365c1f69b121046d0939a7d43a6e01d022d57a"
+    },
+    {
+      "path": "EXECUTION-REPORT.md",
+      "bytes": 1909,
+      "sha256": "b84fa21937f1e0051fbb199f6af6b78456a79a764232916f276d0258dcaae50f"
+    },
+    {
+      "path": "VALIDATION-REPORT.md",
+      "bytes": 2729,
+      "sha256": "b828118f6fa4d64e7a3cdff19d5cc4bbf3c2ae38868c69b36512efa177da2c3e"
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\DigitalNawa\\03-Logo-Assets\\09-Documentation\\digitalnawa-brand-identity.designcraft",
+      "bytes": 29423,
+      "sha256": "918b8ac57e80e882aca599113d88e7c34891ca1d68399135ed64f4cd0206154f"
+    },
+    {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-ARABIC-BIDI-COPY-001\\digitalnawa-brand-identity.candidate.designcraft",
+      "bytes": 27947,
+      "sha256": "e6705174a7841aed1534c804438dc3edb6ca05c69698c9ddc63116b8b8601219"
+    },
+    {
+      "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\DigitalNawa\\03-Logo-Assets\\06-Exports\\digitalnawa-brand-identity.pdf",
+      "bytes": 44119,
+      "sha256": "33c2135aebb7176d1266ee84f35249ac9d21c0eabc955d3e0a36c8132d70e19b"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-008",
+  "status": "NEEDS MORE EVIDENCE",
+  "counts": {
+    "originalRegisteredIds": 23,
+    "extensionIds": 3,
+    "unifiedIds": 26,
+    "implementedUniqueTemplates": 17,
+    "partialTemplates": 3,
+    "duplicateRepresentations": 2,
+    "missingTemplates": 6,
+    "ownerDecisionItems": 6,
+    "candidateAssetFilesCopied": 16,
+    "supportFilesCopied": 2,
+    "hashMismatches": 0
+  },
+  "ownerDecisionItems": [
+    {
+      "id": "OD-01",
+      "decision": "Select/approve logo variant or maintain logo omission.",
+      "reason": "No logo candidate selected."
+    },
+    {
+      "id": "OD-02",
+      "decision": "Resolve logo clear-space conflict.",
+      "reason": "Foundation rule conflicts with provisional WP04/WP05 advice."
+    },
+    {
+      "id": "OD-03",
+      "decision": "Confirm presentation export format.",
+      "reason": "PPTX candidate conflicts with SVG/PNG export-registry definition."
+    },
+    {
+      "id": "OD-04",
+      "decision": "Supply printer-specific production specifications.",
+      "reason": "No provider bleed, color profile, or preset verified."
+    },
+    {
+      "id": "OD-05",
+      "decision": "Approve provisional typography/font use.",
+      "reason": "Font choices remain provisional."
+    },
+    {
+      "id": "OD-06",
+      "decision": "Approve final bilingual digital-card wording.",
+      "reason": "Original sample English-only; HTML carries EN/AR labels; owner-approved final text not located."
+    }
+  ],
+  "items": [
+    {
+      "templateId": "business-card-front-en",
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "Conceptual 90 × 50 mm trim only; no printer bleed/profile or selected logo; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "business-card-back-ar",
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "Conceptual 90 × 50 mm trim only; no printer bleed/profile or selected logo; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "digital-business-card-bi",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "DOCX not visually opened per report; HTML browser layout not verified.",
+      "printExportReadiness": "Responsive HTML candidate; browser rendering not verified; no final content/logo approval.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "professional-contact-card",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "DOCX not visually opened per report; HTML browser layout not verified.",
+      "printExportReadiness": "Responsive HTML candidate; browser rendering not verified; no final content/logo approval.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "email-signature-en",
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "visualQaStatus": "Word live review; DOCX carrier only, no saved screenshot.",
+      "printExportReadiness": "DOCX editing carrier only; not mail-client export; width/rendering unverified.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "email-signature-ar",
+      "classification": "MISSING",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "DOCX editing carrier only; not mail-client export; width/rendering unverified.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "stationery-en",
+      "classification": "MISSING",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "stationery-ar",
+      "classification": "MISSING",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "letterhead-en",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "Word live review at 33%; no obvious clipping; screenshot not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "letterhead-ar",
+      "classification": "MISSING",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "report-cover-en",
+      "classification": "MISSING",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "report-page-en",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "Word live review; one page, no obvious clipping; screenshots not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "proposal-cover-ar",
+      "classification": "MISSING",
+      "visualQaStatus": "No visual QA evidence located; NOT VERIFIED.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "proposal-page-ar",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "Word live review; Arabic connected, but observed left-positioned despite XML right alignment; unresolved; screenshot not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "invoice-en",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "Word live review at 33%; no obvious clipping; screenshot not saved.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "general-document-ar",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "Word live review reported; no saved screenshot; shaping/alignment not conclusively established.",
+      "printExportReadiness": "A4 Office candidate; no PDF/provider preset, print proof, or owner acceptance; not print-ready.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-title-en",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-divider-ar",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-content-en",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-two-column-ar",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-media-en",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-chart-en",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-closing-bi",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "All seven slides reviewed live in PowerPoint; no obvious clipping; contrast not fully measured; screenshots not saved.",
+      "printExportReadiness": "16:9 PPTX candidate; export registry specifies SVG/PNG assets and policy does not include an editable deck; decision unresolved.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "meeting-agenda-minutes",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "No renderer QA; structural-only validation.",
+      "printExportReadiness": "A4 DOCX candidate only; no PDF or print proof.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "project-status-update",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "No renderer QA; structural-only validation.",
+      "printExportReadiness": "A4 DOCX candidate only; no PDF or print proof.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "client-onboarding-handoff",
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "visualQaStatus": "No renderer QA; structural-only validation.",
+      "printExportReadiness": "A4 DOCX candidate only; no PDF or print proof.",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ],
+  "globalLimitations": [
+    "Screenshots not persisted for prior live visual checks.",
+    "Arabic proposal alignment observation unresolved.",
+    "Arabic shaping, full visual rendering, responsive QA, and contrast/accessibility not verified.",
+    "All candidates provisional; no owner acceptance or production readiness."
+  ]
+}

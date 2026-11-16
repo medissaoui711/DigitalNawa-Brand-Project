@@ -1,0 +1,44 @@
+/* Candidate only. Palette values are existing approved brand primitives. */
+:root {
+  color-scheme: light dark;
+  --dn-bg: #FEF3C7;
+  --dn-panel: #FEF3C7;
+  --dn-ink: #1C1917;
+  --dn-muted: #78716C;
+  --dn-accent: #0EA5A4;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--dn-bg); color: var(--dn-ink); }
+body { margin: 0; background: var(--dn-bg); color: var(--dn-ink); }
+.page { width: min(100% - 2rem, 58rem); margin-inline: auto; padding-block: 1.25rem 2rem; }
+.provisional { margin: 0 0 1rem; font-size: .8rem; font-weight: 700; }
+.cards { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+.card { min-width: 0; padding: clamp(1rem, 4vw, 2rem); border: 2px solid var(--dn-accent); border-radius: 1rem; background: var(--dn-panel); color: var(--dn-ink); }
+.card[dir="rtl"] { text-align: right; }
+.card[dir="ltr"] { text-align: left; }
+.logo-slot { min-height: 2rem; margin-block-end: 1rem; padding: .25rem 0; border-block-end: 2px solid var(--dn-accent); color: var(--dn-ink); font-size: .8rem; }
+h1, h2, h3 { margin: 0 0 .4rem; font-weight: 700; }
+h1 { font-size: clamp(1.5rem, 5vw, 2.25rem); line-height: 1.25; }
+h2 { font-size: 1.15rem; line-height: 1.4; }
+p { margin: .35rem 0 .8rem; line-height: 1.55; }
+.arabic { font-family: "IBM Plex Sans Arabic", "Noto Sans Arabic", Tahoma, sans-serif; line-height: 1.75; letter-spacing: 0; }
+dl { display: grid; grid-template-columns: minmax(7rem, .7fr) minmax(0, 1.3fr); gap: .35rem .75rem; margin: 1rem 0 0; }
+dl div { display: contents; }
+dt, dd { min-width: 0; margin: 0; padding-block: .3rem; border-block-end: 1px solid var(--dn-muted); overflow-wrap: anywhere; }
+dt { font-weight: 600; }
+[dir="rtl"] dt, [dir="rtl"] dd { text-align: right; }
+[dir="ltr"] dt, [dir="ltr"] dd { text-align: left; }
+bdi { unicode-bidi: isolate; }
+.focus-note { margin-block-start: 1rem; padding-inline-start: .75rem; border-inline-start: .25rem solid var(--dn-accent); }
+@media (min-width: 48rem) {
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; }
+}
+@media (prefers-color-scheme: dark) {
+  :root { --dn-bg: #1C1917; --dn-panel: #1C1917; --dn-ink: #FEF3C7; --dn-muted: #78716C; --dn-accent: #0EA5A4; }
+}
+@media print {
+  .page { width: auto; margin: 0; padding: 0; }
+  .cards { grid-template-columns: 1fr; }
+  .card { break-inside: avoid; }
+}

@@ -1,0 +1,992 @@
+{
+  "task": "DN-BRAND-001-WP08-EXEC-008",
+  "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+  "originalRegistry": {
+    "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-001\\collateral-template-index.json",
+    "sha256": "912eb2a85b209d1c82b8036be54acc1bd46bf446a13ad1e39f8bbb647e3b90d0",
+    "entryCount": 23,
+    "entries": [
+      {
+        "templateId": "business-card-front-en",
+        "name": "Business card front — English",
+        "category": "Business identity",
+        "intendedUse": "External contact",
+        "formatId": "business-card",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "business-card-back-ar",
+        "name": "Business card back — Arabic",
+        "category": "Business identity",
+        "intendedUse": "External contact",
+        "formatId": "business-card",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "digital-business-card-bi",
+        "name": "Digital business card — bilingual",
+        "category": "Business identity",
+        "intendedUse": "Digital contact",
+        "formatId": "digital-card",
+        "language": "bi",
+        "direction": "mixed",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "professional-contact-card",
+        "name": "Professional contact card",
+        "category": "Business identity",
+        "intendedUse": "Professional profile",
+        "formatId": "digital-card",
+        "language": "bi",
+        "direction": "mixed",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "email-signature-en",
+        "name": "Email signature — English",
+        "category": "Business identity",
+        "intendedUse": "Email",
+        "formatId": "email-signature",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "email-signature-ar",
+        "name": "Email signature — Arabic",
+        "category": "Business identity",
+        "intendedUse": "Email",
+        "formatId": "email-signature",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "stationery-en",
+        "name": "Basic stationery — English",
+        "category": "Business identity",
+        "intendedUse": "Correspondence",
+        "formatId": "letterhead-a4",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "stationery-ar",
+        "name": "Basic stationery — Arabic",
+        "category": "Business identity",
+        "intendedUse": "Correspondence",
+        "formatId": "letterhead-a4",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "letterhead-en",
+        "name": "Official letterhead — English",
+        "category": "Document identity",
+        "intendedUse": "Letter",
+        "formatId": "letterhead-a4",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "letterhead-ar",
+        "name": "Official letterhead — Arabic",
+        "category": "Document identity",
+        "intendedUse": "Letter",
+        "formatId": "letterhead-a4",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "report-cover-en",
+        "name": "Report cover — English",
+        "category": "Document identity",
+        "intendedUse": "Report",
+        "formatId": "document-a4",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "report-page-en",
+        "name": "Report page — English",
+        "category": "Document identity",
+        "intendedUse": "Report",
+        "formatId": "document-a4",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "proposal-cover-ar",
+        "name": "Proposal cover — Arabic",
+        "category": "Document identity",
+        "intendedUse": "Proposal",
+        "formatId": "document-a4",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "proposal-page-ar",
+        "name": "Proposal page — Arabic",
+        "category": "Document identity",
+        "intendedUse": "Proposal",
+        "formatId": "document-a4",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "invoice-en",
+        "name": "Invoice candidate — English",
+        "category": "Document identity",
+        "intendedUse": "Invoice",
+        "formatId": "document-a4",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "general-document-ar",
+        "name": "General business document — Arabic",
+        "category": "Document identity",
+        "intendedUse": "Correspondence / general",
+        "formatId": "document-a4",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "presentation-title-en",
+        "name": "Presentation title slide",
+        "category": "Presentation identity",
+        "intendedUse": "Presentation",
+        "formatId": "presentation-16x9",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "presentation-divider-ar",
+        "name": "Presentation section divider",
+        "category": "Presentation identity",
+        "intendedUse": "Presentation",
+        "formatId": "presentation-16x9",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "presentation-content-en",
+        "name": "Presentation content slide",
+        "category": "Presentation identity",
+        "intendedUse": "Presentation",
+        "formatId": "presentation-16x9",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "presentation-two-column-ar",
+        "name": "Presentation two-column slide",
+        "category": "Presentation identity",
+        "intendedUse": "Presentation",
+        "formatId": "presentation-16x9",
+        "language": "ar",
+        "direction": "rtl",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "presentation-media-en",
+        "name": "Presentation image/media slide",
+        "category": "Presentation identity",
+        "intendedUse": "Presentation",
+        "formatId": "presentation-16x9",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "presentation-chart-en",
+        "name": "Presentation chart slide",
+        "category": "Presentation identity",
+        "intendedUse": "Presentation",
+        "formatId": "presentation-16x9",
+        "language": "en",
+        "direction": "ltr",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "presentation-closing-bi",
+        "name": "Presentation closing/contact slide",
+        "category": "Presentation identity",
+        "intendedUse": "Presentation",
+        "formatId": "presentation-16x9",
+        "language": "bi",
+        "direction": "mixed",
+        "themeCompatibility": [
+          "light",
+          "dark"
+        ],
+        "sourceAssetDependencies": [
+          "../DN-BRAND-001-WP02-EXEC-003/design-tokens.candidate-v2.css",
+          "../DN-BRAND-001-WP03-EXEC-011/typography-tokens.candidate.css",
+          "../DN-BRAND-001-WP04-EXEC-001/logo-lockups.candidate/ (selected candidate SVGs)",
+          "../DN-BRAND-001-WP06-EXEC-001/component-library.candidate.css",
+          "../DN-BRAND-001-WP07-EXEC-001/social-identity-system.css"
+        ],
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      }
+    ]
+  },
+  "extensionAddendum": {
+    "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\operational-template-registry.addendum.candidate.json",
+    "sha256": "c42cf28bf5c2a1b60d93869bc7750ec1896f23d36d169a77c06786fd2270e618",
+    "status": "PROVISIONAL — NOT APPROVED FOR PRODUCTION",
+    "entryCount": 3,
+    "entries": [
+      {
+        "templateId": "meeting-agenda-minutes",
+        "name": "Meeting Agenda and Minutes",
+        "category": "Operational Documents",
+        "intendedUse": "Prepare an agenda and record meeting notes, decisions, and agreed follow-up actions",
+        "formatId": "document-a4",
+        "language": "bi",
+        "direction": "mixed",
+        "candidateFile": "meeting-agenda-minutes.candidate.docx",
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "project-status-update",
+        "name": "Project Status Update",
+        "category": "Operational Documents",
+        "intendedUse": "Record a time-bounded project status, evidence, risks, decisions needed, and next actions",
+        "formatId": "document-a4",
+        "language": "bi",
+        "direction": "mixed",
+        "candidateFile": "project-status-update.candidate.docx",
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      },
+      {
+        "templateId": "client-onboarding-handoff",
+        "name": "Client Onboarding and Project Handoff",
+        "category": "Operational Documents",
+        "intendedUse": "Coordinate confirmed client/project details, onboarding checklist, handoff items, and next actions",
+        "formatId": "document-a4",
+        "language": "bi",
+        "direction": "mixed",
+        "candidateFile": "client-onboarding-handoff.candidate.docx",
+        "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+      }
+    ]
+  },
+  "unifiedIds": [
+    "business-card-front-en",
+    "business-card-back-ar",
+    "digital-business-card-bi",
+    "professional-contact-card",
+    "email-signature-en",
+    "email-signature-ar",
+    "stationery-en",
+    "stationery-ar",
+    "letterhead-en",
+    "letterhead-ar",
+    "report-cover-en",
+    "report-page-en",
+    "proposal-cover-ar",
+    "proposal-page-ar",
+    "invoice-en",
+    "general-document-ar",
+    "presentation-title-en",
+    "presentation-divider-ar",
+    "presentation-content-en",
+    "presentation-two-column-ar",
+    "presentation-media-en",
+    "presentation-chart-en",
+    "presentation-closing-bi",
+    "meeting-agenda-minutes",
+    "project-status-update",
+    "client-onboarding-handoff"
+  ],
+  "duplicateIds": 0,
+  "coverage": [
+    {
+      "templateId": "business-card-front-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "business-card",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-007/business-card-front-en.candidate.svg",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\business-card-front-en.candidate.svg",
+          "format": "editable SVG",
+          "sizeBytes": 1572,
+          "sha256": "1c3195312148f439fe093919aba375e4fa121c7c2ca2080f0cf7fe765125136e",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "business-card-back-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "business-card",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-007/business-card-back-ar.candidate.svg",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\business-card-back-ar.candidate.svg",
+          "format": "editable SVG",
+          "sizeBytes": 2318,
+          "sha256": "2392920047a9d2c01fcf70ccf831cdd9e6a55dc64e0886c6e5acbfe0cde5a613",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "digital-business-card-bi",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "digital-card",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-005/digital-business-card-bi.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-005",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-005\\digital-business-card-bi.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 37898,
+          "sha256": "27447086b92a8833204ede55688bf5cac4b2a4e36d891484730b0c9478f866f4",
+          "classification": "DUPLICATE"
+        },
+        {
+          "path": "candidate-package/EXEC-007/digital-business-card-bi.candidate.html",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\digital-business-card-bi.candidate.html",
+          "format": "responsive HTML with shared CSS",
+          "sizeBytes": 2037,
+          "sha256": "0197b3d35b6d850b3e9d5f74e428a0bdc335b56ffe62b6201482c106bfb8822b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "professional-contact-card",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "digital-card",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-005/professional-contact-card.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-005",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-005\\professional-contact-card.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38042,
+          "sha256": "4409f28f34106342f57a6c740c2e27824141d2a342f10c8bfb1fcdf0bf7ffedc",
+          "classification": "DUPLICATE"
+        },
+        {
+          "path": "candidate-package/EXEC-007/professional-contact-card.candidate.html",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-007",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-007\\professional-contact-card.candidate.html",
+          "format": "responsive HTML with shared CSS",
+          "sizeBytes": 2338,
+          "sha256": "97b54ecad76261457a14d3431665659780af76b15b8bd21ebafc5652226086ae",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "email-signature-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "email-signature",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-004/email-signature-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-004",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\email-signature-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38511,
+          "sha256": "40580d449b1e42ae588a657a669729c684f06adcf53998e300c88a3cd0e0f08b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "PARTIALLY_IMPLEMENTED",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "email-signature-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "email-signature",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "stationery-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "stationery-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "letterhead-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-003/letterhead-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-003",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\letterhead-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38562,
+          "sha256": "e0e33b40066b6b968cc4ca77113432876b4c984e44fdc9d88b67a0933ec70e8b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "letterhead-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "letterhead-a4",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "report-cover-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "report-page-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/report-page-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\report-page-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38322,
+          "sha256": "50a6b5531b3775ebfc2e3acf73906922206982841ab81896de7588b0374cafbf",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "proposal-cover-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [],
+      "classification": "MISSING",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "proposal-page-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/proposal-page-ar.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\proposal-page-ar.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38285,
+          "sha256": "1fbd26ea41657385c28f543a12223923feb1ce617434e7386d69f2ab2ef5e0a2",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "invoice-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-003/invoice-en.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-003",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-003\\invoice-en.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 39211,
+          "sha256": "b8632a698bdff61a6d2d782d48bd31c2a3b77fa40f8eb61d71237cb9e3819a3f",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "general-document-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-004/general-document-ar.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-004",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-004\\general-document-ar.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38714,
+          "sha256": "b107a171b6701ce3a1c8996c6a8756dd296777f6c130a853823be4277c40e49b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-title-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-divider-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-content-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-two-column-ar",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-media-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-chart-en",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "presentation-closing-bi",
+      "registryOrigin": "ORIGINAL_23_ENTRY_REGISTRY",
+      "intendedFormatId": "presentation-16x9",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-002/presentation-template-16x9.candidate.pptx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-002",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-002\\presentation-template-16x9.candidate.pptx",
+          "format": "PPTX",
+          "sizeBytes": 38179,
+          "sha256": "0e88cc720cc70923a482a708ea756fc3cb0b62bfeaf6a84c0c80c81d27a9f59b",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "meeting-agenda-minutes",
+      "registryOrigin": "EXEC-006_PROVISIONAL_EXTENSION_ADDENDUM",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-006/meeting-agenda-minutes.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-006",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\meeting-agenda-minutes.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 37957,
+          "sha256": "fda4ff9f3cf8b78766470dc2dc6708a504149ed98c9702001ba45c101d0ba2b2",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "project-status-update",
+      "registryOrigin": "EXEC-006_PROVISIONAL_EXTENSION_ADDENDUM",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-006/project-status-update.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-006",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\project-status-update.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 37990,
+          "sha256": "48c8fac7ac3934b9d9b2b2165d78b65078c28fd6031e70f6cbc375fb5b346c34",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    },
+    {
+      "templateId": "client-onboarding-handoff",
+      "registryOrigin": "EXEC-006_PROVISIONAL_EXTENSION_ADDENDUM",
+      "intendedFormatId": "document-a4",
+      "candidateFiles": [
+        {
+          "path": "candidate-package/EXEC-006/client-onboarding-handoff.candidate.docx",
+          "sourceExecution": "DN-BRAND-001-WP08-EXEC-006",
+          "sourcePath": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\work\\DN-BRAND-001-WP08-EXEC-006\\client-onboarding-handoff.candidate.docx",
+          "format": "DOCX",
+          "sizeBytes": 38258,
+          "sha256": "4044fa451e920cc6a1d036ff4fb6dd4617b6183a8b492430d6c521f4b8a209d9",
+          "classification": "IMPLEMENTED_CANDIDATE"
+        }
+      ],
+      "classification": "IMPLEMENTED_CANDIDATE",
+      "approvalStatus": "PROVISIONAL — NOT APPROVED FOR PRODUCTION"
+    }
+  ]
+}

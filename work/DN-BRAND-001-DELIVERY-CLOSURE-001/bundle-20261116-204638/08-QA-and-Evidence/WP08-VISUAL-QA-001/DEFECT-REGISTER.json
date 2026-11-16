@@ -1,0 +1,21 @@
+{
+  "taskId": "DN-BRAND-001-WP08-VISUAL-QA-001",
+  "status": "NEEDS MORE EVIDENCE",
+  "confirmedDefects": [],
+  "concerns": [
+    {
+      "file": "report-page-en.candidate.docx",
+      "location": "Page 1 lower table area",
+      "finding": "No defect was seen, but saved full-page evidence is absent.",
+      "classification": "NOT VERIFIED"
+    },
+    {
+      "file": "proposal-page-ar.candidate.docx",
+      "location": "Arabic body and mixed-direction heading on page 1",
+      "finding": "Arabic content appeared near the left edge of its content area; intended alignment and the mixed-direction heading order need corroboration.",
+      "classification": "OBSERVED concern; NOT VERIFIED as a defect"
+    }
+  ],
+  "productionChanges": [],
+  "candidateCorrections": []
+}

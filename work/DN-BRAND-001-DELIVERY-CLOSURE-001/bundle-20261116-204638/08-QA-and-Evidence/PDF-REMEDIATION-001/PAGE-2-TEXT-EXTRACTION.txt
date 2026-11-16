@@ -1,0 +1,16 @@
+PDF page-2 text extraction status: NOT AVAILABLE
+Reason: installed MiKTeX pdftotext failed before extraction with access denied to MiKTeX registry/AppData; exit code -1073740791. No PDF extraction is represented below.
+
+DesignCraft source story 44, exact text (original):
+DigitalNawa — ديجيتال نواة
+Brand model: Founder-Led Digital Brand.
+Positioning: AI-Assisted Full-Stack Developer • Tech Educator • Digital Product Creator.
+The identity supports education, development, and digital products.
+
+DesignCraft candidate story 44, exact owner-provided text (Unicode preserved):
+DigitalNawa — ⁧ديجيتال نواة⁩
+Brand model: Founder-Led Digital Brand.
+Positioning: AI-Assisted Full-Stack Developer • Tech Educator • Digital Product Creator.
+The identity supports education, development, and digital products.
+
+Candidate directional controls: line 1 contains U+2067 RIGHT-TO-LEFT ISOLATE before the Arabic substring and U+2069 POP DIRECTIONAL ISOLATE after it. Story direction remains leftToRight. Candidate copy is exact against the owner text supplied to the earlier authorized copy task; this does not validate PDF rendering.
