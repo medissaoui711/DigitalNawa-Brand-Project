@@ -1,0 +1,54 @@
+{
+  "task": "DN-BRAND-001-LOGO-WORDMARK-SPACING-REMEDIATION-002",
+  "result": "NEEDS MORE EVIDENCE",
+  "source": {
+    "path": "C:\\Users\\DELL\\Documents\\Codex\\DigitalNawa-Brand-Project\\DigitalNawa\\03-Logo-Assets\\02-Master\\digitalnawa-horizontal-ar-master.svg",
+    "bytes": 1219,
+    "sha256": "60acad4837e2e904c59593d36e1b1547b7c1d293bc5540e89d4aea423307b388",
+    "manifestRecord": {
+      "id": "02-Master-digitalnawa-horizontal-ar-master-svg",
+      "type": "logo-horizontal-master",
+      "path": "02-Master/digitalnawa-horizontal-ar-master.svg",
+      "parentRef": "02-Master/dn-symbol-master.svg",
+      "sha256": "60acad4837e2e904c59593d36e1b1547b7c1d293bc5540e89d4aea423307b388"
+    }
+  },
+  "candidate": {
+    "path": "candidates/digitalnawa-horizontal-ar-master.spacing.candidate.svg",
+    "bytes": 1219,
+    "sha256": "c9cdeeec6e32d9fdcd7f3cfe7af60c3ecd003fac4e7d96f7f0d9be3cdb5d2641",
+    "status": "ISOLATED CANDIDATE — NOT PRODUCTION"
+  },
+  "changes": [
+    {
+      "target": "Arabic wordmark",
+      "fromY": 159,
+      "toY": 145
+    },
+    {
+      "target": "English tagline",
+      "fromY": 215,
+      "toY": 225
+    }
+  ],
+  "staticValidation": "PASS",
+  "visualValidation": "NOT VERIFIED",
+  "productionIntegration": false,
+  "reports": [
+    {
+      "path": "reports/MASTER-CORRECTION-REPORT.md",
+      "bytes": 1245,
+      "sha256": "a7d0a95bc2542aa5e5e7fd1281655dc2472243ae197faae715e6f648f5029b38"
+    },
+    {
+      "path": "reports/SVG-VALIDATION-REPORT.md",
+      "bytes": 776,
+      "sha256": "e192fdb2a0e485dacb15f790058bbfe3de4186094d26c357273a8257ccb30dee"
+    },
+    {
+      "path": "reports/VISUAL-QA-STATUS.md",
+      "bytes": 359,
+      "sha256": "4e47d384c5ebabced8a0130e86b16c061ed9285d03b6aad037c48d8d5f6dc065"
+    }
+  ]
+}
