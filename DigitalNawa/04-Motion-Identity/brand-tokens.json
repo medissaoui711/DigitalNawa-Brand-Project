@@ -1,1 +1,522 @@
-{"schemaVersion":"1.0.0","workstream":"DN-MOTION-001","documentStatus":"candidate","statusEnum":["approved","candidate","unverified"],"tokens":{"color":{"warmIvory":{"value":"#FEF3C7","status":"approved","source":"DigitalNawa approved brand palette","notes":"Approved palette value. Do not infer that it passes every text-contrast use."},"warmGray":{"value":"#78716C","status":"approved","source":"DigitalNawa approved brand palette","notes":"Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."},"mutedTeal":{"value":"#0EA5A4","status":"approved","source":"DigitalNawa approved brand palette","notes":"Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."},"darkBrown":{"value":"#1C1917","status":"approved","source":"DigitalNawa approved brand palette","notes":"Approved palette value; preferred dark neutral reference."},"warmOrange":{"value":"#EA5808","status":"approved","source":"DigitalNawa approved brand palette","notes":"Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."},"motionBackground":{"value":"#1C1917","status":"candidate","source":"Motion direction proposed during DN-MOTION-001 planning","notes":"Candidate use of Dark Brown instead of pure black; not a separate approved semantic token."}},"typography":{"latinUi":{"value":"Inter","status":"candidate","source":"Typography workstream candidate list","notes":"Not finally approved; font file, exact version, license, loading, and rendering must be verified."},"arabicUi":{"value":"IBM Plex Sans Arabic","status":"candidate","source":"Typography workstream candidate list","notes":"Not finally approved; Arabic shaping and RTL behavior must be tested in the actual video render pipeline."},"code":{"value":"JetBrains Mono","status":"candidate","source":"Typography workstream candidate list","notes":"Not finally approved; verify version and license before distribution."},"arabicWordmark":{"value":["Cairo","IBM Plex Sans Arabic"],"status":"unverified","source":"Existing SVG font-family fallback declarations","notes":"The final wordmark font has not been selected or verified; do not treat this fallback list as a decision."}},"identity":{"tagline":{"value":"Build. Innovate. Teach.","status":"approved","source":"DigitalNawa brand positioning decision","notes":"Approved wording; motion treatment remains a candidate until visual QA."},"arabicName":{"value":"ديجيتال نواة","status":"approved","source":"DigitalNawa brand identity wording","notes":"Approved wording; rendered shaping and lockup layout remain subject to QA."},"englishName":{"value":"DigitalNawa","status":"approved","source":"DigitalNawa brand name and repository identity","notes":"Approved Latin brand name; final wordmark typography remains unapproved."},"logoGeometry":{"value":"Existing DN symbol master asset","status":"unverified","source":"DigitalNawa/03-Logo-Assets/02-Master/dn-symbol-master.svg","notes":"Previously documented as a geometric reconstruction; original visual reference was absent. Not certified as final master geometry."}},"motion":{"frameRate":{"value":60,"status":"candidate","source":"Owner-provided DN-MOTION-001 storyboard","notes":"Target frame rate for the initial pilot."},"durationSeconds":{"value":9,"status":"candidate","source":"Owner-provided DN-MOTION-001 storyboard","notes":"Target duration for the initial pilot."},"pixelCount":{"value":24,"status":"candidate","source":"Owner-provided Rising Pixel motion principle","notes":"24 transition particles; not a claim that the master SVG contains 24 independent pixel shapes."},"pixelRiseDurationSeconds":{"value":0.6,"status":"candidate","source":"Owner-provided Rising Pixel motion principle","notes":"Per-particle animation duration."},"pixelStaggerSeconds":{"value":0.04,"status":"candidate","source":"Owner-provided Rising Pixel motion principle","notes":"Per-particle stagger interval."},"pixelRiseOffsetDesignUnits":{"value":100,"status":"candidate","source":"Owner-provided Rising Pixel motion principle","notes":"Approximate initial vertical offset in the 280x240 symbol design coordinate system."},"pixelUnitSizeDesignUnits":{"value":8,"status":"candidate","source":"Phase 2 prototype implementation assumption","notes":"Transitional particle size only; not part of the logo geometry and subject to visual QA."},"easing":{"value":"cubic-bezier(0.22, 1, 0.36, 1)","status":"candidate","source":"Owner-provided motion direction","notes":"Preferred easing; linear and bounce easing are excluded from the proposed motion language."},"sloganInitialScale":{"value":0.95,"status":"candidate","source":"Owner-provided Slogan Lockup principle","notes":"Initial scale for each slogan word."},"sloganFinalScale":{"value":1,"status":"candidate","source":"Owner-provided Slogan Lockup principle","notes":"Final scale for each slogan word."},"arabicEnglishTransition":{"value":"crossfade","status":"candidate","source":"Motion implementation risk mitigation","notes":"Prefer crossfade over glyph morphing to protect Arabic shaping; validate the actual renderer."},"riseStartSeconds":{"value":0,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"Start of rising-pixel sequence."},"riseEndSeconds":{"value":2,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"End of rising-pixel sequence."},"assemblyStartSeconds":{"value":2,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"Start of symbol assembly sequence."},"assemblyEndSeconds":{"value":3.5,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"End of symbol assembly sequence."},"dualRevealStartSeconds":{"value":3.5,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"Start of bilingual name reveal."},"dualRevealEndSeconds":{"value":5.5,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"End of bilingual name reveal."},"sloganStartSeconds":{"value":5.5,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"Start of sequential tagline reveal."},"sloganEndSeconds":{"value":8,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"End of sequential tagline reveal."},"finalHoldStartSeconds":{"value":8,"status":"candidate","source":"Owner-provided 9-second storyboard","notes":"Start of final lockup hold and fade window."},"finalFadeStartSeconds":{"value":8.8,"status":"candidate","source":"Phase 2 prototype implementation assumption","notes":"Provisional 0.2-second fade; owner review required."},"particleGridColumns":{"value":6,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Column count for deterministic transition-particle placement."},"particleGridWidthRatio":{"value":0.82,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Relative width of the transitional particle field within the symbol bounds."},"particleGridHeightRatio":{"value":0.72,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Relative height of the transitional particle field within the symbol bounds."},"particleInitialScale":{"value":0.7,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Initial particle scale."},"particleAssemblyScale":{"value":0.72,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Particle scale during final assembly."},"particleAssemblyStaggerSeconds":{"value":0.006,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Per-particle stagger during assembly."},"particleFinalOpacity":{"value":0.16,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Residual particle layer opacity after source SVG reveal."},"logoRevealDurationSeconds":{"value":0.35,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Source SVG reveal duration."},"assemblyLogoLeadSeconds":{"value":0.25,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Offset from assembly end when the source SVG reveal begins."},"particleFadeLeadSeconds":{"value":0.2,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Offset from assembly end when residual particles begin fading."},"particleFadeDurationSeconds":{"value":0.25,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Residual particle fade duration."},"arabicRevealDurationRatio":{"value":0.42,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Fraction of bilingual reveal window allocated to the Arabic reveal."},"arabicRevealYOffsetDesignUnits":{"value":18,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Initial Arabic wordmark vertical offset."},"arabicFadeDurationSeconds":{"value":0.32,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Arabic wordmark fade-out duration."},"arabicFadeDelaySeconds":{"value":0.22,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Delay after Arabic reveal before fade-out."},"englishRevealYOffsetDesignUnits":{"value":14,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Initial English wordmark vertical offset."},"englishRevealDurationSeconds":{"value":0.48,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"English wordmark reveal duration."},"sloganRevealMaxDurationSeconds":{"value":0.55,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Maximum reveal duration per tagline word."},"sloganRevealDurationRatio":{"value":0.72,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Fraction of each word slot used for its scale/opacity reveal."},"minimumAssemblyDurationSeconds":{"value":0.1,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Numeric animation control; review after rendered timing inspection."},"englishRevealOverlapRatio":{"value":0.2,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Numeric animation control; review after rendered timing inspection."},"particleFinalScale":{"value":1,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Final scale for particles after the rising phase."}},"output":{"vertical":{"value":"1080x1920","status":"candidate","source":"Owner-provided output specification"},"square":{"value":"1080x1080","status":"candidate","source":"Owner-provided output specification"},"landscape":{"value":"1920x1080","status":"candidate","source":"Owner-provided output specification"}},"layout":{"symbolWidthViewportRatio":{"value":0.48,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Maximum symbol width relative to canvas width."},"symbolHeightViewportRatio":{"value":0.26,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Maximum symbol width relative to canvas height."},"symbolCenterYPortraitRatio":{"value":0.37,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Vertical symbol center ratio for portrait output."},"symbolCenterYLandscapeRatio":{"value":0.36,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Vertical symbol center ratio for square and landscape output."},"wordmarkWidthRatio":{"value":0.84,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Wordmark container width relative to canvas."},"arabicNameTopPercent":{"value":58,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Arabic name vertical placement as percentage of canvas height."},"englishNameTopPercent":{"value":59,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"English name vertical placement as percentage of canvas height."},"taglineTopPercent":{"value":69,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Tagline vertical placement as percentage of canvas height."},"arabicFontSizeVwPercent":{"value":4.6,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Arabic wordmark responsive font size factor."},"arabicFontSizeMaxPx":{"value":84,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Maximum Arabic wordmark font size."},"englishFontSizeVwPercent":{"value":4.2,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"English wordmark responsive font size factor."},"englishFontSizeMaxPx":{"value":76,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Maximum English wordmark font size."},"taglineFontSizeVwPercent":{"value":2.15,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Tagline responsive font size factor."},"taglineFontSizeMaxPx":{"value":42,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Maximum tagline font size."},"arabicFontWeight":{"value":700,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Arabic wordmark font weight."},"englishFontWeight":{"value":700,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"English wordmark font weight."},"taglineFontWeight":{"value":600,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Tagline font weight."},"arabicLineHeight":{"value":1.35,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Arabic wordmark line height."},"latinLetterSpacingEm":{"value":0.02,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"English wordmark and tagline letter spacing."},"taglineGapEm":{"value":0.42,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Gap between tagline words."},"particleCornerRadiusPx":{"value":1,"status":"candidate","source":"Phase 2 prototype layout assumption","notes":"Corner radius for transitional particles."}}}}
+{
+  "schemaVersion": "1.0.0",
+  "workstream": "DN-MOTION-001",
+  "documentStatus": "candidate",
+  "statusEnum": [
+    "approved",
+    "candidate",
+    "unverified"
+  ],
+  "tokens": {
+    "color": {
+      "warmIvory": {
+        "value": "#FEF3C7",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Do not infer that it passes every text-contrast use."
+      },
+      "warmGray": {
+        "value": "#78716C",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."
+      },
+      "mutedTeal": {
+        "value": "#0EA5A4",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."
+      },
+      "darkBrown": {
+        "value": "#1C1917",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value; preferred dark neutral reference."
+      },
+      "warmOrange": {
+        "value": "#EA5808",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."
+      },
+      "motionBackground": {
+        "value": "#1C1917",
+        "status": "candidate",
+        "source": "Motion direction proposed during DN-MOTION-001 planning",
+        "notes": "Candidate use of Dark Brown instead of pure black; not a separate approved semantic token."
+      }
+    },
+    "typography": {
+      "latinUi": {
+        "value": "Inter",
+        "status": "candidate",
+        "source": "Typography workstream candidate list",
+        "notes": "Not finally approved; font file, exact version, license, loading, and rendering must be verified."
+      },
+      "arabicUi": {
+        "value": "IBM Plex Sans Arabic",
+        "status": "candidate",
+        "source": "Typography workstream candidate list",
+        "notes": "Not finally approved; Arabic shaping and RTL behavior must be tested in the actual video render pipeline."
+      },
+      "code": {
+        "value": "JetBrains Mono",
+        "status": "candidate",
+        "source": "Typography workstream candidate list",
+        "notes": "Not finally approved; verify version and license before distribution."
+      },
+      "arabicWordmark": {
+        "value": [
+          "Cairo",
+          "IBM Plex Sans Arabic"
+        ],
+        "status": "unverified",
+        "source": "Existing SVG font-family fallback declarations",
+        "notes": "The final wordmark font has not been selected or verified; do not treat this fallback list as a decision."
+      }
+    },
+    "identity": {
+      "tagline": {
+        "value": "Build. Innovate. Teach.",
+        "status": "approved",
+        "source": "DigitalNawa brand positioning decision",
+        "notes": "Approved wording; motion treatment remains a candidate until visual QA."
+      },
+      "arabicName": {
+        "value": "ديجيتال نواة",
+        "status": "approved",
+        "source": "DigitalNawa brand identity wording",
+        "notes": "Approved wording; rendered shaping and lockup layout remain subject to QA."
+      },
+      "englishName": {
+        "value": "DigitalNawa",
+        "status": "approved",
+        "source": "DigitalNawa brand name and repository identity",
+        "notes": "Approved Latin brand name; final wordmark typography remains unapproved."
+      },
+      "logoGeometry": {
+        "value": "Existing DN symbol master asset",
+        "status": "unverified",
+        "source": "DigitalNawa/03-Logo-Assets/02-Master/dn-symbol-master.svg",
+        "notes": "Previously documented as a geometric reconstruction; original visual reference was absent. Not certified as final master geometry."
+      },
+      "logoDesignWidth": {
+        "value": 280,
+        "status": "unverified",
+        "source": "DigitalNawa/03-Logo-Assets/02-Master/dn-symbol-master.svg width attribute",
+        "notes": "Source SVG design-space width; logo geometry remains an unverified geometric reconstruction."
+      },
+      "logoDesignHeight": {
+        "value": 240,
+        "status": "unverified",
+        "source": "DigitalNawa/03-Logo-Assets/02-Master/dn-symbol-master.svg height attribute",
+        "notes": "Source SVG design-space height; logo geometry remains an unverified geometric reconstruction."
+      }
+    },
+    "motion": {
+      "frameRate": {
+        "value": 60,
+        "status": "candidate",
+        "source": "Owner-provided DN-MOTION-001 storyboard",
+        "notes": "Target frame rate for the initial pilot."
+      },
+      "durationSeconds": {
+        "value": 9,
+        "status": "candidate",
+        "source": "Owner-provided DN-MOTION-001 storyboard",
+        "notes": "Target duration for the initial pilot."
+      },
+      "pixelCount": {
+        "value": 24,
+        "status": "candidate",
+        "source": "Owner-provided Rising Pixel motion principle",
+        "notes": "24 transition particles; not a claim that the master SVG contains 24 independent pixel shapes."
+      },
+      "pixelRiseDurationSeconds": {
+        "value": 0.6,
+        "status": "candidate",
+        "source": "Owner-provided Rising Pixel motion principle",
+        "notes": "Per-particle animation duration."
+      },
+      "pixelStaggerSeconds": {
+        "value": 0.04,
+        "status": "candidate",
+        "source": "Owner-provided Rising Pixel motion principle",
+        "notes": "Per-particle stagger interval."
+      },
+      "pixelRiseOffsetDesignUnits": {
+        "value": 100,
+        "status": "candidate",
+        "source": "Owner-provided Rising Pixel motion principle",
+        "notes": "Approximate initial vertical offset in the 280x240 symbol design coordinate system."
+      },
+      "pixelUnitSizeDesignUnits": {
+        "value": 8,
+        "status": "candidate",
+        "source": "Phase 2 prototype implementation assumption",
+        "notes": "Transitional particle size only; not part of the logo geometry and subject to visual QA."
+      },
+      "easing": {
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "status": "candidate",
+        "source": "Owner-provided motion direction",
+        "notes": "Preferred easing; linear and bounce easing are excluded from the proposed motion language."
+      },
+      "sloganInitialScale": {
+        "value": 0.95,
+        "status": "candidate",
+        "source": "Owner-provided Slogan Lockup principle",
+        "notes": "Initial scale for each slogan word."
+      },
+      "sloganFinalScale": {
+        "value": 1,
+        "status": "candidate",
+        "source": "Owner-provided Slogan Lockup principle",
+        "notes": "Final scale for each slogan word."
+      },
+      "arabicEnglishTransition": {
+        "value": "crossfade",
+        "status": "candidate",
+        "source": "Motion implementation risk mitigation",
+        "notes": "Prefer crossfade over glyph morphing to protect Arabic shaping; validate the actual renderer."
+      },
+      "riseStartSeconds": {
+        "value": 0,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "Start of rising-pixel sequence."
+      },
+      "riseEndSeconds": {
+        "value": 2,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "End of rising-pixel sequence."
+      },
+      "assemblyStartSeconds": {
+        "value": 2,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "Start of symbol assembly sequence."
+      },
+      "assemblyEndSeconds": {
+        "value": 3.5,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "End of symbol assembly sequence."
+      },
+      "dualRevealStartSeconds": {
+        "value": 3.5,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "Start of bilingual name reveal."
+      },
+      "dualRevealEndSeconds": {
+        "value": 5.5,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "End of bilingual name reveal."
+      },
+      "sloganStartSeconds": {
+        "value": 5.5,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "Start of sequential tagline reveal."
+      },
+      "sloganEndSeconds": {
+        "value": 8,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "End of sequential tagline reveal."
+      },
+      "finalHoldStartSeconds": {
+        "value": 8,
+        "status": "candidate",
+        "source": "Owner-provided 9-second storyboard",
+        "notes": "Start of final lockup hold and fade window."
+      },
+      "finalFadeStartSeconds": {
+        "value": 8.8,
+        "status": "candidate",
+        "source": "Phase 2 prototype implementation assumption",
+        "notes": "Provisional 0.2-second fade; owner review required."
+      },
+      "particleGridColumns": {
+        "value": 6,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Column count for deterministic transition-particle placement."
+      },
+      "particleGridWidthRatio": {
+        "value": 0.82,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Relative width of the transitional particle field within the symbol bounds."
+      },
+      "particleGridHeightRatio": {
+        "value": 0.72,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Relative height of the transitional particle field within the symbol bounds."
+      },
+      "particleInitialScale": {
+        "value": 0.7,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Initial particle scale."
+      },
+      "particleAssemblyScale": {
+        "value": 0.72,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Particle scale during final assembly."
+      },
+      "particleAssemblyStaggerSeconds": {
+        "value": 0.006,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Per-particle stagger during assembly."
+      },
+      "particleFinalOpacity": {
+        "value": 0.16,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Residual particle layer opacity after source SVG reveal."
+      },
+      "logoRevealDurationSeconds": {
+        "value": 0.35,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Source SVG reveal duration."
+      },
+      "assemblyLogoLeadSeconds": {
+        "value": 0.25,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Offset from assembly end when the source SVG reveal begins."
+      },
+      "particleFadeLeadSeconds": {
+        "value": 0.2,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Offset from assembly end when residual particles begin fading."
+      },
+      "particleFadeDurationSeconds": {
+        "value": 0.25,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Residual particle fade duration."
+      },
+      "arabicRevealDurationRatio": {
+        "value": 0.42,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Fraction of bilingual reveal window allocated to the Arabic reveal."
+      },
+      "arabicRevealYOffsetDesignUnits": {
+        "value": 18,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Initial Arabic wordmark vertical offset."
+      },
+      "arabicFadeDurationSeconds": {
+        "value": 0.32,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Arabic wordmark fade-out duration."
+      },
+      "arabicFadeDelaySeconds": {
+        "value": 0.22,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Delay after Arabic reveal before fade-out."
+      },
+      "englishRevealYOffsetDesignUnits": {
+        "value": 14,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Initial English wordmark vertical offset."
+      },
+      "englishRevealDurationSeconds": {
+        "value": 0.48,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "English wordmark reveal duration."
+      },
+      "sloganRevealMaxDurationSeconds": {
+        "value": 0.55,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Maximum reveal duration per tagline word."
+      },
+      "sloganRevealDurationRatio": {
+        "value": 0.72,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Fraction of each word slot used for its scale/opacity reveal."
+      },
+      "minimumAssemblyDurationSeconds": {
+        "value": 0.1,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Numeric animation control; review after rendered timing inspection."
+      },
+      "englishRevealOverlapRatio": {
+        "value": 0.2,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Numeric animation control; review after rendered timing inspection."
+      },
+      "particleFinalScale": {
+        "value": 1,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Final scale for particles after the rising phase."
+      }
+    },
+    "output": {
+      "vertical": {
+        "value": "1080x1920",
+        "status": "candidate",
+        "source": "Owner-provided output specification"
+      },
+      "square": {
+        "value": "1080x1080",
+        "status": "candidate",
+        "source": "Owner-provided output specification"
+      },
+      "landscape": {
+        "value": "1920x1080",
+        "status": "candidate",
+        "source": "Owner-provided output specification"
+      }
+    },
+    "layout": {
+      "symbolWidthViewportRatio": {
+        "value": 0.48,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Maximum symbol width relative to canvas width."
+      },
+      "symbolHeightViewportRatio": {
+        "value": 0.26,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Maximum symbol width relative to canvas height."
+      },
+      "symbolCenterYPortraitRatio": {
+        "value": 0.37,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Vertical symbol center ratio for portrait output."
+      },
+      "symbolCenterYLandscapeRatio": {
+        "value": 0.36,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Vertical symbol center ratio for square and landscape output."
+      },
+      "wordmarkWidthRatio": {
+        "value": 0.84,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Wordmark container width relative to canvas."
+      },
+      "arabicNameTopPercent": {
+        "value": 58,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Arabic name vertical placement as percentage of canvas height."
+      },
+      "englishNameTopPercent": {
+        "value": 59,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "English name vertical placement as percentage of canvas height."
+      },
+      "taglineTopPercent": {
+        "value": 69,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Tagline vertical placement as percentage of canvas height."
+      },
+      "arabicFontSizeVwPercent": {
+        "value": 4.6,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Arabic wordmark responsive font size factor."
+      },
+      "arabicFontSizeMaxPx": {
+        "value": 84,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Maximum Arabic wordmark font size."
+      },
+      "englishFontSizeVwPercent": {
+        "value": 4.2,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "English wordmark responsive font size factor."
+      },
+      "englishFontSizeMaxPx": {
+        "value": 76,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Maximum English wordmark font size."
+      },
+      "taglineFontSizeVwPercent": {
+        "value": 2.15,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Tagline responsive font size factor."
+      },
+      "taglineFontSizeMaxPx": {
+        "value": 42,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Maximum tagline font size."
+      },
+      "arabicFontWeight": {
+        "value": 700,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Arabic wordmark font weight."
+      },
+      "englishFontWeight": {
+        "value": 700,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "English wordmark font weight."
+      },
+      "taglineFontWeight": {
+        "value": 600,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Tagline font weight."
+      },
+      "arabicLineHeight": {
+        "value": 1.35,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Arabic wordmark line height."
+      },
+      "latinLetterSpacingEm": {
+        "value": 0.02,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "English wordmark and tagline letter spacing."
+      },
+      "taglineGapEm": {
+        "value": 0.42,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Gap between tagline words."
+      },
+      "particleCornerRadiusPx": {
+        "value": 1,
+        "status": "candidate",
+        "source": "Phase 2 prototype layout assumption",
+        "notes": "Corner radius for transitional particles."
+      }
+    }
+  }
+}
