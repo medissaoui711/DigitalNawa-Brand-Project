@@ -27,14 +27,18 @@ walk(tokens.tokens);
 const logoBytes = await readFile(logoPath);
 const logoText = logoBytes.toString("utf8");
 if (!logoText.includes("<svg") || !/viewBox="[^"]+"/.test(logoText)) throw new Error("Canonical SVG is not a valid source reference.");
+const sourceWidth = Number((logoText.match(/<svg[^>]*\bwidth="([^"]+)"/) || [])[1]);
+const sourceHeight = Number((logoText.match(/<svg[^>]*\bheight="([^"]+)"/) || [])[1]);
+if (sourceWidth !== tokens.tokens.identity.logoDesignWidth.value || sourceHeight !== tokens.tokens.identity.logoDesignHeight.value) {
+  throw new Error("Master SVG design dimensions do not match the unverified identity tokens.");
+}
 const gsapPath = resolve(project, "node_modules/gsap/dist/gsap.min.js");
 const easePath = resolve(project, "node_modules/gsap/dist/CustomEase.min.js");
 const [gsapBytes, easeBytes, template, css, controller] = await Promise.all([
   readFile(gsapPath), readFile(easePath), readFile(templatePath, "utf8"), readFile(sourceCss, "utf8"), readFile(sourceJs, "utf8")
 ]);
 const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
-const formats = ["vertical", "square", "landscape"];
-for (const format of formats) {
+for (const format of ["vertical", "square", "landscape"]) {
   const [width, height] = tokens.tokens.output[format].value.split("x").map(Number);
   if (!Number.isInteger(width) || !Number.isInteger(height) || width <= 0 || height <= 0) throw new Error(`Invalid output dimensions for ${format}`);
   const folder = resolve(project, "compositions", format);
@@ -42,8 +46,8 @@ for (const format of formats) {
   await Promise.all([
     copyFile(logoPath, resolve(folder, "assets/dn-symbol-master.svg")),
     writeFile(resolve(folder, "runtime/brand-tokens.js"), `window.DN_MOTION_TOKENS = Object.freeze(${JSON.stringify(tokens)});\n`),
-    copyFile(resolve(project, "node_modules/gsap/dist/gsap.min.js"), resolve(folder, "vendor/gsap.min.js")),
-    copyFile(resolve(project, "node_modules/gsap/dist/CustomEase.min.js"), resolve(folder, "vendor/CustomEase.min.js")),
+    copyFile(gsapPath, resolve(folder, "vendor/gsap.min.js")),
+    copyFile(easePath, resolve(folder, "vendor/CustomEase.min.js")),
     writeFile(resolve(folder, "styles.css"), css),
     writeFile(resolve(folder, "composition.js"), controller)
   ]);
@@ -63,5 +67,4 @@ for (const format of formats) {
     customEaseSha256: sha(easeBytes)
   }, null, 2) + "\n");
 }
-await copyFile(resolve(project, "compositions/landscape/index.html"), resolve(project, "index.html"));
 console.log("Prepared 3 isolated HyperFrames projects from brand-tokens.json.");
