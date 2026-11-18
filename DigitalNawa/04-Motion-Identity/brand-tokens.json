@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0.0",
+  "workstream": "DN-MOTION-001",
+  "documentStatus": "candidate",
+  "statusEnum": [
+    "approved",
+    "candidate",
+    "unverified"
+  ],
+  "tokens": {
+    "color": {
+      "warmIvory": {
+        "value": "#FEF3C7",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Do not infer that it passes every text-contrast use."
+      },
+      "warmGray": {
+        "value": "#78716C",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."
+      },
+      "mutedTeal": {
+        "value": "#0EA5A4",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."
+      },
+      "darkBrown": {
+        "value": "#1C1917",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value; preferred dark neutral reference."
+      },
+      "warmOrange": {
+        "value": "#EA5808",
+        "status": "approved",
+        "source": "DigitalNawa approved brand palette",
+        "notes": "Approved palette value. Contrast on Warm Ivory is insufficient for normal-sized text under WCAG AA."
+      },
+      "motionBackground": {
+        "value": "#1C1917",
+        "status": "candidate",
+        "source": "Motion direction proposed during DN-MOTION-001 planning",
+        "notes": "Candidate use of Dark Brown instead of pure black; not a separate approved semantic token."
+      }
+    },
+    "typography": {
+      "latinUi": {
+        "value": "Inter",
+        "status": "candidate",
+        "source": "Typography workstream candidate list",
+        "notes": "Not finally approved; font file, exact version, license, loading, and rendering must be verified."
+      },
+      "arabicUi": {
+        "value": "IBM Plex Sans Arabic",
+        "status": "candidate",
+        "source": "Typography workstream candidate list",
+        "notes": "Not finally approved; Arabic shaping and RTL behavior must be tested in the actual video render pipeline."
+      },
+      "code": {
+        "value": "JetBrains Mono",
+        "status": "candidate",
+        "source": "Typography workstream candidate list",
+        "notes": "Not finally approved; verify version and license before distribution."
+      },
+      "arabicWordmark": {
+        "value": [
+          "Cairo",
+          "IBM Plex Sans Arabic"
+        ],
+        "status": "unverified",
+        "source": "Existing SVG font-family fallback declarations",
+        "notes": "The final wordmark font has not been selected or verified; do not treat this fallback list as a decision."
+      }
+    },
+    "identity": {
+      "tagline": {
+        "value": "Build. Innovate. Teach.",
+        "status": "approved",
+        "source": "DigitalNawa brand positioning decision",
+        "notes": "Approved wording; motion treatment remains a candidate until visual QA."
+      },
+      "arabicName": {
+        "value": "ديجيتال نواة",
+        "status": "approved",
+        "source": "DigitalNawa brand identity wording",
+        "notes": "Approved wording; rendered shaping and lockup layout remain subject to QA."
+      },
+      "logoGeometry": {
+        "value": "Existing DN symbol master asset",
+        "status": "unverified",
+        "source": "DigitalNawa/03-Logo-Assets/02-Master/dn-symbol-master.svg",
+        "notes": "Previously documented as a geometric reconstruction; original visual reference was absent. Not certified as final master geometry."
+      }
+    },
+    "motion": {
+      "frameRate": {
+        "value": 60,
+        "status": "candidate",
+        "source": "Owner-provided DN-MOTION-001 storyboard",
+        "notes": "Target frame rate for the initial pilot."
+      },
+      "durationSeconds": {
+        "value": 9,
+        "status": "candidate",
+        "source": "Owner-provided DN-MOTION-001 storyboard",
+        "notes": "Target duration for the initial pilot."
+      },
+      "pixelCount": {
+        "value": 24,
+        "status": "candidate",
+        "source": "Owner-provided Rising Pixel motion principle",
+        "notes": "Must be reconciled with verified symbol geometry before implementation."
+      },
+      "pixelRiseDurationSeconds": {
+        "value": 0.6,
+        "status": "candidate",
+        "source": "Owner-provided Rising Pixel motion principle",
+        "notes": "Per-pixel animation duration."
+      },
+      "pixelStaggerSeconds": {
+        "value": 0.04,
+        "status": "candidate",
+        "source": "Owner-provided Rising Pixel motion principle",
+        "notes": "Per-pixel stagger interval."
+      },
+      "easing": {
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "status": "candidate",
+        "source": "Owner-provided motion direction",
+        "notes": "Preferred easing; linear and bounce easing are excluded from the proposed motion language."
+      },
+      "sloganInitialScale": {
+        "value": 0.95,
+        "status": "candidate",
+        "source": "Owner-provided Slogan Lockup principle",
+        "notes": "Initial scale for each slogan word."
+      },
+      "sloganFinalScale": {
+        "value": 1,
+        "status": "candidate",
+        "source": "Owner-provided Slogan Lockup principle",
+        "notes": "Final scale for each slogan word."
+      },
+      "arabicEnglishTransition": {
+        "value": "crossfade",
+        "status": "candidate",
+        "source": "Motion implementation risk mitigation",
+        "notes": "Prefer crossfade over glyph morphing to protect Arabic shaping; validate the actual renderer."
+      }
+    },
+    "output": {
+      "vertical": {
+        "value": "1080x1920",
+        "status": "candidate",
+        "source": "Owner-provided output specification"
+      },
+      "square": {
+        "value": "1080x1080",
+        "status": "candidate",
+        "source": "Owner-provided output specification"
+      },
+      "landscape": {
+        "value": "1920x1080",
+        "status": "candidate",
+        "source": "Owner-provided output specification"
+      }
+    }
+  }
+}
