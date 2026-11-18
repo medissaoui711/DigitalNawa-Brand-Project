@@ -277,10 +277,10 @@
         "notes": "Per-particle stagger during assembly."
       },
       "particleFinalOpacity": {
-        "value": 0.16,
+        "value": 0,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Residual particle layer opacity after source SVG reveal."
+        "notes": "Opacity of transitional particles at the end of the convergence; zero removes the particle layer after the canonical SVG appears."
       },
       "logoRevealDurationSeconds": {
         "value": 0.35,
@@ -371,6 +371,18 @@
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
         "notes": "Final scale for particles after the rising phase."
+      },
+      "particleAssemblyTargetXDesignUnits": {
+        "value": 0,
+        "status": "candidate",
+        "source": "Phase 2 prototype assembly layout assumption",
+        "notes": "Horizontal convergence target at the center of the source symbol coordinate space."
+      },
+      "particleAssemblyTargetYDesignUnits": {
+        "value": 0,
+        "status": "candidate",
+        "source": "Phase 2 prototype assembly layout assumption",
+        "notes": "Vertical convergence target at the center of the source symbol coordinate space."
       }
     },
     "output": {
