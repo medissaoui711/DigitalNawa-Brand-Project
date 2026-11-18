@@ -146,6 +146,7 @@
       ease
     }, sloganStart + index * wordSlot);
   });
+  tl.set(stage, { opacity: 1 }, motion("finalHoldStartSeconds"));
   tl.to(stage, { opacity: 0, duration: duration - fadeStart, ease }, fadeStart);
   tl.set({}, {}, duration);
   window.__timelines = window.__timelines || {};
