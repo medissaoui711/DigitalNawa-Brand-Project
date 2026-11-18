@@ -1,8 +1,5 @@
 node_modules/
 compositions/
-index.html
-reports/
 *.mp4
 *.webm
 *.mov
-package-lock.json
