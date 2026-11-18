@@ -105,6 +105,7 @@
   const riseEnd = motion("riseEndSeconds");
   const assemblyStart = motion("assemblyStartSeconds");
   const assemblyEnd = motion("assemblyEndSeconds");
+  if (motion("arabicEnglishTransition") !== "crossfade") throw new Error("Only the token-approved shaping-safe crossfade is supported.");
   const dualStart = motion("dualRevealStartSeconds");
   const dualEnd = motion("dualRevealEndSeconds");
   const sloganStart = motion("sloganStartSeconds");
@@ -116,14 +117,18 @@
   });
   const riseFinish = Math.min(riseEnd, riseStart + (count - 1) * motion("pixelStaggerSeconds") + motion("pixelRiseDurationSeconds"));
   const assembleAt = Math.max(assemblyStart, riseFinish);
+  const convergeX = motion("particleAssemblyTargetXDesignUnits") * designScale;
+  const convergeY = motion("particleAssemblyTargetYDesignUnits") * designScale;
   tl.to(particles.map((p) => p.el), {
+    x: convergeX,
+    y: convergeY,
+    opacity: motion("particleFinalOpacity"),
     scale: motion("particleAssemblyScale"),
     duration: Math.max(motion("minimumAssemblyDurationSeconds"), assemblyEnd - assembleAt - motion("assemblyLogoLeadSeconds")),
     ease,
     stagger: { each: motion("particleAssemblyStaggerSeconds"), from: "center" }
   }, assembleAt);
   tl.to(logo, { opacity: 1, duration: motion("logoRevealDurationSeconds"), ease }, assemblyEnd - motion("assemblyLogoLeadSeconds"));
-  tl.to(pixelLayer, { opacity: motion("particleFinalOpacity"), duration: motion("particleFadeDurationSeconds"), ease }, assemblyEnd - motion("particleFadeLeadSeconds"));
 
   const arabicDuration = (dualEnd - dualStart) * motion("arabicRevealDurationRatio");
   tl.fromTo(arabic, { opacity: 0, y: motion("arabicRevealYOffsetDesignUnits") }, { opacity: 1, y: 0, duration: arabicDuration, ease }, dualStart);
