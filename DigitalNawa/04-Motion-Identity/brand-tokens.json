@@ -294,18 +294,6 @@
         "source": "Phase 2 prototype layout assumption",
         "notes": "Offset from assembly end when the source SVG reveal begins."
       },
-      "particleFadeLeadSeconds": {
-        "value": 0.2,
-        "status": "candidate",
-        "source": "Phase 2 prototype layout assumption",
-        "notes": "Offset from assembly end when residual particles begin fading."
-      },
-      "particleFadeDurationSeconds": {
-        "value": 0.25,
-        "status": "candidate",
-        "source": "Phase 2 prototype layout assumption",
-        "notes": "Residual particle fade duration."
-      },
       "arabicRevealDurationRatio": {
         "value": 0.42,
         "status": "candidate",
