@@ -43,3 +43,37 @@ Each output targets 60 fps and 9 seconds (540 frames), with dimensions read from
 No third-party font, music, sound effect or stock-media files are bundled. Record source, version, license and redistribution rights before adding any external asset. GSAP is installed from npm and is not copied into the repository. Preserve its license notice when distributing derived bundles.
 
 This project does not alter the canonical logo, original identity source files, `main`, repository settings or production assets. All prototype assumptions remain candidates pending rendered QA and owner acceptance.
+
+## Docker handover environment
+
+The repository includes a minimal Node.js 22 + FFmpeg/FFprobe + Docker CLI image definition. It is a **tooling container**, not a nested Docker daemon. HyperFrames' `--docker` renderer uses the host Docker Engine, so the host socket must be mounted into the container.
+
+From this directory:
+
+```bash
+docker build -t dn-motion-render:local .
+docker run --rm -it \
+  -v "$PWD:/workspace" \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -w /workspace \
+  dn-motion-render:local
+```
+
+Inside the container, run:
+
+```bash
+npm install
+npm run prepare:assets
+npm run verify:source
+npm run lint
+npm run render:all
+npm run verify:render
+npm run verify:determinism
+npm run capture:arabic
+```
+
+After `npm install`, commit the generated `package-lock.json` on the feature branch, then use `npm ci` for subsequent clean runs. Do not report a render or QA gate as passed until the generated MP4 files and reports have been inspected.
+
+**Security warning:** mounting `/var/run/docker.sock` grants the container effective control over the host Docker daemon and can provide host-level privileges. Use only on a trusted, disposable workstation or isolated CI runner; never mount a privileged Docker socket into an untrusted multi-tenant environment. The image does not contain credentials or copy repository files into its build layers.
+
+A GitHub Actions workflow is intentionally not added in this handover commit: a workflow introduced only in this feature PR is not a dependable pre-merge execution mechanism because PR-triggered workflows must be available from the base branch. Enabling CI before merge requires a separately authorized bootstrap of the workflow on the default branch (or a trusted external runner). No change to `main` is authorized here.
