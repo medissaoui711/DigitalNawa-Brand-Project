@@ -1,0 +1,12 @@
+import { mkdir } from "node:fs/promises";
+import { spawnSync } from "node:child_process";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+const project = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const input = resolve(project, "compositions/vertical/renders/dn-motion-vertical.mp4");
+const output = resolve(project, "reports/arabic-rtl-proof.png");
+await mkdir(resolve(project,"reports"),{recursive:true});
+const result = spawnSync("ffmpeg",["-y","-ss","4.2","-i",input,"-frames:v","1",output],{stdio:"inherit"});
+if (result.error) throw result.error;
+if (result.status !== 0) process.exit(result.status ?? 1);
+console.log(output);

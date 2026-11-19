@@ -1,0 +1,7 @@
+node_modules
+compositions
+reports
+.git
+*.mp4
+*.webm
+*.mov

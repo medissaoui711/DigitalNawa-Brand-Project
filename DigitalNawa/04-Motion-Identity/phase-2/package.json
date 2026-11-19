@@ -1,0 +1,20 @@
+{
+  "name": "digitalnawa-motion-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "prepare:assets": "node scripts/prepare.mjs",
+    "verify:source": "node scripts/verify.mjs",
+    "lint": "npm run prepare:assets && node scripts/lint.mjs",
+    "render:all": "npm run prepare:assets && npm run verify:source && npm run lint && node scripts/render-all.mjs",
+    "verify:render": "node scripts/verify-render.mjs",
+    "verify:determinism": "node scripts/determinism.mjs",
+    "capture:arabic": "node scripts/capture-arabic-frame.mjs"
+  },
+  "devDependencies": {
+    "gsap": "3.15.1",
+    "hyperframes": "0.9.64"
+  }
+}
