@@ -52,6 +52,52 @@ npm run capture:arabic
 
 Commit the generated `package-lock.json` before treating the dependency graph as reproducible. Inspect `reports/arabic-rtl-proof.png` visually and attach it together with `reports/determinism-report.json` to the PR. Do not change any gate to PASS without those artifacts.
 
+
+## Environmental Execution Constraints
+
+The current execution environment could not run the final render pipeline. The blocker is environmental, not evidence of a successful render. Completion requires all of the following:
+
+- **Docker Engine:** a running Docker-compatible engine. The HyperFrames CLI is invoked with `--docker`; a Docker CLI alone is insufficient.
+- **Network access for initial dependency resolution:** npm registry access is needed to install the exact top-level versions and resolve their transitive dependencies.
+- **Node.js 22 or later**, npm, FFmpeg and FFprobe.
+- **Writable workspace:** the owner must be able to generate and commit `package-lock.json`, rendered outputs and reports on `feature/dn-motion-001`.
+
+### Exact owner execution commands
+
+From `DigitalNawa/04-Motion-Identity/phase-2/` on the host, build and enter the provided toolchain container:
+
+```bash
+docker build -t dn-motion-render:local .
+docker run --rm -it \
+  -v "$PWD:/workspace" \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -w /workspace \
+  dn-motion-render:local
+```
+
+Inside the container:
+
+```bash
+npm install
+npm run prepare:assets
+npm run verify:source
+npm run lint
+npm run render:all
+npm run verify:render
+npm run verify:determinism
+npm run capture:arabic
+```
+
+Then commit `package-lock.json`, `reports/render-integrity.json`, `reports/determinism-report.json`, and `reports/arabic-rtl-proof.png` to the feature branch after reviewing the generated media. Record command exit codes and tool versions. Inspect all three MP4 files and the Arabic proof frame; do not promote any output-only gate without the corresponding actual artifact.
+
+**Docker socket risk:** the supplied container requires access to the host Docker socket for HyperFrames rendering. This is effectively privileged access to the host Docker daemon. Run only on a trusted, isolated machine or disposable CI runner. Do not use a shared multi-tenant host.
+
+### Workflow decision
+
+No GitHub Actions workflow was added in this branch. A workflow introduced only in a pull request is not a reliable way to execute that same pull request before merge because the PR event workflow must be available from the base branch. Activating it would require a separately authorized change to the default branch or a trusted external runner. This handover does not authorize a change to `main`.
+
+**Handover state:** source candidate remains intact; render and output QA remain BLOCKED until the owner executes the commands above and attaches the real output evidence.
+
 ## Release decision
 
 Source-code prototype candidate only. It is not a rendered animation, does not satisfy the rendered Arabic-shaping gate, and does not satisfy the determinism evidence gate. Keep PR in Draft; do not merge or promote to production.
