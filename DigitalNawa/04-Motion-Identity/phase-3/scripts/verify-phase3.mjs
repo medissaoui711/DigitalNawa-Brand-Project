@@ -20,7 +20,7 @@ check("9-second / 60-fps / 540-frame storyboard", () => {
 check("24 deterministic transition particles", () => {
   assert.equal(get("motion", "pixelCount"), 24);
   assert.match(controller, /Center-out sequencing/);
-  assert.match(controller, /aDistance - bDistance \\|\\| aRow - bRow \\|\\| aCol - bCol/);
+  assert.match(controller, /aDistance - bDistance \|\| aRow - bRow \|\| aCol - bCol/);
 });
 check("rise completes before assembly", () => {
   const lastRise = get("motion", "riseStartSeconds") +
@@ -30,7 +30,7 @@ check("rise completes before assembly", () => {
   assert.ok(get("motion", "assemblyStartSeconds") >= get("motion", "riseEndSeconds"));
 });
 check("aspect-ratio-safe logo sizing across all three formats", () => {
-  assert.match(controller, /height \\* layout\\("symbolHeightViewportRatio"\\) \\* symbolAspect/);
+  assert.match(controller, /height \* layout\("symbolHeightViewportRatio"\) \* symbolAspect/);
   const aspect = get("identity", "logoDesignWidth") / get("identity", "logoDesignHeight");
   const widthRatio = get("layout", "symbolWidthViewportRatio");
   const heightRatio = get("layout", "symbolHeightViewportRatio");
@@ -45,8 +45,8 @@ check("aspect-ratio-safe logo sizing across all three formats", () => {
 check("Arabic-safe separate-node crossfade", () => {
   assert.equal(get("motion", "arabicEnglishTransition"), "crossfade");
   assert.match(controller, /Only the token-approved shaping-safe crossfade/);
-  assert.match(controller, /fromTo\\(arabic/);
-  assert.match(controller, /fromTo\\(english/);
+  assert.match(controller, /fromTo\(arabic/);
+  assert.match(controller, /fromTo\(english/);
   assert.doesNotMatch(controller, /morphSVG|SplitText/);
 });
 check("tagline content and final hold fit timeline", () => {
@@ -66,5 +66,6 @@ check("approved palette values unchanged", () => {
   assert.equal(get("color", "mutedTeal"), "#0EA5A4");
   assert.equal(get("color", "warmOrange"), "#EA5808");
 });
-console.log(`PASS: ${checks.length} Phase 3 static acceptance checks\\n- ${checks.join("\\n- ")}`);
+console.log(`PASS: ${checks.length} Phase 3 static acceptance checks\n- ${checks.join("\n- ")}`);
 console.log("NOTE: This script does not replace HyperFrames rendering, decoded-frame inspection, Arabic shaping review, or deterministic repeat-render proof.");
+
