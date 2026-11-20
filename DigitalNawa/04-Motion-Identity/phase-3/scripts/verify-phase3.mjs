@@ -50,7 +50,7 @@ check("assembly, bilingual reveal and tagline fit their storyboard windows", () 
   assert.ok(arabicFadeEnd <= dualEnd, "Arabic fade exceeds bilingual window");
   assert.ok(englishEnd <= dualEnd, "English reveal exceeds bilingual window");
 
-  const words = get("identity", "tagline").trim().split(/\\s+/);
+  const words = get("identity", "tagline").trim().split(/\s+/);
   const slot = (m("sloganEndSeconds") - m("sloganStartSeconds")) / words.length;
   const wordDuration = Math.min(m("sloganRevealMaxDurationSeconds"), slot * m("sloganRevealDurationRatio"));
   const finalWordEnd = m("sloganStartSeconds") + (words.length - 1) * slot + wordDuration;
