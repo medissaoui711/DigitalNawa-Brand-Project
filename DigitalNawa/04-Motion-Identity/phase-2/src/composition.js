@@ -59,7 +59,9 @@
   const symbolDesignWidth = value("identity", "logoDesignWidth");
   const symbolDesignHeight = value("identity", "logoDesignHeight");
   const symbolAspect = symbolDesignWidth / symbolDesignHeight;
-  const symbolWidth = Math.min(width * layout("symbolWidthViewportRatio"), height * layout("symbolHeightViewportRatio"));
+  // Convert the height cap into an equivalent width before comparing dimensions.
+  // This preserves the SVG aspect ratio and prevents square/landscape outputs from shrinking.
+  const symbolWidth = Math.min(width * layout("symbolWidthViewportRatio"), height * layout("symbolHeightViewportRatio") * symbolAspect);
   const symbolHeight = symbolWidth / symbolAspect;
   const centerX = width / 2;
   const centerY = height * layout(height > width ? "symbolCenterYPortraitRatio" : "symbolCenterYLandscapeRatio");
@@ -112,8 +114,26 @@
   const sloganEnd = motion("sloganEndSeconds");
   const fadeStart = motion("finalFadeStartSeconds");
 
-  particles.forEach(({ el, x, y, index }) => {
-    tl.to(el, { x, y, opacity: 1, scale: motion("particleFinalScale"), duration: motion("pixelRiseDurationSeconds"), ease }, riseStart + index * motion("pixelStaggerSeconds"));
+  // Center-out sequencing makes the 24 transition particles read as one deliberate formation.
+  // Stable tie-breakers keep the order deterministic across repeated renders.
+  const riseSequence = [...particles].sort((a, b) => {
+    const centerCol = (cols - 1) / 2;
+    const centerRow = (rows - 1) / 2;
+    const aCol = a.index % cols;
+    const aRow = Math.floor(a.index / cols);
+    const bCol = b.index % cols;
+    const bRow = Math.floor(b.index / cols);
+    const aDistance = Math.hypot(aCol - centerCol, aRow - centerRow);
+    const bDistance = Math.hypot(bCol - centerCol, bRow - centerRow);
+    return aDistance - bDistance || aRow - bRow || aCol - bCol;
+  });
+  riseSequence.forEach(({ el, x, y }, sequenceIndex) => {
+    tl.to(el, {
+      x, y, opacity: 1,
+      scale: motion("particleFinalScale"),
+      duration: motion("pixelRiseDurationSeconds"),
+      ease
+    }, riseStart + sequenceIndex * motion("pixelStaggerSeconds"));
   });
   const riseFinish = Math.min(riseEnd, riseStart + (count - 1) * motion("pixelStaggerSeconds") + motion("pixelRiseDurationSeconds"));
   const assembleAt = Math.max(assemblyStart, riseFinish);

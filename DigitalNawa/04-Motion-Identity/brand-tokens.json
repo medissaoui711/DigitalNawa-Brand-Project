@@ -142,7 +142,7 @@
         "value": 0.04,
         "status": "candidate",
         "source": "Owner-provided Rising Pixel motion principle",
-        "notes": "Per-particle stagger interval."
+        "notes": "Preserves the owner-specified 0.04-second stagger; Phase 3 changes only the deterministic center-out order, not the approved timing principle."
       },
       "pixelRiseOffsetDesignUnits": {
         "value": 100,
@@ -235,10 +235,10 @@
         "notes": "Start of final lockup hold and fade window."
       },
       "finalFadeStartSeconds": {
-        "value": 8.8,
+        "value": 8.85,
         "status": "candidate",
         "source": "Phase 2 prototype implementation assumption",
-        "notes": "Provisional 0.2-second fade; owner review required."
+        "notes": "Phase 3 refinement candidate: retains a longer final lockup hold before a 0.15-second fade; owner storyboard timing remains 9 seconds."
       },
       "particleGridColumns": {
         "value": 6,
@@ -247,16 +247,16 @@
         "notes": "Column count for deterministic transition-particle placement."
       },
       "particleGridWidthRatio": {
-        "value": 0.82,
+        "value": 0.76,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Relative width of the transitional particle field within the symbol bounds."
+        "notes": "Phase 3 refinement candidate: tighter particle field to read as one intentional formation; not logo geometry."
       },
       "particleGridHeightRatio": {
-        "value": 0.72,
+        "value": 0.62,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Relative height of the transitional particle field within the symbol bounds."
+        "notes": "Phase 3 refinement candidate: tighter particle field to read as one intentional formation; not logo geometry."
       },
       "particleInitialScale": {
         "value": 0.7,
@@ -289,10 +289,10 @@
         "notes": "Source SVG reveal duration."
       },
       "assemblyLogoLeadSeconds": {
-        "value": 0.25,
+        "value": 0.35,
         "status": "candidate",
-        "source": "Phase 2 prototype layout assumption",
-        "notes": "Offset from assembly end when the source SVG reveal begins."
+        "source": "Phase 2 prototype layout assumption, refined against the owner storyboard",
+        "notes": "Starts the 0.35-second source SVG reveal at 3.15s so the symbol is fully visible by the 3.5s assembly boundary."
       },
       "arabicRevealDurationRatio": {
         "value": 0.42,
@@ -313,10 +313,10 @@
         "notes": "Arabic wordmark fade-out duration."
       },
       "arabicFadeDelaySeconds": {
-        "value": 0.22,
+        "value": 0.16,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Delay after Arabic reveal before fade-out."
+        "notes": "Phase 3 refinement candidate: reduces the pause between Arabic and English name states."
       },
       "englishRevealYOffsetDesignUnits": {
         "value": 14,
@@ -349,10 +349,10 @@
         "notes": "Numeric animation control; review after rendered timing inspection."
       },
       "englishRevealOverlapRatio": {
-        "value": 0.2,
+        "value": 0.65,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Numeric animation control; review after rendered timing inspection."
+        "notes": "Phase 3 refinement candidate: creates a more perceptible but controlled crossfade overlap; preserve Arabic shaping."
       },
       "particleFinalScale": {
         "value": 1,
@@ -392,16 +392,16 @@
     },
     "layout": {
       "symbolWidthViewportRatio": {
-        "value": 0.48,
+        "value": 0.58,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Maximum symbol width relative to canvas width."
+        "notes": "Phase 3 refinement candidate: increases symbol prominence while preserving height constraints across all output ratios; requires rendered QA."
       },
       "symbolHeightViewportRatio": {
-        "value": 0.26,
+        "value": 0.32,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Maximum symbol width relative to canvas height."
+        "notes": "Phase 3 refinement candidate: increases symbol prominence while preserving aspect ratio; requires rendered QA."
       },
       "symbolCenterYPortraitRatio": {
         "value": 0.37,
@@ -440,40 +440,40 @@
         "notes": "Tagline vertical placement as percentage of canvas height."
       },
       "arabicFontSizeVwPercent": {
-        "value": 4.6,
+        "value": 5.2,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Arabic wordmark responsive font size factor."
+        "notes": "Phase 3 refinement candidate: modestly increases Arabic name legibility; actual font availability and shaping remain unverified."
       },
       "arabicFontSizeMaxPx": {
-        "value": 84,
+        "value": 96,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Maximum Arabic wordmark font size."
+        "notes": "Phase 3 refinement candidate: modestly increases Arabic name legibility; actual font availability and shaping remain unverified."
       },
       "englishFontSizeVwPercent": {
-        "value": 4.2,
+        "value": 4.8,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "English wordmark responsive font size factor."
+        "notes": "Phase 3 refinement candidate: increases English wordmark hierarchy; requires rendered QA."
       },
       "englishFontSizeMaxPx": {
-        "value": 76,
+        "value": 88,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Maximum English wordmark font size."
+        "notes": "Phase 3 refinement candidate: increases English wordmark hierarchy; requires rendered QA."
       },
       "taglineFontSizeVwPercent": {
-        "value": 2.15,
+        "value": 2.35,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Tagline responsive font size factor."
+        "notes": "Phase 3 refinement candidate: improves tagline readability while preserving hierarchy; requires rendered QA."
       },
       "taglineFontSizeMaxPx": {
-        "value": 42,
+        "value": 46,
         "status": "candidate",
         "source": "Phase 2 prototype layout assumption",
-        "notes": "Maximum tagline font size."
+        "notes": "Phase 3 refinement candidate: improves tagline readability while preserving hierarchy; requires rendered QA."
       },
       "arabicFontWeight": {
         "value": 700,
