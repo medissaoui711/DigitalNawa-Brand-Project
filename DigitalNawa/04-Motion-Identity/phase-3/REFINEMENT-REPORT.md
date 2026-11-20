@@ -8,7 +8,7 @@ Refine the existing 9-second experimental intro without changing the storyboard,
 
 ## Changes in this candidate
 
-- Increase symbol prominence through tokenized viewport constraints while preserving the source SVG aspect ratio.
+- Increase symbol prominence through tokenized viewport constraints while preserving the source SVG aspect ratio. A code review caught and corrected a sizing calculation that had incorrectly compared a width cap with a height cap; the height cap is now converted to equivalent width using the SVG aspect ratio.
 - Increase Arabic/English wordmark and tagline sizes modestly; font family names remain candidates and font binaries are not added.
 - Tighten the transition-particle field and use deterministic center-out sequencing for the 24-particle rise instead of row-order sequencing.
 - Shorten the Arabic-to-English pause and increase controlled crossfade overlap. Arabic and English remain separate text nodes; no glyph morphing is introduced.
