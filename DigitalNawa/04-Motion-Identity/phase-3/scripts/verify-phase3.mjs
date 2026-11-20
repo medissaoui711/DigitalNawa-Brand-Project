@@ -97,3 +97,4 @@ check("approved palette values unchanged", () => {
 console.log(`PASS: ${checks.length} Phase 3 static acceptance checks\n- ${checks.join("\n- ")}`);
 console.log("NOTE: This script does not replace HyperFrames rendering, decoded-frame inspection, Arabic shaping review, or deterministic repeat-render proof.");
 
+
