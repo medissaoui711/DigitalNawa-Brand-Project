@@ -139,10 +139,10 @@
         "notes": "Per-particle animation duration."
       },
       "pixelStaggerSeconds": {
-        "value": 0.032,
+        "value": 0.04,
         "status": "candidate",
         "source": "Owner-provided Rising Pixel motion principle",
-        "notes": "Phase 3 refinement candidate: tighter stagger for a more unified center-out rise; validate against the full 2-second opening."
+        "notes": "Preserves the owner-specified 0.04-second stagger; Phase 3 changes only the deterministic center-out order, not the approved timing principle."
       },
       "pixelRiseOffsetDesignUnits": {
         "value": 100,
