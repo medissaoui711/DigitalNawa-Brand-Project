@@ -12,7 +12,7 @@ Refine the existing 9-second experimental intro without changing the storyboard,
 - Increase Arabic/English wordmark and tagline sizes modestly; font family names remain candidates and font binaries are not added.
 - Tighten the transition-particle field and use deterministic center-out sequencing for the 24-particle rise instead of row-order sequencing.
 - Shorten the Arabic-to-English pause and increase controlled crossfade overlap. Arabic and English remain separate text nodes; no glyph morphing is introduced.
-- Extend the final lockup hold and use a 0.15-second fade at the end of the 9-second timeline.
+- Complete the source SVG reveal by the 3.5-second assembly boundary by aligning its 0.35-second duration with the lead-in token. Keep the final lockup hold and 0.15-second fade at the end of the 9-second timeline.
 
 ## Source-of-truth and boundaries
 
