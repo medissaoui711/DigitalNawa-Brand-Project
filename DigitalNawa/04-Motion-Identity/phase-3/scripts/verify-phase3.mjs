@@ -20,7 +20,7 @@ check("9-second / 60-fps / 540-frame storyboard", () => {
 check("24 deterministic transition particles", () => {
   assert.equal(get("motion", "pixelCount"), 24);
   assert.match(controller, /Center-out sequencing/);
-  assert.match(controller, /aDistance - bDistance \|\| aRow - bRow \|\| aCol - bCol/);
+  assert.match(controller, /aDistance - bDistance \\|\\| aRow - bRow \\|\\| aCol - bCol/);
 });
 check("rise completes before assembly", () => {
   const lastRise = get("motion", "riseStartSeconds") +
@@ -29,11 +29,24 @@ check("rise completes before assembly", () => {
   assert.ok(lastRise <= get("motion", "riseEndSeconds"), `rise ends at ${lastRise}s`);
   assert.ok(get("motion", "assemblyStartSeconds") >= get("motion", "riseEndSeconds"));
 });
+check("aspect-ratio-safe logo sizing across all three formats", () => {
+  assert.match(controller, /height \\* layout\\("symbolHeightViewportRatio"\\) \\* symbolAspect/);
+  const aspect = get("identity", "logoDesignWidth") / get("identity", "logoDesignHeight");
+  const widthRatio = get("layout", "symbolWidthViewportRatio");
+  const heightRatio = get("layout", "symbolHeightViewportRatio");
+  for (const [width, height] of [[1080, 1920], [1080, 1080], [1920, 1080]]) {
+    const symbolWidth = Math.min(width * widthRatio, height * heightRatio * aspect);
+    const symbolHeight = symbolWidth / aspect;
+    assert.ok(symbolWidth <= width * widthRatio + 1e-9, `width cap exceeded at ${width}x${height}`);
+    assert.ok(symbolHeight <= height * heightRatio + 1e-9, `height cap exceeded at ${width}x${height}`);
+    assert.ok(Math.abs(symbolWidth / symbolHeight - aspect) < 1e-9, `aspect ratio changed at ${width}x${height}`);
+  }
+});
 check("Arabic-safe separate-node crossfade", () => {
   assert.equal(get("motion", "arabicEnglishTransition"), "crossfade");
   assert.match(controller, /Only the token-approved shaping-safe crossfade/);
-  assert.match(controller, /fromTo\(arabic/);
-  assert.match(controller, /fromTo\(english/);
+  assert.match(controller, /fromTo\\(arabic/);
+  assert.match(controller, /fromTo\\(english/);
   assert.doesNotMatch(controller, /morphSVG|SplitText/);
 });
 check("tagline content and final hold fit timeline", () => {
@@ -53,5 +66,5 @@ check("approved palette values unchanged", () => {
   assert.equal(get("color", "mutedTeal"), "#0EA5A4");
   assert.equal(get("color", "warmOrange"), "#EA5808");
 });
-console.log(`PASS: ${checks.length} Phase 3 static acceptance checks\n- ${checks.join("\n- ")}`);
+console.log(`PASS: ${checks.length} Phase 3 static acceptance checks\\n- ${checks.join("\\n- ")}`);
 console.log("NOTE: This script does not replace HyperFrames rendering, decoded-frame inspection, Arabic shaping review, or deterministic repeat-render proof.");
