@@ -21,7 +21,7 @@
   arabic.textContent = value("identity", "arabicName");
   english.textContent = value("identity", "englishName");
   tagline.setAttribute("aria-label", value("identity", "tagline"));
-  const words = value("identity", "tagline").trim().split(/\s+/);
+  const words = value("identity", "tagline").trim().split(/\\s+/);
   const wordEls = words.map((word, index) => {
     const el = document.createElement("span");
     el.className = "tagline-word";
@@ -59,7 +59,9 @@
   const symbolDesignWidth = value("identity", "logoDesignWidth");
   const symbolDesignHeight = value("identity", "logoDesignHeight");
   const symbolAspect = symbolDesignWidth / symbolDesignHeight;
-  const symbolWidth = Math.min(width * layout("symbolWidthViewportRatio"), height * layout("symbolHeightViewportRatio"));
+  // Convert the height cap into an equivalent width before comparing dimensions.
+  // This preserves the SVG aspect ratio and prevents square/landscape outputs from shrinking.
+  const symbolWidth = Math.min(width * layout("symbolWidthViewportRatio"), height * layout("symbolHeightViewportRatio") * symbolAspect);
   const symbolHeight = symbolWidth / symbolAspect;
   const centerX = width / 2;
   const centerY = height * layout(height > width ? "symbolCenterYPortraitRatio" : "symbolCenterYLandscapeRatio");
@@ -68,7 +70,7 @@
   const particleSize = motion("pixelUnitSizeDesignUnits") * designScale;
   const riseOffset = motion("pixelRiseOffsetDesignUnits") * designScale;
   const easingToken = motion("easing");
-  const bezier = easingToken.match(/^cubic-bezier\(([^,]+),\s*([^,]+),\s*([^,]+),\s*([^\)]+)\)$/);
+  const bezier = easingToken.match(/^cubic-bezier\\(([^,]+),\\s*([^,]+),\\s*([^,]+),\\s*([^\\)]+)\\)$/);
   if (!bezier) throw new Error(`Unsupported easing token: ${easingToken}`);
   gsap.registerPlugin(CustomEase);
   const ease = CustomEase.create("dn-motion-ease", `M0,0 C${bezier[1]},${bezier[2]} ${bezier[3]},${bezier[4]} 1,1`);
