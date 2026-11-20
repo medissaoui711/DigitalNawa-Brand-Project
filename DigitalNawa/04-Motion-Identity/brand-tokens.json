@@ -289,10 +289,10 @@
         "notes": "Source SVG reveal duration."
       },
       "assemblyLogoLeadSeconds": {
-        "value": 0.25,
+        "value": 0.35,
         "status": "candidate",
-        "source": "Phase 2 prototype layout assumption",
-        "notes": "Offset from assembly end when the source SVG reveal begins."
+        "source": "Phase 2 prototype layout assumption, refined against the owner storyboard",
+        "notes": "Starts the 0.35-second source SVG reveal at 3.15s so the symbol is fully visible by the 3.5s assembly boundary."
       },
       "arabicRevealDurationRatio": {
         "value": 0.42,
