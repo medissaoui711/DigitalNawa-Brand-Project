@@ -12,6 +12,7 @@ The script checks:
 - 9 seconds × 60 fps = 540 target frames.
 - 24 particles and deterministic center-out ordering.
 - Aspect-ratio-preserving logo bounds against both width and height caps for portrait, square and landscape.
+- Particle assembly, SVG reveal, Arabic/English crossfade and tagline animation finish within their storyboard time windows.
 - Particle rise completes before symbol assembly.
 - Arabic and English remain separate text nodes using crossfade, without glyph morphing.
 - Approved tagline and valid final-hold/fade timing.
