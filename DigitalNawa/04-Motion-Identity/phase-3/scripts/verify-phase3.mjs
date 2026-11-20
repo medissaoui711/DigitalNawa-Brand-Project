@@ -29,6 +29,34 @@ check("rise completes before assembly", () => {
   assert.ok(lastRise <= get("motion", "riseEndSeconds"), `rise ends at ${lastRise}s`);
   assert.ok(get("motion", "assemblyStartSeconds") >= get("motion", "riseEndSeconds"));
 });
+check("assembly, bilingual reveal and tagline fit their storyboard windows", () => {
+  const m = (key) => get("motion", key);
+  const actualRiseFinish = m("riseStartSeconds") + (m("pixelCount") - 1) * m("pixelStaggerSeconds") + m("pixelRiseDurationSeconds");
+  const assembleAt = Math.max(m("assemblyStartSeconds"), actualRiseFinish);
+  const assemblyDuration = Math.max(m("minimumAssemblyDurationSeconds"), m("assemblyEndSeconds") - assembleAt - m("assemblyLogoLeadSeconds"));
+  const particleAssemblyEnd = assembleAt + assemblyDuration + (m("pixelCount") - 1) * m("particleAssemblyStaggerSeconds");
+  const logoRevealStart = m("assemblyEndSeconds") - m("assemblyLogoLeadSeconds");
+  const logoRevealEnd = logoRevealStart + m("logoRevealDurationSeconds");
+  assert.ok(particleAssemblyEnd <= m("assemblyEndSeconds"), "particle assembly exceeds its window");
+  assert.ok(logoRevealEnd <= m("assemblyEndSeconds"), "logo reveal exceeds its 3.5-second boundary");
+
+  const dualStart = m("dualRevealStartSeconds");
+  const dualEnd = m("dualRevealEndSeconds");
+  const arabicDuration = (dualEnd - dualStart) * m("arabicRevealDurationRatio");
+  const arabicFadeStart = dualStart + arabicDuration + m("arabicFadeDelaySeconds");
+  const arabicFadeEnd = arabicFadeStart + m("arabicFadeDurationSeconds");
+  const englishStart = arabicFadeStart + m("arabicFadeDurationSeconds") * m("englishRevealOverlapRatio");
+  const englishEnd = englishStart + m("englishRevealDurationSeconds");
+  assert.ok(arabicFadeEnd <= dualEnd, "Arabic fade exceeds bilingual window");
+  assert.ok(englishEnd <= dualEnd, "English reveal exceeds bilingual window");
+
+  const words = get("identity", "tagline").trim().split(/\\s+/);
+  const slot = (m("sloganEndSeconds") - m("sloganStartSeconds")) / words.length;
+  const wordDuration = Math.min(m("sloganRevealMaxDurationSeconds"), slot * m("sloganRevealDurationRatio"));
+  const finalWordEnd = m("sloganStartSeconds") + (words.length - 1) * slot + wordDuration;
+  assert.ok(finalWordEnd <= m("sloganEndSeconds"), "tagline reveal exceeds its window");
+  assert.ok(m("sloganEndSeconds") <= m("finalHoldStartSeconds"), "final hold begins before tagline finishes");
+});
 check("aspect-ratio-safe logo sizing across all three formats", () => {
   assert.match(controller, /height \* layout\("symbolHeightViewportRatio"\) \* symbolAspect/);
   const aspect = get("identity", "logoDesignWidth") / get("identity", "logoDesignHeight");
